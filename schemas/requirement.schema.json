@@ -56,15 +56,15 @@
       "description": "Array of evidence summary objects linked to full evidence JSON files",
       "items": {
         "type": "object",
-        "required": ["E#", "Title", "Description", "File"],
+        "required": ["E#", "Evidence Artifact Example", "File"],
         "properties": {
           "E#": {
             "type": "string",
             "pattern": "^E[0-9]{3}$",
             "description": "Evidence identifier in the form E###"
           },
-          "Title": { "type": "string", "minLength": 1 },
-          "Description": { "type": "string", "minLength": 0 },
+          "Evidence Artifact Example": { "type": "string", "minLength": 1 },
+          "Description": { "type": "string", "minLength": 0 },         
           "File": {
             "type": "string",
             "pattern": ".*/evidences/E[0-9]{3}\\.json$",
