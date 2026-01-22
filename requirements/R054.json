@@ -1,0 +1,34 @@
+{
+  "R#": "R054",
+  "Title": "Logging and auditing support",
+  "Description": "Support for querying and filtering audit logs through intuitive user interfaces (dashboards, reports, alerts).",
+  "Version": "MS8",
+  "Blueprint component": "Federation Services - AAAI - Auditing",
+  "Authoring Driver": "Driver 1",
+  "Driver 1 MoSCoW": "Should-have",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 2,
+  "Group Title": "Security, AAAI and Output Control",
+  "Evidence": [
+    {
+      "E#": "E036",
+      "Evidence Artifact Example": "Dashboard : a centralized view of logs from multiple sources ",
+      "File": "..\\evidences\\E036.json"
+    },
+    {
+      "E#": "E037",
+      "Evidence Artifact Example": "Automated Alerting Rules: A list of \"Red Flag\" triggers (e.g., 5 failed logins in 1 minute, unauthorized data move) that notify the security team.",
+      "File": "..\\evidences\\E037.json"
+    },
+    {
+      "E#": "E038",
+      "Evidence Artifact Example": "Privileged Action Log\tA specific audit trail of everything \"Admins\" have done (e.g., changing permissions, accessing user folders).",
+      "File": "..\\evidences\\E038.json"
+    }
+  ]
+}

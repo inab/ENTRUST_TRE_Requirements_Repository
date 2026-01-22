@@ -1,0 +1,44 @@
+{
+  "R#": "R037",
+  "Title": "Software applications",
+  "Description": "End-users should be able to use appropriate and familiar software applications for data analysis. For this, they should have access to a central repository for software packages within the federation from any TRE. Software quality and safety should be monitored by an approval process for new packages added to the repository/ packages requested by users.",
+  "Version": "MS8 - updated",
+  "Blueprint component": "Software Service",
+  "Authoring Driver": "Driver 4",
+  "Driver 1 MoSCoW": "Should-have",
+  "Driver 2 MoSCoW": "Must-have",
+  "Driver 3 MoSCoW": "Must-have",
+  "Driver 4 MoSCoW": "Should-have",
+  "SATRE Pillar": "Computing technology and Information Security",
+  "SATRE Capability": "End user computing",
+  "Related URL": "",
+  "Group": 4,
+  "Group Title": "Federation, Usability, and Advanced Capabilities",
+  "Evidence": [
+    {
+      "E#": "E126",
+      "Evidence Artifact Example": "Creation of a unified repository for Software Packages",
+      "File": "..\\evidences\\E126.json"
+    },
+    {
+      "E#": "E127",
+      "Evidence Artifact Example": "User manual on using software applications and how to use the repository of software packages",
+      "File": "..\\evidences\\E127.json"
+    },
+    {
+      "E#": "E128",
+      "Evidence Artifact Example": "Document for evaluation criteria of software packages in the repository and audit logs",
+      "File": "..\\evidences\\E128.json"
+    },
+    {
+      "E#": "E129",
+      "Evidence Artifact Example": "Federation software governance policy mentioning approval processes",
+      "File": "..\\evidences\\E129.json"
+    },
+    {
+      "E#": "E130",
+      "Evidence Artifact Example": "Central software repository with audit logs of package approvals",
+      "File": "..\\evidences\\E130.json"
+    }
+  ]
+}

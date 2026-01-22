@@ -1,0 +1,29 @@
+{
+  "R#": "R003",
+  "Title": "De-identification guidelines",
+  "Description": "Establish de-identification guidelines among participating institutions. This agreement should outline the set of techniques - and their use-cases - that best assure the privacy of the pacient is respected ",
+  "Version": "MS8 - updated",
+  "Blueprint component": "Index Service - Pseudonymization",
+  "Authoring Driver": "Driver 1",
+  "Driver 1 MoSCoW": "Should-have",
+  "Driver 2 MoSCoW": "Should-have",
+  "Driver 3 MoSCoW": "Should-have",
+  "Driver 4 MoSCoW": "Could-have",
+  "SATRE Pillar": "Data Management",
+  "SATRE Capability": "Data lifecycle management",
+  "Related URL": "",
+  "Group": 3,
+  "Group Title": "Data Lifecycle, Quality and FAIRness",
+  "Evidence": [
+    {
+      "E#": "E084",
+      "Evidence Artifact Example": "A traceable hashing algorithm",
+      "File": "..\\evidences\\E084.json"
+    },
+    {
+      "E#": "E085",
+      "Evidence Artifact Example": "Documented standard operating procedure",
+      "File": "..\\evidences\\E085.json"
+    }
+  ]
+}

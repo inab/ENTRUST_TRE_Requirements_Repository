@@ -1,0 +1,24 @@
+{
+  "R#": "R047",
+  "Title": "Training included in digital identity",
+  "Description": "Ideally, having the ability to record training would be included in the AAAI solution - i.e. like a type of \u2018Researcher Passport\u2019. The AAAI would need to talk to multiple training systems and would need to be queryable.  \n",
+  "Version": "MS8",
+  "Blueprint component": "Federation Services - AAAI - Authorization",
+  "Authoring Driver": "Driver 2",
+  "Driver 1 MoSCoW": "Could-have",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 3,
+  "Group Title": "Data Lifecycle, Quality and FAIRness",
+  "Evidence": [
+    {
+      "E#": "E083",
+      "Evidence Artifact Example": "Digital identity accepted by the TRE",
+      "File": "..\\evidences\\E083.json"
+    }
+  ]
+}

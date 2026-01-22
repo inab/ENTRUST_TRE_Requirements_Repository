@@ -1,0 +1,34 @@
+{
+  "R#": "R030",
+  "Title": "Data (Cohort) Discovery",
+  "Description": "A, perhaps automated, process for identifying suitable data for a research project or clinical trial. Might be federated to allow for multi-TRE querying (See HDR Cohort Discovery Tool). Should be in a unified service portal",
+  "Version": "MS8 - updated",
+  "Blueprint component": "Job Submission Service",
+  "Authoring Driver": "Driver 3",
+  "Driver 1 MoSCoW": "Could-have",
+  "Driver 2 MoSCoW": "Should-have",
+  "Driver 3 MoSCoW": "Could-have",
+  "Driver 4 MoSCoW": "Should-have",
+  "SATRE Pillar": "Data Management",
+  "SATRE Capability": "Meta-Data Search and Discovery Application",
+  "Related URL": "",
+  "Group": 3,
+  "Group Title": "Data Lifecycle, Quality and FAIRness",
+  "Evidence": [
+    {
+      "E#": "E108",
+      "Evidence Artifact Example": "Automated process for identifying suitable data for a research project or clinical trial. Might be federated to allow for multi-TRE querying (See HDR Cohort Discovery Tool). Should be in a unified service portal",
+      "File": "..\\evidences\\E108.json"
+    },
+    {
+      "E#": "E109",
+      "Evidence Artifact Example": "Unified service portal interface exposing cohort discovery",
+      "File": "..\\evidences\\E109.json"
+    },
+    {
+      "E#": "E110",
+      "Evidence Artifact Example": "Cross-TRE query execution logs",
+      "File": "..\\evidences\\E110.json"
+    }
+  ]
+}

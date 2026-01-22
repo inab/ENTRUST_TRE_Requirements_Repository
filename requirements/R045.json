@@ -1,0 +1,24 @@
+{
+  "R#": "R045",
+  "Title": "Central user registration",
+  "Description": "Registering at one TRE should register you with the whole federation",
+  "Version": "MS8",
+  "Blueprint component": "Federation Services - AAAI",
+  "Authoring Driver": "",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 2,
+  "Group Title": "Security, AAAI and Output Control",
+  "Evidence": [
+    {
+      "E#": "E007",
+      "Evidence Artifact Example": "User Onboarding & Offboarding Policy: A formal document stating that all accounts must be created via the central registry and linked to a verified identity.",
+      "File": "..\\evidences\\E007.json"
+    }
+  ]
+}

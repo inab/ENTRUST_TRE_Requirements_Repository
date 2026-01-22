@@ -1,0 +1,39 @@
+{
+  "R#": "R004",
+  "Title": "Certification and auditing process on the federation level to verify that TREs comply with requirements",
+  "Description": "Establish a set of verifiable - auditable - key characteristics among participating institutions, including the EOSC-ENTRUST Blueprint, standards, ISO/IEC 27001 - Information Security Management, ISO/IEC 27701 -Privacy Information Management, etc. This requirement aims to ensure the limits of the word 'Trusted' in practice ",
+  "Version": "M7",
+  "Blueprint component": "Federation Services - AAAI - Auditing",
+  "Authoring Driver": "Driver 1",
+  "Driver 1 MoSCoW": "Must-have",
+  "Driver 2 MoSCoW": "Should-have",
+  "Driver 3 MoSCoW": "Should-have",
+  "Driver 4 MoSCoW": "Should-have",
+  "SATRE Pillar": "Information Governance",
+  "SATRE Capability": "Quality Management",
+  "Related URL": "",
+  "Group": 1,
+  "Group Title": "Governance, Legal and Trust",
+  "Evidence": [
+    {
+      "E#": "E064",
+      "Evidence Artifact Example": "Federation Trust & Certification Framework",
+      "File": "..\\evidences\\E064.json"
+    },
+    {
+      "E#": "E065",
+      "Evidence Artifact Example": "Federated Certification & Onboarding Process",
+      "File": "..\\evidences\\E065.json"
+    },
+    {
+      "E#": "E066",
+      "Evidence Artifact Example": "Standardised Audit Evidence Pack for TREs",
+      "File": "..\\evidences\\E066.json"
+    },
+    {
+      "E#": "E067",
+      "Evidence Artifact Example": "Non-Compliance, Remediation, and Sanctions Process",
+      "File": "..\\evidences\\E067.json"
+    }
+  ]
+}

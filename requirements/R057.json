@@ -1,0 +1,39 @@
+{
+  "R#": "R057",
+  "Title": "Governance checks",
+  "Description": "Integration of robust governance checks at multiple stages (submission, intermediate result generation, result aggregation) without creating massive bottlenecks.",
+  "Version": "MS8",
+  "Blueprint component": "TRE - Output control",
+  "Authoring Driver": "Driver 1",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 2,
+  "Group Title": "Security, AAAI and Output Control",
+  "Evidence": [
+    {
+      "E#": "E039",
+      "Evidence Artifact Example": "Governance Framework Defining Stage-Based Checks",
+      "File": "..\\evidences\\E039.json"
+    },
+    {
+      "E#": "E040",
+      "Evidence Artifact Example": "Project Submission & Approval Workflow with Embedded Governance Gates",
+      "File": "..\\evidences\\E040.json"
+    },
+    {
+      "E#": "E041",
+      "Evidence Artifact Example": "Technical Enforcement of Governance Gates",
+      "File": "..\\evidences\\E041.json"
+    },
+    {
+      "E#": "E042",
+      "Evidence Artifact Example": "Governance Roles, Training, and Delegation Model",
+      "File": "..\\evidences\\E042.json"
+    }
+  ]
+}

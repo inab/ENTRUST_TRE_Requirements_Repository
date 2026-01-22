@@ -1,0 +1,39 @@
+{
+  "R#": "R071",
+  "Title": "Harmonized output control policies",
+  "Description": "Harmonize output control policies and procedures across TREs within the federation. Consider output control policies for personal data as well as ther reasons it may be sensitive - IPR, commercial, military, potential for harm, etc.",
+  "Version": "MS8",
+  "Blueprint component": "TRE - Output control",
+  "Authoring Driver": "Driver 3",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "Should-have",
+  "Driver 3 MoSCoW": "Should-have",
+  "Driver 4 MoSCoW": "Should-have",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 2,
+  "Group Title": "Security, AAAI and Output Control",
+  "Evidence": [
+    {
+      "E#": "E052",
+      "Evidence Artifact Example": "Federated Output Control Baseline Policy",
+      "File": "..\\evidences\\E052.json"
+    },
+    {
+      "E#": "E053",
+      "Evidence Artifact Example": "Mapping of Local TRE Policies to Federated Baseline",
+      "File": "..\\evidences\\E053.json"
+    },
+    {
+      "E#": "E054",
+      "Evidence Artifact Example": "Training and Guidance on Harmonized Output Controls",
+      "File": "..\\evidences\\E054.json"
+    },
+    {
+      "E#": "E055",
+      "Evidence Artifact Example": "Federated Review or Audit of Output Control Harmonization",
+      "File": "..\\evidences\\E055.json"
+    }
+  ]
+}

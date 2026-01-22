@@ -1,0 +1,24 @@
+{
+  "R#": "R001",
+  "Title": "Data Encryption in transit",
+  "Description": "All data within the Trusted Research Environment must be encrypted in transit. This requirement aims to ensure that data is protected from unauthorized access or breaches.",
+  "Version": "M7",
+  "Blueprint component": "TRE - Security Server",
+  "Authoring Driver": "Driver 1",
+  "Driver 1 MoSCoW": "Must-have",
+  "Driver 2 MoSCoW": "Must-have",
+  "Driver 3 MoSCoW": "Must-have",
+  "Driver 4 MoSCoW": "Must-have",
+  "SATRE Pillar": "Computing technology and Information Security",
+  "SATRE Capability": "Information security",
+  "Related URL": "",
+  "Group": 2,
+  "Group Title": "Security, AAAI and Output Control",
+  "Evidence": [
+    {
+      "E#": "E016",
+      "Evidence Artifact Example": "Documentation of configuration and system security settings demonstrating that encryption in transit is secure. Supporting evidence may be confirming acrive encryption, audits log, etc.",
+      "File": "..\\evidences\\E016.json"
+    }
+  ]
+}

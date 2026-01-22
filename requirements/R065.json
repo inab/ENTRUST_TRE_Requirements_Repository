@@ -1,0 +1,18 @@
+{
+  "R#": "R065",
+  "Title": "GDPR-compliant auditing",
+  "Description": "Ensure GDPR-compliant auditing across federated TREs, including retention and privacy of audit data.",
+  "Version": "MS8",
+  "Blueprint component": "Federation Services - AAAI - Auditing",
+  "Authoring Driver": "Driver 1",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 1,
+  "Group Title": "Governance, Legal and Trust",
+  "Evidence": []
+}

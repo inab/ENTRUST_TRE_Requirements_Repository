@@ -1,0 +1,18 @@
+{
+  "R#": "R069",
+  "Title": "Federated workflow execution without data movement",
+  "Description": "Enable execution of workflows across multiple TREs without moving data.",
+  "Version": "MS8",
+  "Blueprint component": "Job Submission Service",
+  "Authoring Driver": "Driver 3",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "Could-have",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 4,
+  "Group Title": "Federation, Usability, and Advanced Capabilities",
+  "Evidence": []
+}

@@ -1,0 +1,18 @@
+{
+  "R#": "R068",
+  "Title": "Ongoing user support",
+  "Description": "Ongoing user support must be available during the duration of the project, including expert user support for researchers unfamiliar with available software. - Automation of common requests would be desirable",
+  "Version": "MS8",
+  "Blueprint component": "Federation Services - not included",
+  "Authoring Driver": "Driver 2",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "Should-have",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 4,
+  "Group Title": "Federation, Usability, and Advanced Capabilities",
+  "Evidence": []
+}

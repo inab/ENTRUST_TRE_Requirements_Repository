@@ -1,0 +1,24 @@
+{
+  "R#": "R023",
+  "Title": "(Meta-)data quality checks/standards",
+  "Description": "Could implement a data quality framework to be recommended to data providers. Must have metadata quality checks. Clinical trial data is already of good quality due to rigorous processes, regulations, audits that come with the conduct of a trial. A data quality label could be useful for data coming from healthcare if we want them to be used in clinical trials for regulatory submissions.",
+  "Version": "M7",
+  "Blueprint component": "Discovery Service",
+  "Authoring Driver": "Driver 3",
+  "Driver 1 MoSCoW": "Could-have",
+  "Driver 2 MoSCoW": "Could-have",
+  "Driver 3 MoSCoW": "Could-have",
+  "Driver 4 MoSCoW": "Could-have",
+  "SATRE Pillar": "Data Management",
+  "SATRE Capability": "Quality Management",
+  "Related URL": "The EU Horizon funded programme QUANTUM covers this aspect: https://quantumproject.eu/",
+  "Group": 3,
+  "Group Title": "Data Lifecycle, Quality and FAIRness",
+  "Evidence": [
+    {
+      "E#": "E092",
+      "Evidence Artifact Example": "A quality metric highlighting metadata fields need to be completed with valid values. Missing/incomplete data reduces the quality standard. Labels such as \"Gold\", \"Silver\", \"Bronze\" can be used. Needed to be agred on a federation level.",
+      "File": "..\\evidences\\E092.json"
+    }
+  ]
+}

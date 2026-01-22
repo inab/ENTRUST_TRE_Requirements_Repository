@@ -1,0 +1,29 @@
+{
+  "R#": "R050",
+  "Title": "Identity freshness check",
+  "Description": "Freshness of identity information of a user logging in to a TRE or the federation should be checked",
+  "Version": "MS8",
+  "Blueprint component": "Federation Services - AAAI - Authentication",
+  "Authoring Driver": "Driver 4",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "Should-have",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 2,
+  "Group Title": "Security, AAAI and Output Control",
+  "Evidence": [
+    {
+      "E#": "E010",
+      "Evidence Artifact Example": "User data is automatically updated via SSO, or once every certain period of time, the user is asked to update parameters that are not available via SSO.",
+      "File": "..\\evidences\\E010.json"
+    },
+    {
+      "E#": "E011",
+      "Evidence Artifact Example": "Define a policy for update data - users attributes. Create a manual .",
+      "File": "..\\evidences\\E011.json"
+    }
+  ]
+}

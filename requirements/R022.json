@@ -1,0 +1,18 @@
+{
+  "R#": "R022",
+  "Title": "Metadata",
+  "Description": "For clinical trials, all data objects within a Trusted Research Environment must have detailed metadata describing both the clinical study that generated them and each data object individually. Metadata should cover as a minimum discovery, access and provenance.",
+  "Version": "M7",
+  "Blueprint component": "Discovery Service",
+  "Authoring Driver": "Driver 3",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "Should-have",
+  "Driver 3 MoSCoW": "Should-have",
+  "Driver 4 MoSCoW": "Should-have",
+  "SATRE Pillar": "Data Management",
+  "SATRE Capability": "Meta-Data Search and Discovery Application",
+  "Related URL": "https://zenodo.org/records/8368709",
+  "Group": 3,
+  "Group Title": "Data Lifecycle, Quality and FAIRness",
+  "Evidence": []
+}

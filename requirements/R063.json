@@ -1,0 +1,29 @@
+{
+  "R#": "R063",
+  "Title": "Automated anonymization",
+  "Description": "Develop automated anonymization processes to reduce reliance on manual checks.",
+  "Version": "MS8",
+  "Blueprint component": "Index Service - Pseudonymization",
+  "Authoring Driver": "Driver 1",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 3,
+  "Group Title": "Data Lifecycle, Quality and FAIRness",
+  "Evidence": [
+    {
+      "E#": "E103",
+      "Evidence Artifact Example": "Data anonymisation policy",
+      "File": "..\\evidences\\E103.json"
+    },
+    {
+      "E#": "E104",
+      "Evidence Artifact Example": "Automated anonymisation pipeline definition",
+      "File": "..\\evidences\\E104.json"
+    }
+  ]
+}

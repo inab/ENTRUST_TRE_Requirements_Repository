@@ -1,0 +1,39 @@
+{
+  "R#": "R052",
+  "Title": "Access approval definition",
+  "Description": "Clear definition of subject-related attributes for granting access (e.g., user affiliation, validated ethics approval). AAAI must support authorization based on subject attributes, and should define a \"standard\" set of those. It cannot dictate one solution for all, as stated in MS8, due to driver- or nation-specific requirements.",
+  "Version": "MS8",
+  "Blueprint component": "Federation Services - AAAI - Authorization",
+  "Authoring Driver": "Driver 1",
+  "Driver 1 MoSCoW": "Must-have",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "Should-have",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 2,
+  "Group Title": "Security, AAAI and Output Control",
+  "Evidence": [
+    {
+      "E#": "E012",
+      "Evidence Artifact Example": "Project Access Request Form , A form capturing at least the user's name, project ID, required tools, and justification for access.",
+      "File": "..\\evidences\\E012.json"
+    },
+    {
+      "E#": "E013",
+      "Evidence Artifact Example": "Access Control Policy. The governing document defining the criteria for approval",
+      "File": "..\\evidences\\E013.json"
+    },
+    {
+      "E#": "E014",
+      "Evidence Artifact Example": "Project Role-Based Access (RBAC) Definition. A document defining standard \"Research Personas\" (e.g., Analyst vs. Principal Investigator) and their pre-approved permission levels.",
+      "File": "..\\evidences\\E014.json"
+    },
+    {
+      "E#": "E015",
+      "Evidence Artifact Example": "Authorization Record, a formal timestamped record from a ticketing service (e.g., Jira/ServiceNow) showing the approval from the responsible person. ",
+      "File": "..\\evidences\\E015.json"
+    }
+  ]
+}

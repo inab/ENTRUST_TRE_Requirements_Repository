@@ -1,0 +1,18 @@
+{
+  "R#": "R074",
+  "Title": "Address varying trust thresholds",
+  "Description": "Address varying \u201ctrust\u201d thresholds among data controllers, even within the same country.",
+  "Version": "MS8",
+  "Blueprint component": "Federation Services - Trust",
+  "Authoring Driver": "Driver 3",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "Should-have",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 1,
+  "Group Title": "Governance, Legal and Trust",
+  "Evidence": []
+}

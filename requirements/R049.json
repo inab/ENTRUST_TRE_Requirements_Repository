@@ -1,0 +1,44 @@
+{
+  "R#": "R049",
+  "Title": "Data import checks",
+  "Description": "Checks to ensure own/external data import request is included in project application",
+  "Version": "MS8",
+  "Blueprint component": "TRE - RAZ",
+  "Authoring Driver": "Driver 2",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "Could-have",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 2,
+  "Group Title": "Security, AAAI and Output Control",
+  "Evidence": [
+    {
+      "E#": "E026",
+      "Evidence Artifact Example": "Project Application & Data Import Policy",
+      "File": "..\\evidences\\E026.json"
+    },
+    {
+      "E#": "E027",
+      "Evidence Artifact Example": "Data Import Declaration & Approval Workflow",
+      "File": "..\\evidences\\E027.json"
+    },
+    {
+      "E#": "E028",
+      "Evidence Artifact Example": "Technical Controls Enforcing Approved Data Imports Only",
+      "File": "..\\evidences\\E028.json"
+    },
+    {
+      "E#": "E029",
+      "Evidence Artifact Example": "Operational Data Import Checks & Audit Trail",
+      "File": "..\\evidences\\E029.json"
+    },
+    {
+      "E#": "E030",
+      "Evidence Artifact Example": "Researcher and Operator Training on Data Import Rules",
+      "File": "..\\evidences\\E030.json"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "R#": "R059",
+  "Title": "Dynamic user interface",
+  "Description": "In the case of AI development, packages are downloaded from different sources and might not work with each other. Finding the right set of packages is a very time-consuming phase. Thus, the researcher would need a dynamic user interface which enables downloading packages on-demand.",
+  "Version": "MS8",
+  "Blueprint component": "Software service",
+  "Authoring Driver": "Driver 4",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "Should-have",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 4,
+  "Group Title": "Federation, Usability, and Advanced Capabilities",
+  "Evidence": []
+}

@@ -1,0 +1,24 @@
+{
+  "R#": "R062",
+  "Title": "Automate governance reviews",
+  "Description": "Automate governance reviews to improve scalability for result aggregation and resource approval.",
+  "Version": "MS8",
+  "Blueprint component": "Federation Services - AAAI - Auditing",
+  "Authoring Driver": "Driver 1",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 2,
+  "Group Title": "Security, AAAI and Output Control",
+  "Evidence": [
+    {
+      "E#": "E046",
+      "Evidence Artifact Example": "Identity-Driven Auto-Provisioning: Evidence that a user was auto-granted access to a specific dataset based on the attributes he has (e.g., \"Verified Researcher\")",
+      "File": "..\\evidences\\E046.json"
+    }
+  ]
+}

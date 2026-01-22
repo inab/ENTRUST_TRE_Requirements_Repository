@@ -1,0 +1,24 @@
+{
+  "R#": "R051",
+  "Title": "FAIR training",
+  "Description": "training and communication about FAIR data is especially important for company representatives",
+  "Version": "MS8",
+  "Blueprint component": "TRE - Train user",
+  "Authoring Driver": "Driver 4",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "Could-have",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 3,
+  "Group Title": "Data Lifecycle, Quality and FAIRness",
+  "Evidence": [
+    {
+      "E#": "E099",
+      "Evidence Artifact Example": "FAIR training programme (syllabus and materials)",
+      "File": "..\\evidences\\E099.json"
+    }
+  ]
+}

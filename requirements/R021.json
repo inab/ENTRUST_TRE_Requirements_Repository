@@ -1,0 +1,39 @@
+{
+  "R#": "R021",
+  "Title": "Data Use Agreement",
+  "Description": "A TRE that wants to cover datasets from a specific data type needs to provide a model Data Use Agreement (DUA) that covers necessary requirements specific to the data type. DUAs should include access prerequisites, requirements and obligations.",
+  "Version": "M7",
+  "Blueprint component": "Federation Services - not included (proposal: Registry->Agreements)",
+  "Authoring Driver": "Driver 3",
+  "Driver 1 MoSCoW": "Could-have",
+  "Driver 2 MoSCoW": "Must-have",
+  "Driver 3 MoSCoW": "Must-have",
+  "Driver 4 MoSCoW": "Must-have",
+  "SATRE Pillar": "Information Governance",
+  "SATRE Capability": "Legal services",
+  "Related URL": "Example from existing TREs on clinical trials: https://accessclinicaldata.niaid.nih.gov/dashboard/Public/files/NIAIDDUA2023Accessclinicaldata@NIAID.pdf",
+  "Group": 1,
+  "Group Title": "Governance, Legal and Trust",
+  "Evidence": [
+    {
+      "E#": "E073",
+      "Evidence Artifact Example": "Model Data Use Agreement Templates per Data Type",
+      "File": "..\\evidences\\E073.json"
+    },
+    {
+      "E#": "E074",
+      "Evidence Artifact Example": "Mandatory DUA Clause Baseline",
+      "File": "..\\evidences\\E074.json"
+    },
+    {
+      "E#": "E075",
+      "Evidence Artifact Example": "Operational Enforcement of DUA Terms",
+      "File": "..\\evidences\\E075.json"
+    },
+    {
+      "E#": "E076",
+      "Evidence Artifact Example": "Audit of DUA Compliance",
+      "File": "..\\evidences\\E076.json"
+    }
+  ]
+}

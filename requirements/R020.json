@@ -1,0 +1,44 @@
+{
+  "R#": "R020",
+  "Title": "Data Transfer Agreement",
+  "Description": "A TRE that wants to cover datasets from a specific data type needs to provide to potential data providers a Data Transfer Agreement (DTA) template that covers necessary requirements specific to the data type. DTAs at least per data type should be standardised but some flexibility should be provided to cover the different legal obligations of the data controllers (data providers).",
+  "Version": "M7",
+  "Blueprint component": "Federation Services - not included (proposal: Registry->Agreements)",
+  "Authoring Driver": "Driver 3",
+  "Driver 1 MoSCoW": "Must-have",
+  "Driver 2 MoSCoW": "Could-have",
+  "Driver 3 MoSCoW": "Must-have",
+  "Driver 4 MoSCoW": "Should-have",
+  "SATRE Pillar": "Information Governance",
+  "SATRE Capability": "Legal services",
+  "Related URL": "Example from existing TREs on clinical trials: https://www.iddo.org/sites/default/files/publication/2018-08/ebola_data_transfer_agreement.pdf ",
+  "Group": 1,
+  "Group Title": "Governance, Legal and Trust",
+  "Evidence": [
+    {
+      "E#": "E068",
+      "Evidence Artifact Example": "Standardised DTA Templates per Data Type",
+      "File": "..\\evidences\\E068.json"
+    },
+    {
+      "E#": "E069",
+      "Evidence Artifact Example": "Mandatory DTA Clause Baseline",
+      "File": "..\\evidences\\E069.json"
+    },
+    {
+      "E#": "E070",
+      "Evidence Artifact Example": "Alignment of DTA Clauses with TRE Technical & Governance Controls",
+      "File": "..\\evidences\\E070.json"
+    },
+    {
+      "E#": "E071",
+      "Evidence Artifact Example": "DTA Approval and Version Control Process",
+      "File": "..\\evidences\\E071.json"
+    },
+    {
+      "E#": "E072",
+      "Evidence Artifact Example": "Audit of DTA Compliance in Practice",
+      "File": "..\\evidences\\E072.json"
+    }
+  ]
+}

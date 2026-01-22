@@ -1,0 +1,34 @@
+{
+  "R#": "R041",
+  "Title": "Monitoring & Alerting Capabilities ",
+  "Description": "Automated alerts (eg. for workflow execution status) or misuse detection (beyond logging/auditing)",
+  "Version": "MS8",
+  "Blueprint component": "Federation Services - Monitoring",
+  "Authoring Driver": "Driver 1",
+  "Driver 1 MoSCoW": "Should-have",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 2,
+  "Group Title": "Security, AAAI and Output Control",
+  "Evidence": [
+    {
+      "E#": "E023",
+      "Evidence Artifact Example": "Designed document of the services / components that are monitored",
+      "File": "..\\evidences\\E023.json"
+    },
+    {
+      "E#": "E024",
+      "Evidence Artifact Example": "Document where the alerts are being delivered",
+      "File": "..\\evidences\\E024.json"
+    },
+    {
+      "E#": "E025",
+      "Evidence Artifact Example": "SLA describing the required A/R values",
+      "File": "..\\evidences\\E025.json"
+    }
+  ]
+}

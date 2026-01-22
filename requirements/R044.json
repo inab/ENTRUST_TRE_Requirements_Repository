@@ -1,0 +1,18 @@
+{
+  "R#": "R044",
+  "Title": "Data access requests",
+  "Description": "Assume standardised way to request access across resources / TREs, funneled through a single point",
+  "Version": "MS8",
+  "Blueprint component": "Federation Services - not included",
+  "Authoring Driver": "Driver 3",
+  "Driver 1 MoSCoW": "Non applicable",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "Should-have",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 1,
+  "Group Title": "Governance, Legal and Trust",
+  "Evidence": []
+}

@@ -1,0 +1,18 @@
+{
+  "R#": "R064",
+  "Title": "Workflow standardization across TREs",
+  "Description": "Standardize workflows across diverse technical and jurisdictional TRE environments.",
+  "Version": "MS8",
+  "Blueprint component": "Software service",
+  "Authoring Driver": "Driver 1",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "Could-have",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 4,
+  "Group Title": "Federation, Usability, and Advanced Capabilities",
+  "Evidence": []
+}

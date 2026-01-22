@@ -1,0 +1,24 @@
+{
+  "R#": "R038",
+  "Title": "Usability",
+  "Description": "User interface's ease of use is at most importance for end-users that represent private organizations. Private organizations are used to commercial services with good usability. In addition they usually have the possibility to choose between private service providers and TREs. ",
+  "Version": "M7",
+  "Blueprint component": "TRE",
+  "Authoring Driver": "Driver 4",
+  "Driver 1 MoSCoW": "Could-have",
+  "Driver 2 MoSCoW": "Should-have",
+  "Driver 3 MoSCoW": "Should-have",
+  "Driver 4 MoSCoW": "Must-have",
+  "SATRE Pillar": "Computing technology and Information Security",
+  "SATRE Capability": "End user computing",
+  "Related URL": "",
+  "Group": 4,
+  "Group Title": "Federation, Usability, and Advanced Capabilities",
+  "Evidence": [
+    {
+      "E#": "E131",
+      "Evidence Artifact Example": "User Manual explaining the front end interface. (It is still generic as ease of use is abstract)",
+      "File": "..\\evidences\\E131.json"
+    }
+  ]
+}

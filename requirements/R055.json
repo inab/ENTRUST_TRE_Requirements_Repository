@@ -1,0 +1,34 @@
+{
+  "R#": "R055",
+  "Title": "Genomic dataset harmonisation",
+  "Description": "Mandatory standardization and harmonisation of genomic datasets prior to analysis.",
+  "Version": "MS8",
+  "Blueprint component": "Federation Services - Registry->Datasets",
+  "Authoring Driver": "Driver 1",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 3,
+  "Group Title": "Data Lifecycle, Quality and FAIRness",
+  "Evidence": [
+    {
+      "E#": "E100",
+      "Evidence Artifact Example": "Data harmonisation policy (formats, vocabularies, ..)",
+      "File": "..\\evidences\\E100.json"
+    },
+    {
+      "E#": "E101",
+      "Evidence Artifact Example": "Harmonisation validation report",
+      "File": "..\\evidences\\E101.json"
+    },
+    {
+      "E#": "E102",
+      "Evidence Artifact Example": "Dataset metadata records",
+      "File": "..\\evidences\\E102.json"
+    }
+  ]
+}

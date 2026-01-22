@@ -1,0 +1,18 @@
+{
+  "R#": "R035",
+  "Title": "Details of TRE operations, data available and projects which have accessed the data should NOT be required to be publicly available.",
+  "Description": "This requirement is a justification to an already existing requirement in SATRE. However, the existing requirement is not always applicable for private-public partnership. The existing version goes: Details of TRE operations, data available and projects which have accessed the data should be publicly available (*optional for TREs without personal data).",
+  "Version": "D7",
+  "Blueprint component": "TRE",
+  "Authoring Driver": "Driver 4",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "Should-have",
+  "SATRE Pillar": "",
+  "SATRE Capability": "",
+  "Related URL": "",
+  "Group": 1,
+  "Group Title": "Governance, Legal and Trust",
+  "Evidence": []
+}

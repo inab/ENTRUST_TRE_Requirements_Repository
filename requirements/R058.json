@@ -1,0 +1,24 @@
+{
+  "R#": "R058",
+  "Title": "Integrated AI tools ",
+  "Description": "Integrated AI tools could help researchers to develop the necessary algorithms and solutions more easily and efficiently. They could also be used to analyse the quality of synthetic data.",
+  "Version": "MS8",
+  "Blueprint component": "Software service",
+  "Authoring Driver": "Driver 4",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "",
+  "Driver 3 MoSCoW": "",
+  "Driver 4 MoSCoW": "Should-have",
+  "SATRE Pillar": "",
+  "SATRE Capability": "End user computing",
+  "Related URL": "",
+  "Group": 4,
+  "Group Title": "Federation, Usability, and Advanced Capabilities",
+  "Evidence": [
+    {
+      "E#": "E139",
+      "Evidence Artifact Example": "Versioned workflow repository",
+      "File": "..\\evidences\\E139.json"
+    }
+  ]
+}

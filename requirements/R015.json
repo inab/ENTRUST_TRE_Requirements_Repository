@@ -1,0 +1,39 @@
+{
+  "R#": "R015",
+  "Title": "Data transfer between environments",
+  "Description": "To benefit data pooling model of federated analysis",
+  "Version": "MS8 - updated",
+  "Blueprint component": "Job submission service",
+  "Authoring Driver": "Driver 2",
+  "Driver 1 MoSCoW": "",
+  "Driver 2 MoSCoW": "Could-have",
+  "Driver 3 MoSCoW": "Could-have",
+  "Driver 4 MoSCoW": "Could-have",
+  "SATRE Pillar": "Data Management",
+  "SATRE Capability": "not included",
+  "Related URL": "",
+  "Group": 4,
+  "Group Title": "Federation, Usability, and Advanced Capabilities",
+  "Evidence": [
+    {
+      "E#": "E119",
+      "Evidence Artifact Example": "Design Document for complete architecture to how to manage data transfer between enviroments.\nRequires complete analysis of data flow with high focus on security",
+      "File": "..\\evidences\\E119.json"
+    },
+    {
+      "E#": "E120",
+      "Evidence Artifact Example": "Secure  inter-TRE data exchange service enabling controlled data transfers",
+      "File": "..\\evidences\\E120.json"
+    },
+    {
+      "E#": "E121",
+      "Evidence Artifact Example": "Transfer logs for approved exchanges",
+      "File": "..\\evidences\\E121.json"
+    },
+    {
+      "E#": "E122",
+      "Evidence Artifact Example": "Inter-TRE data transfer agreement (DTA) or policy",
+      "File": "..\\evidences\\E122.json"
+    }
+  ]
+}
