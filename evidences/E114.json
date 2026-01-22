@@ -1,0 +1,13 @@
+{
+  "E#": "E114",
+  "Evidence Artifact Example": "Policy defining how to request pre-allocation of project-specific data resources",
+  "R#": "R006",
+  "Requirement Title": "Access to open resources from TRE",
+  "Evidence Type": "GOV",
+  "Responsible Actor": "Data Access Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "",
+  "Notes": ""
+}

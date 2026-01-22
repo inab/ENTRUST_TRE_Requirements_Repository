@@ -1,0 +1,13 @@
+{
+  "E#": "E118",
+  "Evidence Artifact Example": "Infrastructure monitoring dashboards showing dynamic scaling usage",
+  "R#": "R007",
+  "Requirement Title": "Scalable infrastructure",
+  "Evidence Type": "TECH",
+  "Responsible Actor": "Technical Administrator",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Technical Control: implemented mechanism enforced",
+  "Example Reference": "",
+  "Notes": ""
+}

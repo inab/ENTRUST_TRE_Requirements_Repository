@@ -1,0 +1,13 @@
+{
+  "E#": "E119",
+  "Evidence Artifact Example": "Design Document for complete architecture to how to manage data transfer between enviroments.\nRequires complete analysis of data flow with high focus on security",
+  "R#": "R015",
+  "Requirement Title": "Data transfer between environments",
+  "Evidence Type": "DOC",
+  "Responsible Actor": "TRE Manager",
+  "Architecture-specific": "Yes",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "",
+  "Example Reference": "",
+  "Notes": ""
+}

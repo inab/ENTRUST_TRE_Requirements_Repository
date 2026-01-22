@@ -1,0 +1,13 @@
+{
+  "E#": "E117",
+  "Evidence Artifact Example": "Resource scaling policy describing compute capacity management and storage provisioning",
+  "R#": "R007",
+  "Requirement Title": "Scalable infrastructure",
+  "Evidence Type": "GOV",
+  "Responsible Actor": "TRE Operations Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "",
+  "Notes": ""
+}

@@ -1,0 +1,13 @@
+{
+  "E#": "E130",
+  "Evidence Artifact Example": "Central software repository with audit logs of package approvals",
+  "R#": "R037",
+  "Requirement Title": "Software applications",
+  "Evidence Type": "TECH",
+  "Responsible Actor": "Technical Administrator",
+  "Architecture-specific": "Yes",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "",
+  "Notes": ""
+}

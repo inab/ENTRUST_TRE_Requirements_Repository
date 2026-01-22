@@ -1,0 +1,13 @@
+{
+  "E#": "E123",
+  "Evidence Artifact Example": "Workflow diagram for TREs services access\n\nDesign diagram to analyze access control",
+  "R#": "R033",
+  "Requirement Title": "Accessibility of TRE's services and administrative processes (previously service design)",
+  "Evidence Type": "TECH",
+  "Responsible Actor": "Identity & Access Manager",
+  "Architecture-specific": "Yes",
+  "Review Approach": "",
+  "Evidence Maturity": "",
+  "Example Reference": "",
+  "Notes": ""
+}

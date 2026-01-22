@@ -1,0 +1,13 @@
+{
+  "E#": "E104",
+  "Evidence Artifact Example": "Automated anonymisation pipeline definition",
+  "R#": "R063",
+  "Requirement Title": "Automated anonymization",
+  "Evidence Type": "TECH",
+  "Responsible Actor": "Technical Administrator",
+  "Architecture-specific": "Yes",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Technical Control: implemented mechanism enforced",
+  "Example Reference": "",
+  "Notes": ""
+}

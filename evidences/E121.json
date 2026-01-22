@@ -1,0 +1,13 @@
+{
+  "E#": "E121",
+  "Evidence Artifact Example": "Transfer logs for approved exchanges",
+  "R#": "R015",
+  "Requirement Title": "Data transfer between environments",
+  "Evidence Type": "OPS",
+  "Responsible Actor": "TRE Operations Officer",
+  "Architecture-specific": "Yes",
+  "Review Approach": "Periodic Audit",
+  "Evidence Maturity": "Technical Control: implemented mechanism enforced",
+  "Example Reference": "",
+  "Notes": ""
+}
