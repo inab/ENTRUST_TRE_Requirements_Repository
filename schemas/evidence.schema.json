@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "evidence.schema.json",
+  "title": "Evidence",
+  "description": "Schema for evidences linked to TRE requirements.",
+  "type": "object",
+
+  "required": [
+    "E#",
+    "Evidence Artifact Example",
+    "R#",
+    "Requirement Title",
+    "Evidence Type",
+    "Responsible Actor",
+    "Architecture-specific",
+    "Review Approach",
+    "Evidence Maturity",
+    "Example Reference",
+    "Notes"
+  ],
+
+  "properties": {
+
+    "E#": {
+      "type": "string",
+      "pattern": "^E[0-9]{3}$",
+      "description": "Evidence number used in all overviews, format E###"
+    },
+
+    "Evidence Artifact Example": {
+      "type": "string",
+      "description": "Example, title, or brief description of the evidence"
+    },
+
+    "R#": {
+      "type": "string",
+      "pattern": "^R[0-9]{3}$",
+      "description": "Requirement number the evidence is related to"
+    },
+
+    "Requirement Title": {
+      "type": "string",
+      "description": "Title of the requirement this evidence supports"
+    },
+
+    "Evidence Type": {
+      "type": "string",
+      "enum": ["GOV", "TECH", "COMPL", "TRAIN", "OPS", "DOC", "HEALTH", "AUTO", ""],
+      "description": "Type of evidence"
+    },
+
+    "Responsible Actor": {
+      "type": "string",
+      "enum": [
+        "TRE Manager",
+        "Data Protection Officer",
+        "Data Access Officer",
+        "Legal Officer",
+        "Ethics Officer",
+        "Technical Administrator",
+        "TRE Operations Officer",
+        "Identity & Access Manager",
+        "Data Steward",
+        "Output Checker (SDC Reviewer)",
+        "Training Coordinator",
+        ""
+      ],
+      "description": "Actor responsible for the evidence"
+    },
+
+    "Architecture-specific": {
+      "type": "string",
+      "enum": ["Yes", "No", ""],
+      "description": "Whether the evidence is architecture-specific"
+    },
+
+    "Review Approach": {
+      "type": "string",
+      "enum": ["Manual Review", "Automated Check", "Periodic Audit", "Other", ""],
+      "description": "Approach used to review or verify the evidence"
+    },
+
+    "Evidence Maturity": {
+      "type": "string",
+      "enum": [
+        "Policy: a rule, commitment",
+        "Process: defined procedure",
+        "Technical Control: implemented mechanism enforced",
+        "Automated Control: Continous or machine-verified enforcement",
+        ""
+      ],
+      "description": "Maturity level of the evidence"
+    },
+
+    "Example Reference": {
+      "type": "string",
+      "description": "Reference example or link (may be empty)"
+    },
+
+    "Notes": {
+      "type": "string",
+      "description": "Additional notes (may be empty)"
+    }
+  },
+
+  "additionalProperties": true
+}
