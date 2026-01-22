@@ -1,0 +1,13 @@
+{
+  "E#": "E083",
+  "Evidence Artifact Example": "Digital identity accepted by the TRE",
+  "R#": "R047",
+  "Requirement Title": "Training included in digital identity",
+  "Evidence Type": "TECH",
+  "Responsible Actor": "Data Access Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Automated Check",
+  "Evidence Maturity": "Technical Control: implemented mechanism enforced",
+  "Example Reference": "",
+  "Notes": ""
+}

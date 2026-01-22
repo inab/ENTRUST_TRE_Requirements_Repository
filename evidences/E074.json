@@ -1,0 +1,13 @@
+{
+  "E#": "E074",
+  "Evidence Artifact Example": "Mandatory DUA Clause Baseline",
+  "R#": "R021",
+  "Requirement Title": "Data Use Agreement",
+  "Evidence Type": "GOV",
+  "Responsible Actor": "Legal Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "DUAs include non-negotiable clauses covering permitted use, prohibitions, confidentiality, and accountability",
+  "Notes": ""
+}

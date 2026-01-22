@@ -1,0 +1,13 @@
+{
+  "E#": "E027",
+  "Evidence Artifact Example": "Data Import Declaration & Approval Workflow",
+  "R#": "R049",
+  "Requirement Title": "Data import checks",
+  "Evidence Type": "DOC",
+  "Responsible Actor": "Data Access Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "",
+  "Notes": ""
+}

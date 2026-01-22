@@ -1,0 +1,13 @@
+{
+  "E#": "E010",
+  "Evidence Artifact Example": "User data is automatically updated via SSO, or once every certain period of time, the user is asked to update parameters that are not available via SSO.",
+  "R#": "R050",
+  "Requirement Title": "Identity freshness check",
+  "Evidence Type": "TECH",
+  "Responsible Actor": "Identity & Access Manager",
+  "Architecture-specific": "No",
+  "Review Approach": "Periodic Audit",
+  "Evidence Maturity": "Process: defined procedure",
+  "Example Reference": "",
+  "Notes": ""
+}

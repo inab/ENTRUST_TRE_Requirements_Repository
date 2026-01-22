@@ -1,0 +1,13 @@
+{
+  "E#": "E033",
+  "Evidence Artifact Example": "Perform a test to verify that it is possible to track the entire life cycle of an operation/workflow.",
+  "R#": "R053",
+  "Requirement Title": "Logging and auditing ",
+  "Evidence Type": "OPS",
+  "Responsible Actor": "TRE Operations Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Periodic Audit",
+  "Evidence Maturity": "Technical Control: implemented mechanism enforced",
+  "Example Reference": "",
+  "Notes": ""
+}

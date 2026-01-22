@@ -1,0 +1,13 @@
+{
+  "E#": "E016",
+  "Evidence Artifact Example": "Documentation of configuration and system security settings demonstrating that encryption in transit is secure. Supporting evidence may be confirming acrive encryption, audits log, etc.",
+  "R#": "R001",
+  "Requirement Title": "Data Encryption in transit",
+  "Evidence Type": "OPS",
+  "Responsible Actor": "TRE Operations Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Periodic Audit",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "",
+  "Notes": "In general, data should always be encrypted (except when it is in use), so whenever data is available, it should be encrypted."
+}

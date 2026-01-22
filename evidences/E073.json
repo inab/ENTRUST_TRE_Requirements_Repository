@@ -1,0 +1,13 @@
+{
+  "E#": "E073",
+  "Evidence Artifact Example": "Model Data Use Agreement Templates per Data Type",
+  "R#": "R021",
+  "Requirement Title": "Data Use Agreement",
+  "Evidence Type": "GOV",
+  "Responsible Actor": "Legal Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "Approved DUA templates tailored to specific data types (e.g. health, genomics, commercial, administrative)",
+  "Notes": ""
+}

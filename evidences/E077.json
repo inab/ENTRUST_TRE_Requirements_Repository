@@ -1,0 +1,13 @@
+{
+  "E#": "E077",
+  "Evidence Artifact Example": "Information Security & Privacy Policy Document (Mandatory & Desired Specifications)",
+  "R#": "R028",
+  "Requirement Title": "Certification",
+  "Evidence Type": "GOV",
+  "Responsible Actor": "Data Protection Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "A list of mandatory specifications (e.g., ISO 27001/27701 controls, data protection, access management, encryption, audit logs) and desired specifications (best practices, additional frameworks, continuous improvement initiatives). Serves as the federation-level baseline for \u201ctrusted\u201d TREs.",
+  "Notes": ""
+}

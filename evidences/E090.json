@@ -1,0 +1,13 @@
+{
+  "E#": "E090",
+  "Evidence Artifact Example": "A standardized, validated metadata template or schema that enforces consistent field names, data types, and relationships across all archived analysis packages.",
+  "R#": "R012",
+  "Requirement Title": "Metadata unified language",
+  "Evidence Type": "DOC",
+  "Responsible Actor": "Data Steward",
+  "Architecture-specific": "Yes",
+  "Review Approach": "Periodic Audit",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "",
+  "Notes": ""
+}

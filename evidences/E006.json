@@ -1,0 +1,13 @@
+{
+  "E#": "E006",
+  "Evidence Artifact Example": "MFA configuration export from identity access management solution (e.g., Keycloak)",
+  "R#": "R024",
+  "Requirement Title": "2-factor authentication for TRE users",
+  "Evidence Type": "TECH",
+  "Responsible Actor": "Identity & Access Manager",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "",
+  "Notes": ""
+}

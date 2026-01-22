@@ -1,0 +1,13 @@
+{
+  "E#": "E051",
+  "Evidence Artifact Example": "Federated Output Audit Trail and Logging",
+  "R#": "R070",
+  "Requirement Title": "Federated output control definition",
+  "Evidence Type": "OPS",
+  "Responsible Actor": "Data Steward",
+  "Architecture-specific": "No",
+  "Review Approach": "Periodic Audit",
+  "Evidence Maturity": "Technical Control: implemented mechanism enforced",
+  "Example Reference": "Logs and audit trail verifying that federated outputs are traceable across TRE boundaries with accountability",
+  "Notes": ""
+}

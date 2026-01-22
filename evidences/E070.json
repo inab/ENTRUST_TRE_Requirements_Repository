@@ -1,0 +1,13 @@
+{
+  "E#": "E070",
+  "Evidence Artifact Example": "Alignment of DTA Clauses with TRE Technical & Governance Controls",
+  "R#": "R020",
+  "Requirement Title": "Data Transfer Agreement",
+  "Evidence Type": "DOC",
+  "Responsible Actor": "TRE Manager",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "Contractual obligations are mapped to actual TRE controls (access control, logging, output control, retention)",
+  "Notes": ""
+}

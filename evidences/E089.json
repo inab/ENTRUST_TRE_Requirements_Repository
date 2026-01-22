@@ -1,0 +1,13 @@
+{
+  "E#": "E089",
+  "Evidence Artifact Example": "A persistent, publicly resolvable landing page associated with the PID that exposes machine- and human-readable metadata, indexed by internal catalogues and external discovery services.",
+  "R#": "R011",
+  "Requirement Title": "Findability",
+  "Evidence Type": "DOC",
+  "Responsible Actor": "Data Steward",
+  "Architecture-specific": "Yes",
+  "Review Approach": "Automated Check",
+  "Evidence Maturity": "Process: defined procedure",
+  "Example Reference": "",
+  "Notes": ""
+}

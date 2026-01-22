@@ -1,0 +1,13 @@
+{
+  "E#": "E008",
+  "Evidence Artifact Example": "Define a policy that specifies the allowed user identity verification methods, such as passport verification, biometric checks, etc.",
+  "R#": "R046",
+  "Requirement Title": "Authentication of diverse user groups",
+  "Evidence Type": "COMPL",
+  "Responsible Actor": "Identity & Access Manager",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "",
+  "Notes": ""
+}

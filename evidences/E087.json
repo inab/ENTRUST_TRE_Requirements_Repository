@@ -1,0 +1,13 @@
+{
+  "E#": "E087",
+  "Evidence Artifact Example": "Metadata structured files recovering workflow execution details (i.e. JSON, Ro-Crate)",
+  "R#": "R009",
+  "Requirement Title": "Archiving of study analysis environments (syntax, intermediate results, etc.) for future validation or reproducility under regulations.",
+  "Evidence Type": "DOC",
+  "Responsible Actor": "Output Checker (SDC Reviewer)",
+  "Architecture-specific": "Yes",
+  "Review Approach": "Automated Check",
+  "Evidence Maturity": "Process: defined procedure",
+  "Example Reference": "",
+  "Notes": ""
+}

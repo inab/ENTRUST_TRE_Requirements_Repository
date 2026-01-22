@@ -1,0 +1,13 @@
+{
+  "E#": "E011",
+  "Evidence Artifact Example": "Define a policy for update data - users attributes. Create a manual .",
+  "R#": "R050",
+  "Requirement Title": "Identity freshness check",
+  "Evidence Type": "GOV",
+  "Responsible Actor": "Identity & Access Manager",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "",
+  "Notes": ""
+}

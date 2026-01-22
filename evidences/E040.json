@@ -1,0 +1,13 @@
+{
+  "E#": "E040",
+  "Evidence Artifact Example": "Project Submission & Approval Workflow with Embedded Governance Gates",
+  "R#": "R057",
+  "Requirement Title": "Governance checks",
+  "Evidence Type": "DOC",
+  "Responsible Actor": "Data Access Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Process: defined procedure",
+  "Example Reference": "Governance checks are integrated into project submission",
+  "Notes": ""
+}

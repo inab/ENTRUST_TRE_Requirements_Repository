@@ -1,0 +1,13 @@
+{
+  "E#": "E046",
+  "Evidence Artifact Example": "Identity-Driven Auto-Provisioning: Evidence that a user was auto-granted access to a specific dataset based on the attributes he has (e.g., \"Verified Researcher\")",
+  "R#": "R062",
+  "Requirement Title": "Automate governance reviews",
+  "Evidence Type": "GOV",
+  "Responsible Actor": "Identity & Access Manager",
+  "Architecture-specific": "Yes",
+  "Review Approach": "Automated Check",
+  "Evidence Maturity": "Technical Control: implemented mechanism enforced",
+  "Example Reference": "Automated: Confirm that users without the correct \"claims\" or \"attributes\" are automatically denied.",
+  "Notes": ""
+}

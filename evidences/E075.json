@@ -1,0 +1,13 @@
+{
+  "E#": "E075",
+  "Evidence Artifact Example": "Operational Enforcement of DUA Terms",
+  "R#": "R021",
+  "Requirement Title": "Data Use Agreement",
+  "Evidence Type": "OPS",
+  "Responsible Actor": "Identity & Access Manager",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Technical Control: implemented mechanism enforced",
+  "Example Reference": "DUA acceptance is enforced before access is granted and linked to TRE access controls",
+  "Notes": ""
+}

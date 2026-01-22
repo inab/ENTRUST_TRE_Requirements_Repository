@@ -1,0 +1,13 @@
+{
+  "E#": "E020",
+  "Evidence Artifact Example": "SDC Checking Implementation Evidence (manual and/or automated SDC tools, configuration, templates, checklists)",
+  "R#": "R013",
+  "Requirement Title": "Output release following SDC",
+  "Evidence Type": "DOC",
+  "Responsible Actor": "Output Checker (SDC Reviewer)",
+  "Architecture-specific": "No",
+  "Review Approach": "Periodic Audit",
+  "Evidence Maturity": "Process: defined procedure",
+  "Example Reference": "",
+  "Notes": ""
+}

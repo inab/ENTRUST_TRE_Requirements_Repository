@@ -1,0 +1,13 @@
+{
+  "E#": "E050",
+  "Evidence Artifact Example": "Technical Enforcement of Federated Output Controls",
+  "R#": "R070",
+  "Requirement Title": "Federated output control definition",
+  "Evidence Type": "TECH",
+  "Responsible Actor": "Technical Administrator",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Automated Control: Continous or machine-verified enforcement",
+  "Example Reference": "Systems prevent unauthorised output release and enforce agreed control points",
+  "Notes": ""
+}

@@ -1,0 +1,13 @@
+{
+  "E#": "E061",
+  "Evidence Artifact Example": "Access Control & Authorisation Provisions",
+  "R#": "R002",
+  "Requirement Title": "Data Sharing Agreement",
+  "Evidence Type": "GOV",
+  "Responsible Actor": "Legal Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Process: defined procedure",
+  "Example Reference": "Agreement explicitly links data sharing to TRE access controls, role-based access, and authentication requirements",
+  "Notes": ""
+}

@@ -1,0 +1,13 @@
+{
+  "E#": "E031",
+  "Evidence Artifact Example": "Ensure that data (logging and auditing) cannot be changed",
+  "R#": "R053",
+  "Requirement Title": "Logging and auditing ",
+  "Evidence Type": "OPS",
+  "Responsible Actor": "TRE Operations Officer",
+  "Architecture-specific": "Yes",
+  "Review Approach": "Automated Check",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "",
+  "Notes": ""
+}

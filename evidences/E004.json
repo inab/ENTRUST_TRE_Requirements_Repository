@@ -1,0 +1,13 @@
+{
+  "E#": "E004",
+  "Evidence Artifact Example": "MFA usage as part of  TRE provider documentation",
+  "R#": "R024",
+  "Requirement Title": "2-factor authentication for TRE users",
+  "Evidence Type": "GOV",
+  "Responsible Actor": "Data Protection Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "",
+  "Notes": ""
+}

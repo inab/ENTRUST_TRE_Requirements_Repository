@@ -1,0 +1,13 @@
+{
+  "E#": "E071",
+  "Evidence Artifact Example": "DTA Approval and Version Control Process",
+  "R#": "R020",
+  "Requirement Title": "Data Transfer Agreement",
+  "Evidence Type": "OPS",
+  "Responsible Actor": "Data Steward",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Process: defined procedure",
+  "Example Reference": "DTAs are reviewed, approved, versioned, and traceable by data type and provider",
+  "Notes": ""
+}

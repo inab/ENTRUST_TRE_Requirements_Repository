@@ -1,0 +1,13 @@
+{
+  "E#": "E094",
+  "Evidence Artifact Example": "Documented SOP as part of ISMS (if exists)",
+  "R#": "R025",
+  "Requirement Title": "Archiving of datasets for future validation or reproducility under regulations.",
+  "Evidence Type": "DOC",
+  "Responsible Actor": "TRE Operations Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Periodic Audit",
+  "Evidence Maturity": "Process: defined procedure",
+  "Example Reference": "",
+  "Notes": ""
+}

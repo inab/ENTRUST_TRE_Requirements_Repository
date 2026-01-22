@@ -1,0 +1,13 @@
+{
+  "E#": "E014",
+  "Evidence Artifact Example": "Project Role-Based Access (RBAC) Definition. A document defining standard \"Research Personas\" (e.g., Analyst vs. Principal Investigator) and their pre-approved permission levels.",
+  "R#": "R052",
+  "Requirement Title": "Access approval definition",
+  "Evidence Type": "DOC",
+  "Responsible Actor": "TRE Manager",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "",
+  "Notes": ""
+}

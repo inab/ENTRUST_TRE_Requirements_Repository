@@ -1,0 +1,13 @@
+{
+  "E#": "E048",
+  "Evidence Artifact Example": "Federated Output Risk & Disclosure Model",
+  "R#": "R070",
+  "Requirement Title": "Federated output control definition",
+  "Evidence Type": "COMPL",
+  "Responsible Actor": "Legal Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "A model detailing the disclosure risks in federated analyses and how it is mitigated",
+  "Notes": ""
+}

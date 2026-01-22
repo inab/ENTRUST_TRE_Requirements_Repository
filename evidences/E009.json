@@ -1,0 +1,13 @@
+{
+  "E#": "E009",
+  "Evidence Artifact Example": "Define a policy for the secure storage and retention of identity verification evidence for future auditing purposes. The policy must specify security controls (encryption, access restrictions), retention periods, and audit traceability requirements.",
+  "R#": "R046",
+  "Requirement Title": "Authentication of diverse user groups",
+  "Evidence Type": "COMPL",
+  "Responsible Actor": "Identity & Access Manager",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "",
+  "Notes": ""
+}

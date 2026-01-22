@@ -1,0 +1,13 @@
+{
+  "E#": "E078",
+  "Evidence Artifact Example": "Scope and Statement of Applicability (SoA)",
+  "R#": "R028",
+  "Requirement Title": "Certification",
+  "Evidence Type": "DOC",
+  "Responsible Actor": "TRE Manager",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "Defines which TRE systems, data types, and processes are covered by mandatory and desired specifications",
+  "Notes": ""
+}

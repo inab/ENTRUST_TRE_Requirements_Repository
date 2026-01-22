@@ -1,0 +1,13 @@
+{
+  "E#": "E067",
+  "Evidence Artifact Example": "Non-Compliance, Remediation, and Sanctions Process",
+  "R#": "R004",
+  "Requirement Title": "Certification and auditing process on the federation level to verify that TREs comply with requirements",
+  "Evidence Type": "GOV",
+  "Responsible Actor": "TRE Manager",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Process: defined procedure",
+  "Example Reference": "Violation of trust has transparent and enforceable consequences, including remediation timelines and suspension",
+  "Notes": ""
+}

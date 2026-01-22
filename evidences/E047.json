@@ -1,0 +1,13 @@
+{
+  "E#": "E047",
+  "Evidence Artifact Example": "Federated Output Control Policy",
+  "R#": "R070",
+  "Requirement Title": "Federated output control definition",
+  "Evidence Type": "GOV",
+  "Responsible Actor": "TRE Manager",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "A policy document that defines output control responsibilities, minimum standards, and decision authority across TREs",
+  "Notes": ""
+}

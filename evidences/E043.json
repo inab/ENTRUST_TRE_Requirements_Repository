@@ -1,0 +1,13 @@
+{
+  "E#": "E043",
+  "Evidence Artifact Example": "Resource Health Map:A visualization showing the availability and \"Uptime\" of different nodes within the federated network.",
+  "R#": "R060",
+  "Requirement Title": "Enhanced monitoring tools",
+  "Evidence Type": "OPS",
+  "Responsible Actor": "TRE Operations Officer",
+  "Architecture-specific": "Yes",
+  "Review Approach": "Automated Check",
+  "Evidence Maturity": "Automated Control: Continous or machine-verified enforcement",
+  "Example Reference": "Automated: Check system heartbeat logs to confirm the monitoring tool detects node failures.",
+  "Notes": ""
+}

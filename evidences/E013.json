@@ -1,0 +1,13 @@
+{
+  "E#": "E013",
+  "Evidence Artifact Example": "Access Control Policy. The governing document defining the criteria for approval",
+  "R#": "R052",
+  "Requirement Title": "Access approval definition",
+  "Evidence Type": "GOV",
+  "Responsible Actor": "Data Protection Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Periodic Audit",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "",
+  "Notes": "Annual review of the policy to ensure it aligns with current TRE legal requirements."
+}

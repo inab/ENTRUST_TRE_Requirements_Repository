@@ -1,0 +1,13 @@
+{
+  "E#": "E001",
+  "Evidence Artifact Example": "Access logs showing MFA usage",
+  "R#": "R024",
+  "Requirement Title": "2-factor authentication for TRE users",
+  "Evidence Type": "OPS",
+  "Responsible Actor": "TRE Operations Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Technical Control: implemented mechanism enforced",
+  "Example Reference": "",
+  "Notes": ""
+}

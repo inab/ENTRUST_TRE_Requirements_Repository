@@ -1,0 +1,13 @@
+{
+  "E#": "E069",
+  "Evidence Artifact Example": "Mandatory DTA Clause Baseline",
+  "R#": "R020",
+  "Requirement Title": "Data Transfer Agreement",
+  "Evidence Type": "GOV",
+  "Responsible Actor": "Legal Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "Each DTA includes a non-negotiable core set of clauses covering security, access, use limitations, and output controls",
+  "Notes": ""
+}

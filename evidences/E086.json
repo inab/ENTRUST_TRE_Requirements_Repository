@@ -1,0 +1,13 @@
+{
+  "E#": "E086",
+  "Evidence Artifact Example": "Approved standard operating procedure defining when, how, and where analysis environments and artifacts are archived, retention periods, access controls, and retrieval processes.",
+  "R#": "R009",
+  "Requirement Title": "Archiving of study analysis environments (syntax, intermediate results, etc.) for future validation or reproducility under regulations.",
+  "Evidence Type": "GOV",
+  "Responsible Actor": "Output Checker (SDC Reviewer)",
+  "Architecture-specific": "Yes",
+  "Review Approach": "Periodic Audit",
+  "Evidence Maturity": "Process: defined procedure",
+  "Example Reference": "",
+  "Notes": ""
+}

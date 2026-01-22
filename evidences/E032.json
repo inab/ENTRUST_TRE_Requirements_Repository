@@ -1,0 +1,13 @@
+{
+  "E#": "E032",
+  "Evidence Artifact Example": "Create a policy on who has access to data and under what circumstances",
+  "R#": "R053",
+  "Requirement Title": "Logging and auditing ",
+  "Evidence Type": "COMPL",
+  "Responsible Actor": "Technical Administrator",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Policy: a rule, commitment",
+  "Example Reference": "",
+  "Notes": ""
+}

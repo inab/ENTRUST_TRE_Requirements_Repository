@@ -1,0 +1,13 @@
+{
+  "E#": "E072",
+  "Evidence Artifact Example": "Audit of DTA Compliance in Practice",
+  "R#": "R020",
+  "Requirement Title": "Data Transfer Agreement",
+  "Evidence Type": "OPS",
+  "Responsible Actor": "Data Steward",
+  "Architecture-specific": "No",
+  "Review Approach": "Periodic Audit",
+  "Evidence Maturity": "Technical Control: implemented mechanism enforced",
+  "Example Reference": "Audit that verify that datasets hosted in the TRE are covered by an appropriate DTA",
+  "Notes": ""
+}

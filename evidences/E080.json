@@ -1,0 +1,13 @@
+{
+  "E#": "E080",
+  "Evidence Artifact Example": "Policy Compliance Monitoring and Reporting",
+  "R#": "R028",
+  "Requirement Title": "Certification",
+  "Evidence Type": "OPS",
+  "Responsible Actor": "TRE Operations Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Automated Check",
+  "Evidence Maturity": "Automated Control: Continous or machine-verified enforcement",
+  "Example Reference": "Evidence that the TRE monitors adherence to the mandatory and desired specifications, including dashboards, logs, and reporting metrics",
+  "Notes": ""
+}

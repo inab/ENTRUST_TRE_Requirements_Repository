@@ -1,0 +1,13 @@
+{
+  "E#": "E028",
+  "Evidence Artifact Example": "Technical Controls Enforcing Approved Data Imports Only",
+  "R#": "R049",
+  "Requirement Title": "Data import checks",
+  "Evidence Type": "TECH",
+  "Responsible Actor": "Technical Administrator",
+  "Architecture-specific": "No",
+  "Review Approach": "Manual Review",
+  "Evidence Maturity": "Technical Control: implemented mechanism enforced",
+  "Example Reference": "",
+  "Notes": ""
+}

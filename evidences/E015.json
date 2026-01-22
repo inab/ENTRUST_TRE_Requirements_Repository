@@ -1,0 +1,13 @@
+{
+  "E#": "E015",
+  "Evidence Artifact Example": "Authorization Record, a formal timestamped record from a ticketing service (e.g., Jira/ServiceNow) showing the approval from the responsible person. ",
+  "R#": "R052",
+  "Requirement Title": "Access approval definition",
+  "Evidence Type": "COMPL",
+  "Responsible Actor": "Data Access Officer",
+  "Architecture-specific": "No",
+  "Review Approach": "Periodic Audit",
+  "Evidence Maturity": "Technical Control: implemented mechanism enforced",
+  "Example Reference": "After a user request\u00b4s the approval. The person responsible gives an approval based on the characteristics of the request and produces a formal authorization record. ",
+  "Notes": ""
+}

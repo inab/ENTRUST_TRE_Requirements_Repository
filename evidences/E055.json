@@ -1,0 +1,13 @@
+{
+  "E#": "E055",
+  "Evidence Artifact Example": "Federated Review or Audit of Output Control Harmonization",
+  "R#": "R071",
+  "Requirement Title": "Harmonized output control policies",
+  "Evidence Type": "OPS",
+  "Responsible Actor": "Output Checker (SDC Reviewer)",
+  "Architecture-specific": "No",
+  "Review Approach": "Periodic Audit",
+  "Evidence Maturity": "Technical Control: implemented mechanism enforced",
+  "Example Reference": "Periodic verification that a TRE applies harmonized policies in practice",
+  "Notes": ""
+}
