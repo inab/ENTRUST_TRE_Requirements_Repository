@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "requirement.schema.json",
+  "title": "Requirement",
+  "description": "Schema for MS8 requirements with evidence summaries.",
+  "type": "object",
+  "required": [
+    "R#", "Title", "Description", "Version", "Group", "Group Title","Blueprint component", "Authoring Driver",
+    "Driver 1 MoSCoW", "Driver 2 MoSCoW", "Driver 3 MoSCoW", "Driver 4 MoSCoW",
+    "SATRE Pillar", "SATRE Capability", "Related URL" 
+  ],
+  "properties": {
+    "R#": {
+      "type": "string",
+      "pattern": "^R[0-9]{3}$",
+      "description": "Requirement number, format R###"
+    },
+    "Title": { "type": "string", "description": "Title or short description of the requirement" },
+    "Description": { "type": "string", "description": "Full description and motivation of the requirement" },
+    "Version": { "type": "string", "enum": ["M7", "D7", "MS8", "D8", "MS8 - updated", ""], "description": "Milestone or deliverable in which the requirement was first published" },
+    "Blueprint component": { "type": "string", "description": "Blueprint component the requirement maps to; if not included, overarching component is named" },
+    "Authoring Driver": { 
+      "type": "string", "enum": ["Driver 1", "Driver 2", "Driver 3", "Driver 4", "Coordination", ""], 
+      "description": "Driver that contributed the requirement" 
+    },
+    "Driver 1 MoSCoW": { "type": "string", "enum": ["Must-have", "Should-have", "Could-have", "Won't-have", "Non applicable", ""] },
+    "Driver 2 MoSCoW": { "type": "string", "enum": ["Must-have", "Should-have", "Could-have", "Won't-have", "Non applicable", ""] },
+    "Driver 3 MoSCoW": { "type": "string", "enum": ["Must-have", "Should-have", "Could-have", "Won't-have", "Non applicable", ""] },
+    "Driver 4 MoSCoW": { "type": "string", "enum": ["Must-have", "Should-have", "Could-have", "Won't-have", "Non applicable", ""] },
+    "SATRE Pillar": { 
+      "type": "string", 
+      "enum": ["Information Governance", "Computing technology and Information Security", "Data Management", "Supporting Capabilities", "not included", ""] 
+    },
+    "SATRE Capability": { "type": "string" },
+    "Related URL": { 
+      "type": "string", 
+      "format": "uri" 
+    },
+    "Group": { 
+      "type": ["integer", "string"], 
+      "enum": [1, 2, 3, 4, ""] 
+    },
+    "Group Title": { 
+      "type": "string", 
+      "enum": ["Governance, Legal and Trust", "Security, AAAI and Output Control", "Data Lifecycle, Quality and FAIRness", "Federation, Usability, and Advanced Capabilities", ""] 
+    },
+    "Evidences": { "$ref": "#/$defs/evidenceSummary" }
+
+  },
+  "additionalProperties": true,
+
+  "$defs": {
+    "evidenceSummary": {
+      "type": "array",
+      "title": "Evidence Summary",
+      "description": "Array of evidence summary objects linked to full evidence JSON files",
+      "items": {
+        "type": "object",
+        "required": ["E#", "Title", "Description", "File"],
+        "properties": {
+          "E#": {
+            "type": "string",
+            "pattern": "^E[0-9]{3}$",
+            "description": "Evidence identifier in the form E###"
+          },
+          "Title": { "type": "string", "minLength": 1 },
+          "Description": { "type": "string", "minLength": 0 },
+          "File": {
+            "type": "string",
+            "pattern": ".*/evidences/E[0-9]{3}\\.json$",
+            "description": "Relative or absolute path ending with /evidences/E###.json"
+          }
+        }
+      }
+    }
+  }
+}
