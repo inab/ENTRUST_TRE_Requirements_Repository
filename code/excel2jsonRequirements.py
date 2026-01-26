@@ -70,6 +70,9 @@ def main(
     # ---------- Process evidences first ----------
     evidence_summary_by_requirement = defaultdict(list)
 
+    # list for evidence indexing
+    evidence_index = []
+
     for _, row in ev_df.iterrows():
         evidence = {
             key: row[key]
@@ -89,6 +92,11 @@ def main(
             raise ValueError(
                 f"Evidence {evidence.get('E#')} is missing required R# reference"
             )
+        # Add evidence id to the index list
+        evidence_index.append({
+            "E#": evidence.get("E#"),
+            "Evidence Artifact Example": evidence.get("Evidence Artifact Example")
+        })
 
         # Write full evidence JSON
         output_path = output_dir / "evidences" / f"{evidence['E#']}.json"
@@ -101,10 +109,15 @@ def main(
             "File": str(Path("../evidences") / f"{evidence['E#']}.json")
         }
         evidence_summary_by_requirement[r_id].append(summary)
-
-        
+    # Write evidence index
+    index_path = output_dir / "evidences" / "index.json"
+    write_json({"evidences": evidence_index}, index_path)
 
     # ---------- Process requirements ----------
+    
+    # list for requirement indexing
+    requirement_index = []
+    
     for _, row in req_df.iterrows():
         requirement = {
             key: row[key]
@@ -115,6 +128,11 @@ def main(
         r_id = requirement.get("R#")
         if not r_id:
             raise ValueError("Requirement missing R# identifier")
+        # Add requirement id to the index list
+        requirement_index.append({
+            "R#": requirement.get("R#"),
+            "Title": requirement.get("Title")
+        })
 
         # Attach evidences (empty list if none)
         requirement["Evidence"] = evidence_summary_by_requirement.get(r_id, [])
@@ -128,24 +146,20 @@ def main(
 
         output_path = output_dir / "requirements" / f"{r_id}.json"
         write_json(requirement, output_path)
+    # Write requirement index
+    index_path = output_dir / "requirements" / "index.json"
+    write_json({"requirements": requirement_index}, index_path)
 
     print("✔ JSON repository successfully generated")
 
 
 # ---------- Entry point ----------
 
-    if len(sys.argv) != 5:
-        print(
-            "Usage:\n"
-            "  python excel_to_json_repo.py "
-            "input.xlsx requirement.schema.json evidence.schema.json output_dir/"
-        )
-        sys.exit(1)
-
+if __name__ == "__main__":
+    # Example direct invocation (replace with argparse if needed)
     main(
-        Path(sys.argv[1]),
-        Path(sys.argv[2]),
-        Path(sys.argv[3]),
-        Path(sys.argv[4])
-
+        Path("M8requirements.xlsx"),
+        Path("requirement.schema.json"),
+        Path("evidence.schema.json"),
+        Path("./")
     )
