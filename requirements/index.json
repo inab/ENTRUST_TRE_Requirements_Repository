@@ -1,0 +1,276 @@
+{
+  "requirements": [
+    {
+      "R#": "R001",
+      "Title": "Data Encryption in transit"
+    },
+    {
+      "R#": "R002",
+      "Title": "Data Sharing Agreement"
+    },
+    {
+      "R#": "R003",
+      "Title": "De-identification guidelines"
+    },
+    {
+      "R#": "R004",
+      "Title": "Certification and auditing process on the federation level to verify that TREs comply with requirements"
+    },
+    {
+      "R#": "R005",
+      "Title": "Technology agreement"
+    },
+    {
+      "R#": "R006",
+      "Title": "Access to open resources from TRE"
+    },
+    {
+      "R#": "R007",
+      "Title": "Scalable infrastructure"
+    },
+    {
+      "R#": "R008",
+      "Title": "Data Encryption at rest"
+    },
+    {
+      "R#": "R009",
+      "Title": "Archiving of study analysis environments (syntax, intermediate results, etc.) for future validation or reproducility under regulations."
+    },
+    {
+      "R#": "R010",
+      "Title": "PID for data citation"
+    },
+    {
+      "R#": "R011",
+      "Title": "Findability"
+    },
+    {
+      "R#": "R012",
+      "Title": "Metadata"
+    },
+    {
+      "R#": "R013",
+      "Title": "Output release following SDC"
+    },
+    {
+      "R#": "R014",
+      "Title": "Certification of users by 'Safe Researcher' training and/or passport"
+    },
+    {
+      "R#": "R015",
+      "Title": "Data transfer between environments"
+    },
+    {
+      "R#": "R016",
+      "Title": "Compliance with various national legal frameworks for data sharing"
+    },
+    {
+      "R#": "R018",
+      "Title": "Data Sharing Policy"
+    },
+    {
+      "R#": "R019",
+      "Title": "Data standards"
+    },
+    {
+      "R#": "R020",
+      "Title": "Data Transfer Agreement"
+    },
+    {
+      "R#": "R021",
+      "Title": "Data Use Agreement"
+    },
+    {
+      "R#": "R022",
+      "Title": "Metadata"
+    },
+    {
+      "R#": "R023",
+      "Title": "(Meta-)data quality checks/standards"
+    },
+    {
+      "R#": "R024",
+      "Title": "2-factor authentication for TRE users"
+    },
+    {
+      "R#": "R025",
+      "Title": "Archiving of datasets for future validation or reproducility under regulations."
+    },
+    {
+      "R#": "R028",
+      "Title": "Certification"
+    },
+    {
+      "R#": "R030",
+      "Title": "Data (Cohort) Discovery"
+    },
+    {
+      "R#": "R031",
+      "Title": "Data kept only within the agreed time period"
+    },
+    {
+      "R#": "R033",
+      "Title": "Accessibility of TRE's services and administrative processes (previously service design)"
+    },
+    {
+      "R#": "R034",
+      "Title": "Backup"
+    },
+    {
+      "R#": "R035",
+      "Title": "Details of TRE operations, data available and projects which have accessed the data should NOT be required to be publicly available."
+    },
+    {
+      "R#": "R037",
+      "Title": "Software applications"
+    },
+    {
+      "R#": "R038",
+      "Title": "Usability"
+    },
+    {
+      "R#": "R039",
+      "Title": "Automation of Data Quality Checks"
+    },
+    {
+      "R#": "R040",
+      "Title": "Cross-border legal harmonization "
+    },
+    {
+      "R#": "R041",
+      "Title": "Monitoring & Alerting Capabilities "
+    },
+    {
+      "R#": "R042",
+      "Title": "Standardized terminology"
+    },
+    {
+      "R#": "R043",
+      "Title": "User feedback integration mechanisms"
+    },
+    {
+      "R#": "R044",
+      "Title": "Data access requests"
+    },
+    {
+      "R#": "R045",
+      "Title": "Central user registration"
+    },
+    {
+      "R#": "R046",
+      "Title": "Authentication of diverse user groups"
+    },
+    {
+      "R#": "R047",
+      "Title": "Training included in digital identity"
+    },
+    {
+      "R#": "R048",
+      "Title": "Minimum security level"
+    },
+    {
+      "R#": "R049",
+      "Title": "Data import checks"
+    },
+    {
+      "R#": "R050",
+      "Title": "Identity freshness check"
+    },
+    {
+      "R#": "R051",
+      "Title": "FAIR training"
+    },
+    {
+      "R#": "R052",
+      "Title": "Access approval definition"
+    },
+    {
+      "R#": "R053",
+      "Title": "Logging and auditing "
+    },
+    {
+      "R#": "R054",
+      "Title": "Logging and auditing support"
+    },
+    {
+      "R#": "R055",
+      "Title": "Genomic dataset harmonisation"
+    },
+    {
+      "R#": "R056",
+      "Title": "Standard workflows"
+    },
+    {
+      "R#": "R057",
+      "Title": "Governance checks"
+    },
+    {
+      "R#": "R058",
+      "Title": "Integrated AI tools "
+    },
+    {
+      "R#": "R059",
+      "Title": "Dynamic user interface"
+    },
+    {
+      "R#": "R060",
+      "Title": "Enhanced monitoring tools"
+    },
+    {
+      "R#": "R062",
+      "Title": "Automate governance reviews"
+    },
+    {
+      "R#": "R063",
+      "Title": "Automated anonymization"
+    },
+    {
+      "R#": "R064",
+      "Title": "Workflow standardization across TREs"
+    },
+    {
+      "R#": "R065",
+      "Title": "GDPR-compliant auditing"
+    },
+    {
+      "R#": "R067",
+      "Title": "Data owner agreement for transfer"
+    },
+    {
+      "R#": "R068",
+      "Title": "Ongoing user support"
+    },
+    {
+      "R#": "R069",
+      "Title": "Federated workflow execution without data movement"
+    },
+    {
+      "R#": "R070",
+      "Title": "Federated output control definition"
+    },
+    {
+      "R#": "R071",
+      "Title": "Harmonized output control policies"
+    },
+    {
+      "R#": "R072",
+      "Title": "Reconcile terminology & data standards"
+    },
+    {
+      "R#": "R073",
+      "Title": "Demonstrate public benefit for federation"
+    },
+    {
+      "R#": "R074",
+      "Title": "Address varying trust thresholds"
+    },
+    {
+      "R#": "R075",
+      "Title": "Reverse engineering safeguards"
+    },
+    {
+      "R#": "R076",
+      "Title": "Promote synthetic data adoption"
+    }
+  ]
+}
