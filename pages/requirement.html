@@ -31,7 +31,7 @@
         </ul>
       `;
     } catch (err) {
-      document.body.innerHTML = "<p>Failed to load requirement.</p>";
+      document.body.innerHTML = '<p>Failed to load requirement @../requirements/${id}.json.</p>';
       console.error(err);
     }
   }
