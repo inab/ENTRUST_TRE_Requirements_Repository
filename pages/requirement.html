@@ -1,0 +1,40 @@
+<script src="js/load.js"></script>
+<script>
+  async function loadRequirement() {
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get("id");
+
+    if (!id) {
+      document.body.innerHTML = "<p>Missing requirement ID</p>";
+      return;
+    }
+
+    try {
+      const req = await loadJSON(`../requirements/${id}.json`);
+
+      const content = document.getElementById("content");
+
+      content.innerHTML = `
+        <h1>${req["R#"]} — ${req.Title}</h1>
+
+        <h2>Description</h2>
+        <p>${req.Description}</p>
+
+        <h2>Evidences</h2>
+        <ul>
+          ${(req.Evidences || []).map(ev => `
+            <li>
+              <strong>${ev["E#"]}</strong> — ${ev.Title}
+              <a href="${ev.File}">JSON</a>
+            </li>
+          `).join("")}
+        </ul>
+      `;
+    } catch (err) {
+      document.body.innerHTML = "<p>Failed to load requirement.</p>";
+      console.error(err);
+    }
+  }
+
+  loadRequirement();
+</script>
