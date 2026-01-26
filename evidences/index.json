@@ -1,0 +1,560 @@
+{
+  "evidences": [
+    {
+      "E#": "E001",
+      "Evidence Artifact Example": "Access logs showing MFA usage"
+    },
+    {
+      "E#": "E002",
+      "Evidence Artifact Example": "Security test result confirming MFA is enforced"
+    },
+    {
+      "E#": "E003",
+      "Evidence Artifact Example": "Authentication and credentials management policy\n"
+    },
+    {
+      "E#": "E004",
+      "Evidence Artifact Example": "MFA usage as part of  TRE provider documentation"
+    },
+    {
+      "E#": "E005",
+      "Evidence Artifact Example": "TRE operator cybersecurity training"
+    },
+    {
+      "E#": "E006",
+      "Evidence Artifact Example": "MFA configuration export from identity access management solution (e.g., Keycloak)"
+    },
+    {
+      "E#": "E007",
+      "Evidence Artifact Example": "User Onboarding & Offboarding Policy: A formal document stating that all accounts must be created via the central registry and linked to a verified identity."
+    },
+    {
+      "E#": "E008",
+      "Evidence Artifact Example": "Define a policy that specifies the allowed user identity verification methods, such as passport verification, biometric checks, etc."
+    },
+    {
+      "E#": "E009",
+      "Evidence Artifact Example": "Define a policy for the secure storage and retention of identity verification evidence for future auditing purposes. The policy must specify security controls (encryption, access restrictions), retention periods, and audit traceability requirements."
+    },
+    {
+      "E#": "E010",
+      "Evidence Artifact Example": "User data is automatically updated via SSO, or once every certain period of time, the user is asked to update parameters that are not available via SSO."
+    },
+    {
+      "E#": "E011",
+      "Evidence Artifact Example": "Define a policy for update data - users attributes. Create a manual ."
+    },
+    {
+      "E#": "E012",
+      "Evidence Artifact Example": "Project Access Request Form , A form capturing at least the user's name, project ID, required tools, and justification for access."
+    },
+    {
+      "E#": "E013",
+      "Evidence Artifact Example": "Access Control Policy. The governing document defining the criteria for approval"
+    },
+    {
+      "E#": "E014",
+      "Evidence Artifact Example": "Project Role-Based Access (RBAC) Definition. A document defining standard \"Research Personas\" (e.g., Analyst vs. Principal Investigator) and their pre-approved permission levels."
+    },
+    {
+      "E#": "E015",
+      "Evidence Artifact Example": "Authorization Record, a formal timestamped record from a ticketing service (e.g., Jira/ServiceNow) showing the approval from the responsible person. "
+    },
+    {
+      "E#": "E016",
+      "Evidence Artifact Example": "Documentation of configuration and system security settings demonstrating that encryption in transit is secure. Supporting evidence may be confirming acrive encryption, audits log, etc."
+    },
+    {
+      "E#": "E017",
+      "Evidence Artifact Example": "Documentation of configuration and system security settings demonstrating that encryption at rest is enabled for all data stored within the Trusted Research Environment, including database encryption, file system encryption, and key management configuration. Supporting evidence may include screenshots, configuration files, or audit logs confirming active encryption and compliance with approved encryption standards."
+    },
+    {
+      "E#": "E018",
+      "Evidence Artifact Example": "Output Release & SDC Policy"
+    },
+    {
+      "E#": "E019",
+      "Evidence Artifact Example": "Output Release Workflow & Architecture Description"
+    },
+    {
+      "E#": "E020",
+      "Evidence Artifact Example": "SDC Checking Implementation Evidence (manual and/or automated SDC tools, configuration, templates, checklists)"
+    },
+    {
+      "E#": "E021",
+      "Evidence Artifact Example": "Output Release Logs & Audit Trail"
+    },
+    {
+      "E#": "E022",
+      "Evidence Artifact Example": "Output Checker Roles & Procedures Training"
+    },
+    {
+      "E#": "E023",
+      "Evidence Artifact Example": "Designed document of the services / components that are monitored"
+    },
+    {
+      "E#": "E024",
+      "Evidence Artifact Example": "Document where the alerts are being delivered"
+    },
+    {
+      "E#": "E025",
+      "Evidence Artifact Example": "SLA describing the required A/R values"
+    },
+    {
+      "E#": "E026",
+      "Evidence Artifact Example": "Project Application & Data Import Policy"
+    },
+    {
+      "E#": "E027",
+      "Evidence Artifact Example": "Data Import Declaration & Approval Workflow"
+    },
+    {
+      "E#": "E028",
+      "Evidence Artifact Example": "Technical Controls Enforcing Approved Data Imports Only"
+    },
+    {
+      "E#": "E029",
+      "Evidence Artifact Example": "Operational Data Import Checks & Audit Trail"
+    },
+    {
+      "E#": "E030",
+      "Evidence Artifact Example": "Researcher and Operator Training on Data Import Rules"
+    },
+    {
+      "E#": "E031",
+      "Evidence Artifact Example": "Ensure that data (logging and auditing) cannot be changed"
+    },
+    {
+      "E#": "E032",
+      "Evidence Artifact Example": "Create a policy on who has access to data and under what circumstances"
+    },
+    {
+      "E#": "E033",
+      "Evidence Artifact Example": "Perform a test to verify that it is possible to track the entire life cycle of an operation/workflow."
+    },
+    {
+      "E#": "E034",
+      "Evidence Artifact Example": "Log Management Policy: Document defining what events are logged (Logins, Where the login started, the service that the user logged i, Admin changes) and the retention period (e.g., 7 years)."
+    },
+    {
+      "E#": "E035",
+      "Evidence Artifact Example": "Audit Log Sample: A raw extract showing structured data: Timestamp, UserID, Source IP, Event Type, and Success/Failure status."
+    },
+    {
+      "E#": "E036",
+      "Evidence Artifact Example": "Dashboard : a centralized view of logs from multiple sources "
+    },
+    {
+      "E#": "E037",
+      "Evidence Artifact Example": "Automated Alerting Rules: A list of \"Red Flag\" triggers (e.g., 5 failed logins in 1 minute, unauthorized data move) that notify the security team."
+    },
+    {
+      "E#": "E038",
+      "Evidence Artifact Example": "Privileged Action Log\tA specific audit trail of everything \"Admins\" have done (e.g., changing permissions, accessing user folders)."
+    },
+    {
+      "E#": "E039",
+      "Evidence Artifact Example": "Governance Framework Defining Stage-Based Checks"
+    },
+    {
+      "E#": "E040",
+      "Evidence Artifact Example": "Project Submission & Approval Workflow with Embedded Governance Gates"
+    },
+    {
+      "E#": "E041",
+      "Evidence Artifact Example": "Technical Enforcement of Governance Gates"
+    },
+    {
+      "E#": "E042",
+      "Evidence Artifact Example": "Governance Roles, Training, and Delegation Model"
+    },
+    {
+      "E#": "E043",
+      "Evidence Artifact Example": "Resource Health Map:A visualization showing the availability and \"Uptime\" of different nodes within the federated network."
+    },
+    {
+      "E#": "E044",
+      "Evidence Artifact Example": "Usage Quota & Limit Policy: A document defining the \"Soft\" and \"Hard\" limits for resources assigned to a project to prevent costs."
+    },
+    {
+      "E#": "E045",
+      "Evidence Artifact Example": "Incident Response Log: Evidence of actions taken when monitoring tools flagged a performance bottleneck or resource exhaustion."
+    },
+    {
+      "E#": "E046",
+      "Evidence Artifact Example": "Identity-Driven Auto-Provisioning: Evidence that a user was auto-granted access to a specific dataset based on the attributes he has (e.g., \"Verified Researcher\")"
+    },
+    {
+      "E#": "E047",
+      "Evidence Artifact Example": "Federated Output Control Policy"
+    },
+    {
+      "E#": "E048",
+      "Evidence Artifact Example": "Federated Output Risk & Disclosure Model"
+    },
+    {
+      "E#": "E049",
+      "Evidence Artifact Example": "Federated Output Architecture & Workflow Description"
+    },
+    {
+      "E#": "E050",
+      "Evidence Artifact Example": "Technical Enforcement of Federated Output Controls"
+    },
+    {
+      "E#": "E051",
+      "Evidence Artifact Example": "Federated Output Audit Trail and Logging"
+    },
+    {
+      "E#": "E052",
+      "Evidence Artifact Example": "Federated Output Control Baseline Policy"
+    },
+    {
+      "E#": "E053",
+      "Evidence Artifact Example": "Mapping of Local TRE Policies to Federated Baseline"
+    },
+    {
+      "E#": "E054",
+      "Evidence Artifact Example": "Training and Guidance on Harmonized Output Controls"
+    },
+    {
+      "E#": "E055",
+      "Evidence Artifact Example": "Federated Review or Audit of Output Control Harmonization"
+    },
+    {
+      "E#": "E056",
+      "Evidence Artifact Example": "Technical documentation and test reports demonstrating the implementation of safeguards against reverse engineering. This may include descriptions of applied privacy-preserving techniques (e.g. differential privacy, noise injection, data minimization), results of re-identification risk assessments, and validation tests confirming that original training data cannot be reconstructed."
+    },
+    {
+      "E#": "E057",
+      "Evidence Artifact Example": "Creating a policy for secure data backup"
+    },
+    {
+      "E#": "E058",
+      "Evidence Artifact Example": "Verification that data can be restored from backup"
+    },
+    {
+      "E#": "E059",
+      "Evidence Artifact Example": "Federated Data Sharing Agreement (DSA)"
+    },
+    {
+      "E#": "E060",
+      "Evidence Artifact Example": "Data Licensing & Intellectual Property Clauses"
+    },
+    {
+      "E#": "E061",
+      "Evidence Artifact Example": "Access Control & Authorisation Provisions"
+    },
+    {
+      "E#": "E062",
+      "Evidence Artifact Example": "Operational Procedures Supporting the DSA"
+    },
+    {
+      "E#": "E063",
+      "Evidence Artifact Example": "Periodic Audits of DSA Compliance"
+    },
+    {
+      "E#": "E064",
+      "Evidence Artifact Example": "Federation Trust & Certification Framework"
+    },
+    {
+      "E#": "E065",
+      "Evidence Artifact Example": "Federated Certification & Onboarding Process"
+    },
+    {
+      "E#": "E066",
+      "Evidence Artifact Example": "Standardised Audit Evidence Pack for TREs"
+    },
+    {
+      "E#": "E067",
+      "Evidence Artifact Example": "Non-Compliance, Remediation, and Sanctions Process"
+    },
+    {
+      "E#": "E068",
+      "Evidence Artifact Example": "Standardised DTA Templates per Data Type"
+    },
+    {
+      "E#": "E069",
+      "Evidence Artifact Example": "Mandatory DTA Clause Baseline"
+    },
+    {
+      "E#": "E070",
+      "Evidence Artifact Example": "Alignment of DTA Clauses with TRE Technical & Governance Controls"
+    },
+    {
+      "E#": "E071",
+      "Evidence Artifact Example": "DTA Approval and Version Control Process"
+    },
+    {
+      "E#": "E072",
+      "Evidence Artifact Example": "Audit of DTA Compliance in Practice"
+    },
+    {
+      "E#": "E073",
+      "Evidence Artifact Example": "Model Data Use Agreement Templates per Data Type"
+    },
+    {
+      "E#": "E074",
+      "Evidence Artifact Example": "Mandatory DUA Clause Baseline"
+    },
+    {
+      "E#": "E075",
+      "Evidence Artifact Example": "Operational Enforcement of DUA Terms"
+    },
+    {
+      "E#": "E076",
+      "Evidence Artifact Example": "Audit of DUA Compliance"
+    },
+    {
+      "E#": "E077",
+      "Evidence Artifact Example": "Information Security & Privacy Policy Document (Mandatory & Desired Specifications)"
+    },
+    {
+      "E#": "E078",
+      "Evidence Artifact Example": "Scope and Statement of Applicability (SoA)"
+    },
+    {
+      "E#": "E079",
+      "Evidence Artifact Example": "Certification and Audit Reports"
+    },
+    {
+      "E#": "E080",
+      "Evidence Artifact Example": "Policy Compliance Monitoring and Reporting"
+    },
+    {
+      "E#": "E081",
+      "Evidence Artifact Example": "Training certificate"
+    },
+    {
+      "E#": "E082",
+      "Evidence Artifact Example": "Presence on a list of registered safe researchers"
+    },
+    {
+      "E#": "E083",
+      "Evidence Artifact Example": "Digital identity accepted by the TRE"
+    },
+    {
+      "E#": "E084",
+      "Evidence Artifact Example": "A traceable hashing algorithm"
+    },
+    {
+      "E#": "E085",
+      "Evidence Artifact Example": "Documented standard operating procedure"
+    },
+    {
+      "E#": "E086",
+      "Evidence Artifact Example": "Approved standard operating procedure defining when, how, and where analysis environments and artifacts are archived, retention periods, access controls, and retrieval processes."
+    },
+    {
+      "E#": "E087",
+      "Evidence Artifact Example": "Metadata structured files recovering workflow execution details (i.e. JSON, Ro-Crate)"
+    },
+    {
+      "E#": "E088",
+      "Evidence Artifact Example": "Formal record showing assignment of a PID (for example DOI) to the archived analysis package, including issuing authority, registration date, and resolution URL."
+    },
+    {
+      "E#": "E089",
+      "Evidence Artifact Example": "A persistent, publicly resolvable landing page associated with the PID that exposes machine- and human-readable metadata, indexed by internal catalogues and external discovery services."
+    },
+    {
+      "E#": "E090",
+      "Evidence Artifact Example": "A standardized, validated metadata template or schema that enforces consistent field names, data types, and relationships across all archived analysis packages."
+    },
+    {
+      "E#": "E091",
+      "Evidence Artifact Example": "Documented list of adopted data standards with versions and implementation evidence.\n"
+    },
+    {
+      "E#": "E092",
+      "Evidence Artifact Example": "A quality metric highlighting metadata fields need to be completed with valid values. Missing/incomplete data reduces the quality standard. Labels such as \"Gold\", \"Silver\", \"Bronze\" can be used. Needed to be agred on a federation level."
+    },
+    {
+      "E#": "E093",
+      "Evidence Artifact Example": "Requirements for project need to be captured during project initiation phase, and aligned with existing policies/SOPs (contract)."
+    },
+    {
+      "E#": "E094",
+      "Evidence Artifact Example": "Documented SOP as part of ISMS (if exists)"
+    },
+    {
+      "E#": "E095",
+      "Evidence Artifact Example": "this should fall under archiving (R025)"
+    },
+    {
+      "E#": "E096",
+      "Evidence Artifact Example": "Too vague and out of scope for an SPE/TRE."
+    },
+    {
+      "E#": "E097",
+      "Evidence Artifact Example": "Published terminology glossary"
+    },
+    {
+      "E#": "E098",
+      "Evidence Artifact Example": "Change log of terminology updates"
+    },
+    {
+      "E#": "E099",
+      "Evidence Artifact Example": "FAIR training programme (syllabus and materials)"
+    },
+    {
+      "E#": "E100",
+      "Evidence Artifact Example": "Data harmonisation policy (formats, vocabularies, ..)"
+    },
+    {
+      "E#": "E101",
+      "Evidence Artifact Example": "Harmonisation validation report"
+    },
+    {
+      "E#": "E102",
+      "Evidence Artifact Example": "Dataset metadata records"
+    },
+    {
+      "E#": "E103",
+      "Evidence Artifact Example": "Data anonymisation policy"
+    },
+    {
+      "E#": "E104",
+      "Evidence Artifact Example": "Automated anonymisation pipeline definition"
+    },
+    {
+      "E#": "E105",
+      "Evidence Artifact Example": "Terminology and data standards reconciliation definition "
+    },
+    {
+      "E#": "E106",
+      "Evidence Artifact Example": "Approved standard mapping strategy"
+    },
+    {
+      "E#": "E107",
+      "Evidence Artifact Example": "Rene"
+    },
+    {
+      "E#": "E108",
+      "Evidence Artifact Example": "Automated process for identifying suitable data for a research project or clinical trial. Might be federated to allow for multi-TRE querying (See HDR Cohort Discovery Tool). Should be in a unified service portal"
+    },
+    {
+      "E#": "E109",
+      "Evidence Artifact Example": "Unified service portal interface exposing cohort discovery"
+    },
+    {
+      "E#": "E110",
+      "Evidence Artifact Example": "Cross-TRE query execution logs"
+    },
+    {
+      "E#": "E111",
+      "Evidence Artifact Example": "Compliance toolkits"
+    },
+    {
+      "E#": "E112",
+      "Evidence Artifact Example": "Data owner agreement"
+    },
+    {
+      "E#": "E113",
+      "Evidence Artifact Example": "SOP describing how data provider can allow software in the TRE"
+    },
+    {
+      "E#": "E114",
+      "Evidence Artifact Example": "Policy defining how to request pre-allocation of project-specific data resources"
+    },
+    {
+      "E#": "E115",
+      "Evidence Artifact Example": "Metadata entries in the (internal) TRE indexing system for reference genomes / ontologies datasets"
+    },
+    {
+      "E#": "E116",
+      "Evidence Artifact Example": "List of available VM flavors"
+    },
+    {
+      "E#": "E117",
+      "Evidence Artifact Example": "Resource scaling policy describing compute capacity management and storage provisioning"
+    },
+    {
+      "E#": "E118",
+      "Evidence Artifact Example": "Infrastructure monitoring dashboards showing dynamic scaling usage"
+    },
+    {
+      "E#": "E119",
+      "Evidence Artifact Example": "Design Document for complete architecture to how to manage data transfer between enviroments.\nRequires complete analysis of data flow with high focus on security"
+    },
+    {
+      "E#": "E120",
+      "Evidence Artifact Example": "Secure  inter-TRE data exchange service enabling controlled data transfers"
+    },
+    {
+      "E#": "E121",
+      "Evidence Artifact Example": "Transfer logs for approved exchanges"
+    },
+    {
+      "E#": "E122",
+      "Evidence Artifact Example": "Inter-TRE data transfer agreement (DTA) or policy"
+    },
+    {
+      "E#": "E123",
+      "Evidence Artifact Example": "Workflow diagram for TREs services access\n\nDesign diagram to analyze access control"
+    },
+    {
+      "E#": "E124",
+      "Evidence Artifact Example": "Service catalogue describing TRE services and administrative processes"
+    },
+    {
+      "E#": "E125",
+      "Evidence Artifact Example": "User journey or workflow diagram for data access and analysis"
+    },
+    {
+      "E#": "E126",
+      "Evidence Artifact Example": "Creation of a unified repository for Software Packages"
+    },
+    {
+      "E#": "E127",
+      "Evidence Artifact Example": "User manual on using software applications and how to use the repository of software packages"
+    },
+    {
+      "E#": "E128",
+      "Evidence Artifact Example": "Document for evaluation criteria of software packages in the repository and audit logs"
+    },
+    {
+      "E#": "E129",
+      "Evidence Artifact Example": "Federation software governance policy mentioning approval processes"
+    },
+    {
+      "E#": "E130",
+      "Evidence Artifact Example": "Central software repository with audit logs of package approvals"
+    },
+    {
+      "E#": "E131",
+      "Evidence Artifact Example": "User Manual explaining the front end interface. (It is still generic as ease of use is abstract)"
+    },
+    {
+      "E#": "E132",
+      "Evidence Artifact Example": "GItlab issue.\nA form in the web interface for user feedback"
+    },
+    {
+      "E#": "E133",
+      "Evidence Artifact Example": "User feedback management workflow or SOP"
+    },
+    {
+      "E#": "E134",
+      "Evidence Artifact Example": "Issue tracker (e.g. Jira, Git issues)  linking feedback to planning"
+    },
+    {
+      "E#": "E135",
+      "Evidence Artifact Example": "TRE self-assessment or compliance statement against federation minimum security standards"
+    },
+    {
+      "E#": "E136",
+      "Evidence Artifact Example": "Federation security policy defining minimum security, privacy, and encryption standards for TRE onboarding"
+    },
+    {
+      "E#": "E137",
+      "Evidence Artifact Example": "Federation-wide acceptance and clearly defined workflows."
+    },
+    {
+      "E#": "E138",
+      "Evidence Artifact Example": "Federation-approved workflow catalogue"
+    },
+    {
+      "E#": "E139",
+      "Evidence Artifact Example": "Versioned workflow repository"
+    }
+  ]
+}
