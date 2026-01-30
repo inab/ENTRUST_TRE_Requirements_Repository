@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0043",
+  "Title": "Resource Health Map:A visualization showing the availability and \"Uptime\" of different nodes within the federated network.",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "OPS",
+  "Evidence Maturity": "Automated",
+  "Responsible Actor": "TRE Operations Officer",
+  "Scope Attribution": "",
+  "Architecture-specific": "Yes",
+  "Expected Validation Approach": "Automated Check",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R060"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

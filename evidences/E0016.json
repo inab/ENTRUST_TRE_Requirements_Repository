@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0016",
+  "Title": "Documentation of configuration and system security settings demonstrating that encryption in transit is secure. Supporting evidence may be confirming acrive encryption, audits log, etc.",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "OPS",
+  "Evidence Maturity": "Policy",
+  "Responsible Actor": "TRE Operations Officer",
+  "Scope Attribution": "",
+  "Architecture-specific": "No",
+  "Expected Validation Approach": "Periodic Audit",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R001"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": "In general, data should always be encrypted (except when it is in use), so whenever data is available, it should be encrypted."
+}

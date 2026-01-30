@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0027",
+  "Title": "Data Import Declaration & Approval Workflow",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "DOC",
+  "Evidence Maturity": "Policy",
+  "Responsible Actor": "Data Access Officer",
+  "Scope Attribution": "",
+  "Architecture-specific": "No",
+  "Expected Validation Approach": "Manual Review",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R049"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}
