@@ -11,12 +11,12 @@
 <script src="js/load.js"></script>
 <script>
   function renderValue(value, key = "") {
-  if (key === "Evidence" && Array.isArray(value)) {
+  if (key === "Evidences" && Array.isArray(value)) {
     return `
       <ul>
         ${value.map(ev => `
           <li>
-            <strong>${ev["E#"]}</strong> — ${ev["Evidence Artifact Example"]}
+            <strong>${ev["Evidence ID"]}</strong> — ${ev["Title"]}
             <a href="${ev.File}">JSON</a>
           </li>
         `).join("")}
@@ -25,7 +25,9 @@
   }
 
   if (Array.isArray(value)) {
-    return `<ul>${value.map(v => `<li>${renderValue(v)}</li>`).join("")}</ul>`;
+    return `<ul>
+      ${value.map(v => 
+        `<li>${renderValue(v)}</li>`).join("")}</ul>`;
   }
 
   if (typeof value === "object" && value !== null) {
@@ -48,12 +50,12 @@
 
     const req = await loadJSON(`../requirements/${id}.json`);
 
-    let html = `<h1>${req["R#"]} — ${req.Title} 
+    let html = `<h1>${req["Requirement ID"]} — ${req.Title} 
                 <a href="../requirements/${id}.json">JSON</a></h1>`;
     
     html += `<ul>`;
     for (const [key, value] of Object.entries(req)) {
-      if (key === "R#" || key === "Title") continue;
+      if (key === "Requirement ID" || key === "Title") continue;
 
       html += ` 
         <li>
