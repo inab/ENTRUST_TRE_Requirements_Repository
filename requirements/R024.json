@@ -1,49 +1,24 @@
 {
-  "R#": "R024",
+  "Requirement ID": "R024",
   "Title": "2-factor authentication for TRE users",
   "Description": "2-factor authentication is a critical security measure in TREs to ensure that only authorized individuals can access sensitive data. E.g. username and password + OTP.",
   "Version": "M7",
-  "Blueprint component": "Federation Services - AAAI - Authentication",
-  "Authoring Driver": "Driver 3",
-  "Driver 1 MoSCoW": "Could-have",
-  "Driver 2 MoSCoW": "Must-have",
-  "Driver 3 MoSCoW": "Must-have",
-  "Driver 4 MoSCoW": "Could-have",
-  "SATRE Pillar": "Computing technology and Information Security",
-  "SATRE Capability": "Identity and access management",
-  "Related URL": "",
-  "Group": 2,
-  "Group Title": "Security, AAAI and Output Control",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 2,
+  "Source": "EOSC-ENTRUST Driver 3",
+  "Rationale": "",
+  "Category": "Security, AAAI and Output Control",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E001",
-      "Evidence Artifact Example": "Access logs showing MFA usage",
-      "File": "..\\evidences\\E001.json"
+      "frameworkId": "SATRE",
+      "value": "Identity and access management"
     },
     {
-      "E#": "E002",
-      "Evidence Artifact Example": "Security test result confirming MFA is enforced",
-      "File": "..\\evidences\\E002.json"
-    },
-    {
-      "E#": "E003",
-      "Evidence Artifact Example": "Authentication and credentials management policy\n",
-      "File": "..\\evidences\\E003.json"
-    },
-    {
-      "E#": "E004",
-      "Evidence Artifact Example": "MFA usage as part of  TRE provider documentation",
-      "File": "..\\evidences\\E004.json"
-    },
-    {
-      "E#": "E005",
-      "Evidence Artifact Example": "TRE operator cybersecurity training",
-      "File": "..\\evidences\\E005.json"
-    },
-    {
-      "E#": "E006",
-      "Evidence Artifact Example": "MFA configuration export from identity access management solution (e.g., Keycloak)",
-      "File": "..\\evidences\\E006.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Federation Services - AAAI - Authentication"
     }
   ]
 }

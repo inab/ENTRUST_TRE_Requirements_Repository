@@ -1,44 +1,24 @@
 {
-  "R#": "R002",
+  "Requirement ID": "R002",
   "Title": "Data Sharing Agreement",
   "Description": "Establish a formal data-sharing agreement among participating institutions. This agreement should outline the terms and conditions for sharing data, including licensing, access controls, and data use limitations.",
   "Version": "M7",
-  "Blueprint component": "Federation Services - Trust",
-  "Authoring Driver": "Driver 1",
-  "Driver 1 MoSCoW": "Should-have",
-  "Driver 2 MoSCoW": "Must-have",
-  "Driver 3 MoSCoW": "Must-have",
-  "Driver 4 MoSCoW": "Should-have",
-  "SATRE Pillar": "Information Governance",
-  "SATRE Capability": "Legal services",
-  "Related URL": "",
-  "Group": 1,
-  "Group Title": "Governance, Legal and Trust",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 3,
+  "Source": "EOSC-ENTRUST Driver 1",
+  "Rationale": "",
+  "Category": "Governance, Legal and Trust",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E059",
-      "Evidence Artifact Example": "Federated Data Sharing Agreement (DSA)",
-      "File": "..\\evidences\\E059.json"
+      "frameworkId": "SATRE",
+      "value": "Legal services"
     },
     {
-      "E#": "E060",
-      "Evidence Artifact Example": "Data Licensing & Intellectual Property Clauses",
-      "File": "..\\evidences\\E060.json"
-    },
-    {
-      "E#": "E061",
-      "Evidence Artifact Example": "Access Control & Authorisation Provisions",
-      "File": "..\\evidences\\E061.json"
-    },
-    {
-      "E#": "E062",
-      "Evidence Artifact Example": "Operational Procedures Supporting the DSA",
-      "File": "..\\evidences\\E062.json"
-    },
-    {
-      "E#": "E063",
-      "Evidence Artifact Example": "Periodic Audits of DSA Compliance",
-      "File": "..\\evidences\\E063.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Federation Services - Trust"
     }
   ]
 }

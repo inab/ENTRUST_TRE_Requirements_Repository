@@ -1,18 +1,24 @@
 {
-  "R#": "R018",
+  "Requirement ID": "R018",
   "Title": "Data Sharing Policy",
   "Description": "Data Sharing Policy of TREs should be accessible in Discovery Service",
   "Version": "MS8 - updated",
-  "Blueprint component": "Discovery Service",
-  "Authoring Driver": "Driver 3",
-  "Driver 1 MoSCoW": "Could-have",
-  "Driver 2 MoSCoW": "Must-have",
-  "Driver 3 MoSCoW": "Should-have",
-  "Driver 4 MoSCoW": "Could-have",
-  "SATRE Pillar": "Information Governance",
-  "SATRE Capability": "Legal services",
-  "Related URL": "",
-  "Group": 1,
-  "Group Title": "Governance, Legal and Trust",
-  "Evidence": []
+  "Status": "Baselined",
+  "Priority": 2,
+  "Source": "EOSC-ENTRUST Driver 3",
+  "Rationale": "",
+  "Category": "Governance, Legal and Trust",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
+    {
+      "frameworkId": "SATRE",
+      "value": "Legal services"
+    },
+    {
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Discovery Service"
+    }
+  ]
 }

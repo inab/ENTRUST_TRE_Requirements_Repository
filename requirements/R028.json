@@ -1,39 +1,24 @@
 {
-  "R#": "R028",
+  "Requirement ID": "R028",
   "Title": "Certification",
   "Description": "Demonstrate good information management and security via certifications: e.g., ISO/IEC 27001 - Information Security Management, ISO/IEC 27701 -Privacy Information Management",
   "Version": "M7",
-  "Blueprint component": "Federation Services - AAAI - Auditing",
-  "Authoring Driver": "Driver 3",
-  "Driver 1 MoSCoW": "Should-have",
-  "Driver 2 MoSCoW": "Should-have",
-  "Driver 3 MoSCoW": "Should-have",
-  "Driver 4 MoSCoW": "Should-have",
-  "SATRE Pillar": "Computing technology and Information Security",
-  "SATRE Capability": "Information security",
-  "Related URL": "",
-  "Group": 1,
-  "Group Title": "Governance, Legal and Trust",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 2,
+  "Source": "EOSC-ENTRUST Driver 3",
+  "Rationale": "",
+  "Category": "Governance, Legal and Trust",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E077",
-      "Evidence Artifact Example": "Information Security & Privacy Policy Document (Mandatory & Desired Specifications)",
-      "File": "..\\evidences\\E077.json"
+      "frameworkId": "SATRE",
+      "value": "Information security"
     },
     {
-      "E#": "E078",
-      "Evidence Artifact Example": "Scope and Statement of Applicability (SoA)",
-      "File": "..\\evidences\\E078.json"
-    },
-    {
-      "E#": "E079",
-      "Evidence Artifact Example": "Certification and Audit Reports",
-      "File": "..\\evidences\\E079.json"
-    },
-    {
-      "E#": "E080",
-      "Evidence Artifact Example": "Policy Compliance Monitoring and Reporting",
-      "File": "..\\evidences\\E080.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Federation Services - AAAI - Auditing"
     }
   ]
 }

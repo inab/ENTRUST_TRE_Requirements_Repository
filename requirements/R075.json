@@ -1,24 +1,24 @@
 {
-  "R#": "R075",
+  "Requirement ID": "R075",
   "Title": "Reverse engineering safeguards",
   "Description": "Implement safeguards against reverse engineering of sensitive training data from synthetic datasets.",
   "Version": "MS8",
-  "Blueprint component": "TRE - Output control",
-  "Authoring Driver": "Driver 4",
-  "Driver 1 MoSCoW": "",
-  "Driver 2 MoSCoW": "",
-  "Driver 3 MoSCoW": "",
-  "Driver 4 MoSCoW": "Should-have",
-  "SATRE Pillar": "",
-  "SATRE Capability": "",
-  "Related URL": "",
-  "Group": 2,
-  "Group Title": "Security, AAAI and Output Control",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 0,
+  "Source": "EOSC-ENTRUST Driver 4",
+  "Rationale": "",
+  "Category": "Security, AAAI and Output Control",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E056",
-      "Evidence Artifact Example": "Technical documentation and test reports demonstrating the implementation of safeguards against reverse engineering. This may include descriptions of applied privacy-preserving techniques (e.g. differential privacy, noise injection, data minimization), results of re-identification risk assessments, and validation tests confirming that original training data cannot be reconstructed.",
-      "File": "..\\evidences\\E056.json"
+      "frameworkId": "SATRE",
+      "value": ""
+    },
+    {
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "TRE - Output control"
     }
   ]
 }

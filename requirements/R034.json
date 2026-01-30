@@ -1,29 +1,24 @@
 {
-  "R#": "R034",
+  "Requirement ID": "R034",
   "Title": "Backup",
   "Description": "TRE should create backup copy of the data analyses for the full length of research project.",
   "Version": "M7",
-  "Blueprint component": "TRE - RAZ",
-  "Authoring Driver": "Driver 4",
-  "Driver 1 MoSCoW": "Should-have",
-  "Driver 2 MoSCoW": "Must-have",
-  "Driver 3 MoSCoW": "Should-have",
-  "Driver 4 MoSCoW": "Should-have",
-  "SATRE Pillar": "Computing technology and Information Security",
-  "SATRE Capability": "Information security",
-  "Related URL": "",
-  "Group": 2,
-  "Group Title": "Security, AAAI and Output Control",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 2,
+  "Source": "EOSC-ENTRUST Driver 4",
+  "Rationale": "",
+  "Category": "Security, AAAI and Output Control",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E057",
-      "Evidence Artifact Example": "Creating a policy for secure data backup",
-      "File": "..\\evidences\\E057.json"
+      "frameworkId": "SATRE",
+      "value": "Information security"
     },
     {
-      "E#": "E058",
-      "Evidence Artifact Example": "Verification that data can be restored from backup",
-      "File": "..\\evidences\\E058.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "TRE - RAZ"
     }
   ]
 }

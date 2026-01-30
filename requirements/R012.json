@@ -1,24 +1,24 @@
 {
-  "R#": "R012",
+  "Requirement ID": "R012",
   "Title": "Metadata",
   "Description": "Metadata available in one language (English)",
   "Version": "M7",
-  "Blueprint component": "Discovery Service",
-  "Authoring Driver": "Driver 2",
-  "Driver 1 MoSCoW": "Should-have",
-  "Driver 2 MoSCoW": "Should-have",
-  "Driver 3 MoSCoW": "Should-have",
-  "Driver 4 MoSCoW": "Should-have",
-  "SATRE Pillar": "Data Management",
-  "SATRE Capability": "Research Meta-Data",
-  "Related URL": "",
-  "Group": 3,
-  "Group Title": "Data Lifecycle, Quality and FAIRness",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 2,
+  "Source": "EOSC-ENTRUST Driver 2",
+  "Rationale": "",
+  "Category": "Data Lifecycle, Quality and FAIRness",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E090",
-      "Evidence Artifact Example": "A standardized, validated metadata template or schema that enforces consistent field names, data types, and relationships across all archived analysis packages.",
-      "File": "..\\evidences\\E090.json"
+      "frameworkId": "SATRE",
+      "value": "Research Meta-Data"
+    },
+    {
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Discovery Service"
     }
   ]
 }

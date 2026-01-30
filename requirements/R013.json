@@ -1,44 +1,24 @@
 {
-  "R#": "R013",
+  "Requirement ID": "R013",
   "Title": "Output release following SDC",
   "Description": "Output release following SDC checks performed by the TRE, should have clear SDC rules that are consistent with recognised best practice",
   "Version": "MS8 - updated",
-  "Blueprint component": "TRE - Output control",
-  "Authoring Driver": "Driver 2",
-  "Driver 1 MoSCoW": "Could-have",
-  "Driver 2 MoSCoW": "Must-have",
-  "Driver 3 MoSCoW": "Must-have",
-  "Driver 4 MoSCoW": "Must-have",
-  "SATRE Pillar": "Data Management",
-  "SATRE Capability": "Output management",
-  "Related URL": "",
-  "Group": 2,
-  "Group Title": "Security, AAAI and Output Control",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 2,
+  "Source": "EOSC-ENTRUST Driver 2",
+  "Rationale": "",
+  "Category": "Security, AAAI and Output Control",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E018",
-      "Evidence Artifact Example": "Output Release & SDC Policy",
-      "File": "..\\evidences\\E018.json"
+      "frameworkId": "SATRE",
+      "value": "Output management"
     },
     {
-      "E#": "E019",
-      "Evidence Artifact Example": "Output Release Workflow & Architecture Description",
-      "File": "..\\evidences\\E019.json"
-    },
-    {
-      "E#": "E020",
-      "Evidence Artifact Example": "SDC Checking Implementation Evidence (manual and/or automated SDC tools, configuration, templates, checklists)",
-      "File": "..\\evidences\\E020.json"
-    },
-    {
-      "E#": "E021",
-      "Evidence Artifact Example": "Output Release Logs & Audit Trail",
-      "File": "..\\evidences\\E021.json"
-    },
-    {
-      "E#": "E022",
-      "Evidence Artifact Example": "Output Checker Roles & Procedures Training",
-      "File": "..\\evidences\\E022.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "TRE - Output control"
     }
   ]
 }

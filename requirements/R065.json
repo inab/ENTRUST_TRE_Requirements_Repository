@@ -1,18 +1,24 @@
 {
-  "R#": "R065",
+  "Requirement ID": "R065",
   "Title": "GDPR-compliant auditing",
   "Description": "Ensure GDPR-compliant auditing across federated TREs, including retention and privacy of audit data.",
   "Version": "MS8",
-  "Blueprint component": "Federation Services - AAAI - Auditing",
-  "Authoring Driver": "Driver 1",
-  "Driver 1 MoSCoW": "",
-  "Driver 2 MoSCoW": "",
-  "Driver 3 MoSCoW": "",
-  "Driver 4 MoSCoW": "",
-  "SATRE Pillar": "",
-  "SATRE Capability": "",
-  "Related URL": "",
-  "Group": 1,
-  "Group Title": "Governance, Legal and Trust",
-  "Evidence": []
+  "Status": "Baselined",
+  "Priority": 0,
+  "Source": "EOSC-ENTRUST Driver 1",
+  "Rationale": "",
+  "Category": "Governance, Legal and Trust",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
+    {
+      "frameworkId": "SATRE",
+      "value": ""
+    },
+    {
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Federation Services - AAAI - Auditing"
+    }
+  ]
 }

@@ -1,24 +1,24 @@
 {
-  "R#": "R016",
+  "Requirement ID": "R016",
   "Title": "Compliance with various national legal frameworks for data sharing",
   "Description": "The Blueprint should comply with national legal frameworks for data sharing to allow for adoption. For example, linkage spines might not be possible in some member states.",
   "Version": "MS8 - updated",
-  "Blueprint component": "Blueprint",
-  "Authoring Driver": "Driver 2",
-  "Driver 1 MoSCoW": "",
-  "Driver 2 MoSCoW": "",
-  "Driver 3 MoSCoW": "",
-  "Driver 4 MoSCoW": "",
-  "SATRE Pillar": "Supporting Capabilities",
-  "SATRE Capability": "Legal services",
-  "Related URL": "",
-  "Group": 1,
-  "Group Title": "Governance, Legal and Trust",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 0,
+  "Source": "EOSC-ENTRUST Driver 2",
+  "Rationale": "",
+  "Category": "Governance, Legal and Trust",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E111",
-      "Evidence Artifact Example": "Compliance toolkits",
-      "File": "..\\evidences\\E111.json"
+      "frameworkId": "SATRE",
+      "value": "Legal services"
+    },
+    {
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Blueprint"
     }
   ]
 }

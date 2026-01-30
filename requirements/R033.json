@@ -1,34 +1,24 @@
 {
-  "R#": "R033",
+  "Requirement ID": "R033",
   "Title": "Accessibility of TRE's services and administrative processes (previously service design)",
   "Description": "Service design is needed to create easy access to services of the TRE for end-users in different roles. Also the workflow required to share and analyse data should be made as easy as possible. ",
   "Version": "M7",
-  "Blueprint component": "TRE",
-  "Authoring Driver": "Driver 4",
-  "Driver 1 MoSCoW": "Could-have",
-  "Driver 2 MoSCoW": "Should-have",
-  "Driver 3 MoSCoW": "Could-have",
-  "Driver 4 MoSCoW": "Should-have",
-  "SATRE Pillar": "Computing technology and Information Security",
-  "SATRE Capability": "End user computing",
-  "Related URL": "",
-  "Group": 4,
-  "Group Title": "Federation, Usability, and Advanced Capabilities",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 1,
+  "Source": "EOSC-ENTRUST Driver 4",
+  "Rationale": "",
+  "Category": "Federation, Usability, and Advanced Capabilities",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E123",
-      "Evidence Artifact Example": "Workflow diagram for TREs services access\n\nDesign diagram to analyze access control",
-      "File": "..\\evidences\\E123.json"
+      "frameworkId": "SATRE",
+      "value": "End user computing"
     },
     {
-      "E#": "E124",
-      "Evidence Artifact Example": "Service catalogue describing TRE services and administrative processes",
-      "File": "..\\evidences\\E124.json"
-    },
-    {
-      "E#": "E125",
-      "Evidence Artifact Example": "User journey or workflow diagram for data access and analysis",
-      "File": "..\\evidences\\E125.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "TRE"
     }
   ]
 }

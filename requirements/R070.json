@@ -1,44 +1,24 @@
 {
-  "R#": "R070",
+  "Requirement ID": "R070",
   "Title": "Federated output control definition",
   "Description": "Define and implement output control for federated analyses involving multiple TREs.",
   "Version": "MS8",
-  "Blueprint component": "TRE - Output control",
-  "Authoring Driver": "Driver 3",
-  "Driver 1 MoSCoW": "",
-  "Driver 2 MoSCoW": "",
-  "Driver 3 MoSCoW": "",
-  "Driver 4 MoSCoW": "Should-have",
-  "SATRE Pillar": "",
-  "SATRE Capability": "",
-  "Related URL": "",
-  "Group": 2,
-  "Group Title": "Security, AAAI and Output Control",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 0,
+  "Source": "EOSC-ENTRUST Driver 3",
+  "Rationale": "",
+  "Category": "Security, AAAI and Output Control",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E047",
-      "Evidence Artifact Example": "Federated Output Control Policy",
-      "File": "..\\evidences\\E047.json"
+      "frameworkId": "SATRE",
+      "value": ""
     },
     {
-      "E#": "E048",
-      "Evidence Artifact Example": "Federated Output Risk & Disclosure Model",
-      "File": "..\\evidences\\E048.json"
-    },
-    {
-      "E#": "E049",
-      "Evidence Artifact Example": "Federated Output Architecture & Workflow Description",
-      "File": "..\\evidences\\E049.json"
-    },
-    {
-      "E#": "E050",
-      "Evidence Artifact Example": "Technical Enforcement of Federated Output Controls",
-      "File": "..\\evidences\\E050.json"
-    },
-    {
-      "E#": "E051",
-      "Evidence Artifact Example": "Federated Output Audit Trail and Logging",
-      "File": "..\\evidences\\E051.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "TRE - Output control"
     }
   ]
 }

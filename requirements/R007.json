@@ -1,34 +1,24 @@
 {
-  "R#": "R007",
+  "Requirement ID": "R007",
   "Title": "Scalable infrastructure",
   "Description": "Computational resources need to be scalable to support analysis of large-scale genomics datasets and AI development as well as validation.",
   "Version": "MS8 - updated",
-  "Blueprint component": "TRE - RAZ",
-  "Authoring Driver": "Driver 1",
-  "Driver 1 MoSCoW": "Should-have",
-  "Driver 2 MoSCoW": "",
-  "Driver 3 MoSCoW": "",
-  "Driver 4 MoSCoW": "Should-have",
-  "SATRE Pillar": "Computing technology and Information Security",
-  "SATRE Capability": "End user computing",
-  "Related URL": "",
-  "Group": 4,
-  "Group Title": "Federation, Usability, and Advanced Capabilities",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 2,
+  "Source": "EOSC-ENTRUST Driver 1",
+  "Rationale": "",
+  "Category": "Federation, Usability, and Advanced Capabilities",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E116",
-      "Evidence Artifact Example": "List of available VM flavors",
-      "File": "..\\evidences\\E116.json"
+      "frameworkId": "SATRE",
+      "value": "End user computing"
     },
     {
-      "E#": "E117",
-      "Evidence Artifact Example": "Resource scaling policy describing compute capacity management and storage provisioning",
-      "File": "..\\evidences\\E117.json"
-    },
-    {
-      "E#": "E118",
-      "Evidence Artifact Example": "Infrastructure monitoring dashboards showing dynamic scaling usage",
-      "File": "..\\evidences\\E118.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "TRE - RAZ"
     }
   ]
 }

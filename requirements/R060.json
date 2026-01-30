@@ -1,34 +1,24 @@
 {
-  "R#": "R060",
+  "Requirement ID": "R060",
   "Title": "Enhanced monitoring tools",
   "Description": "Enhanced visibility and monitoring tools for tracking workflow execution status, resource utilization, and costs within the federated environment.",
   "Version": "MS8",
-  "Blueprint component": "Federation Services - Monitoring",
-  "Authoring Driver": "Driver 1",
-  "Driver 1 MoSCoW": "Must-have",
-  "Driver 2 MoSCoW": "",
-  "Driver 3 MoSCoW": "",
-  "Driver 4 MoSCoW": "",
-  "SATRE Pillar": "",
-  "SATRE Capability": "",
-  "Related URL": "",
-  "Group": 2,
-  "Group Title": "Security, AAAI and Output Control",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 3,
+  "Source": "EOSC-ENTRUST Driver 1",
+  "Rationale": "",
+  "Category": "Security, AAAI and Output Control",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E043",
-      "Evidence Artifact Example": "Resource Health Map:A visualization showing the availability and \"Uptime\" of different nodes within the federated network.",
-      "File": "..\\evidences\\E043.json"
+      "frameworkId": "SATRE",
+      "value": ""
     },
     {
-      "E#": "E044",
-      "Evidence Artifact Example": "Usage Quota & Limit Policy: A document defining the \"Soft\" and \"Hard\" limits for resources assigned to a project to prevent costs.",
-      "File": "..\\evidences\\E044.json"
-    },
-    {
-      "E#": "E045",
-      "Evidence Artifact Example": "Incident Response Log: Evidence of actions taken when monitoring tools flagged a performance bottleneck or resource exhaustion.",
-      "File": "..\\evidences\\E045.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Federation Services - Monitoring"
     }
   ]
 }

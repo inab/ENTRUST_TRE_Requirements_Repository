@@ -1,29 +1,24 @@
 {
-  "R#": "R042",
+  "Requirement ID": "R042",
   "Title": "Standardized terminology",
   "Description": "Standardised terminology is needed across the Blueprint, ideally externally published so they can be referred to in the community",
   "Version": "MS8",
-  "Blueprint component": "Blueprint",
-  "Authoring Driver": "Driver 2",
-  "Driver 1 MoSCoW": "Should-have",
-  "Driver 2 MoSCoW": "",
-  "Driver 3 MoSCoW": "",
-  "Driver 4 MoSCoW": "",
-  "SATRE Pillar": "",
-  "SATRE Capability": "",
-  "Related URL": "",
-  "Group": 3,
-  "Group Title": "Data Lifecycle, Quality and FAIRness",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 2,
+  "Source": "EOSC-ENTRUST Driver 2",
+  "Rationale": "",
+  "Category": "Data Lifecycle, Quality and FAIRness",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E097",
-      "Evidence Artifact Example": "Published terminology glossary",
-      "File": "..\\evidences\\E097.json"
+      "frameworkId": "SATRE",
+      "value": ""
     },
     {
-      "E#": "E098",
-      "Evidence Artifact Example": "Change log of terminology updates",
-      "File": "..\\evidences\\E098.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Blueprint"
     }
   ]
 }

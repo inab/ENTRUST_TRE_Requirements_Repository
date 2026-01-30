@@ -1,34 +1,24 @@
 {
-  "R#": "R043",
+  "Requirement ID": "R043",
   "Title": "User feedback integration mechanisms",
   "Description": "Any structured way to feed user input into feature planning",
   "Version": "MS8",
-  "Blueprint component": "TRE - not included",
-  "Authoring Driver": "",
-  "Driver 1 MoSCoW": "Could-have",
-  "Driver 2 MoSCoW": "",
-  "Driver 3 MoSCoW": "",
-  "Driver 4 MoSCoW": "",
-  "SATRE Pillar": "",
-  "SATRE Capability": "",
-  "Related URL": "",
-  "Group": 4,
-  "Group Title": "Federation, Usability, and Advanced Capabilities",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 1,
+  "Source": "",
+  "Rationale": "",
+  "Category": "Federation, Usability, and Advanced Capabilities",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E132",
-      "Evidence Artifact Example": "GItlab issue.\nA form in the web interface for user feedback",
-      "File": "..\\evidences\\E132.json"
+      "frameworkId": "SATRE",
+      "value": ""
     },
     {
-      "E#": "E133",
-      "Evidence Artifact Example": "User feedback management workflow or SOP",
-      "File": "..\\evidences\\E133.json"
-    },
-    {
-      "E#": "E134",
-      "Evidence Artifact Example": "Issue tracker (e.g. Jira, Git issues)  linking feedback to planning",
-      "File": "..\\evidences\\E134.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "TRE - not included"
     }
   ]
 }

@@ -1,18 +1,24 @@
 {
-  "R#": "R040",
+  "Requirement ID": "R040",
   "Title": "Cross-border legal harmonization ",
   "Description": "Multi-country data sharing beyond \u201cnational frameworks\u201d",
   "Version": "MS8",
-  "Blueprint component": "Federation Services - not included",
-  "Authoring Driver": "",
-  "Driver 1 MoSCoW": "Should-have",
-  "Driver 2 MoSCoW": "",
-  "Driver 3 MoSCoW": "",
-  "Driver 4 MoSCoW": "Should-have",
-  "SATRE Pillar": "",
-  "SATRE Capability": "",
-  "Related URL": "",
-  "Group": 1,
-  "Group Title": "Governance, Legal and Trust",
-  "Evidence": []
+  "Status": "Baselined",
+  "Priority": 2,
+  "Source": "",
+  "Rationale": "",
+  "Category": "Governance, Legal and Trust",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
+    {
+      "frameworkId": "SATRE",
+      "value": ""
+    },
+    {
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Federation Services - not included"
+    }
+  ]
 }

@@ -1,29 +1,24 @@
 {
-  "R#": "R014",
+  "Requirement ID": "R014",
   "Title": "Certification of users by 'Safe Researcher' training and/or passport",
   "Description": "Training on using the TRE project space, statistical disclosure & data access. Safe researcher training should include ethical guidance to assure that users understand their ethical responsibilities while analysing sensitive data, awareness of implications of data transfer to 3rd countries, as well as basic training on using a TRE project space to familiarize users with working in a TRE. Basic user guildelines or guidance videos or ad-hoc trainings could be an option to increase user friendliness and user satisfaction.",
   "Version": "MS8 - updated",
-  "Blueprint component": "TRE - Train user",
-  "Authoring Driver": "Driver 2",
-  "Driver 1 MoSCoW": "Should-have",
-  "Driver 2 MoSCoW": "Must-have",
-  "Driver 3 MoSCoW": "Should-have",
-  "Driver 4 MoSCoW": "Should-have",
-  "SATRE Pillar": "Information Governance",
-  "SATRE Capability": "Member Accreditation",
-  "Related URL": "",
-  "Group": 3,
-  "Group Title": "Data Lifecycle, Quality and FAIRness",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 2,
+  "Source": "EOSC-ENTRUST Driver 2",
+  "Rationale": "",
+  "Category": "Data Lifecycle, Quality and FAIRness",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E081",
-      "Evidence Artifact Example": "Training certificate",
-      "File": "..\\evidences\\E081.json"
+      "frameworkId": "SATRE",
+      "value": "Member Accreditation"
     },
     {
-      "E#": "E082",
-      "Evidence Artifact Example": "Presence on a list of registered safe researchers",
-      "File": "..\\evidences\\E082.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "TRE - Train user"
     }
   ]
 }

@@ -1,18 +1,24 @@
 {
-  "R#": "R005",
+  "Requirement ID": "R005",
   "Title": "Technology agreement",
   "Description": "The current landscape of available TREs makes quite difficult - if not directly impossible - to provide a single, comprehensive list of possible hardware or technologies to use.",
   "Version": "M7",
-  "Blueprint component": "Blueprint",
-  "Authoring Driver": "Driver 1",
-  "Driver 1 MoSCoW": "Won't-have",
-  "Driver 2 MoSCoW": "Won't-have",
-  "Driver 3 MoSCoW": "Won't-have",
-  "Driver 4 MoSCoW": "Could-have",
-  "SATRE Pillar": "not included",
-  "SATRE Capability": "not included",
-  "Related URL": "",
-  "Group": 4,
-  "Group Title": "Federation, Usability, and Advanced Capabilities",
-  "Evidence": []
+  "Status": "Baselined",
+  "Priority": 0,
+  "Source": "EOSC-ENTRUST Driver 1",
+  "Rationale": "",
+  "Category": "Federation, Usability, and Advanced Capabilities",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
+    {
+      "frameworkId": "SATRE",
+      "value": "not included"
+    },
+    {
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Blueprint"
+    }
+  ]
 }

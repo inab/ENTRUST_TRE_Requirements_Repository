@@ -1,24 +1,24 @@
 {
-  "R#": "R011",
+  "Requirement ID": "R011",
   "Title": "Findability",
   "Description": "Central unified service portal for research data discovery",
   "Version": "MS8 - updated",
-  "Blueprint component": "Discovery Service",
-  "Authoring Driver": "Driver 2",
-  "Driver 1 MoSCoW": "Could-have",
-  "Driver 2 MoSCoW": "Should-have",
-  "Driver 3 MoSCoW": "Must-have",
-  "Driver 4 MoSCoW": "Could-have",
-  "SATRE Pillar": "Data Management",
-  "SATRE Capability": "Information search and discovery",
-  "Related URL": "",
-  "Group": 3,
-  "Group Title": "Data Lifecycle, Quality and FAIRness",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 2,
+  "Source": "EOSC-ENTRUST Driver 2",
+  "Rationale": "",
+  "Category": "Data Lifecycle, Quality and FAIRness",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E089",
-      "Evidence Artifact Example": "A persistent, publicly resolvable landing page associated with the PID that exposes machine- and human-readable metadata, indexed by internal catalogues and external discovery services.",
-      "File": "..\\evidences\\E089.json"
+      "frameworkId": "SATRE",
+      "value": "Information search and discovery"
+    },
+    {
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Discovery Service"
     }
   ]
 }

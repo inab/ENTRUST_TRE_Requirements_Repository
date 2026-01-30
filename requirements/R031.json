@@ -1,24 +1,24 @@
 {
-  "R#": "R031",
+  "Requirement ID": "R031",
   "Title": "Data kept only within the agreed time period",
   "Description": "Mechanisms for timely deletion of the data (e.g., from users' project space when this exceeds the authorised period or completely from the TRE when this goes beyond the data provider's requirements). A clear archiving policy should be in place and users should be made aware of it.",
   "Version": "M7",
-  "Blueprint component": "TRE - Data management",
-  "Authoring Driver": "Driver 3",
-  "Driver 1 MoSCoW": "Should-have",
-  "Driver 2 MoSCoW": "Should-have",
-  "Driver 3 MoSCoW": "Must-have",
-  "Driver 4 MoSCoW": "Could-have",
-  "SATRE Pillar": "Data Management",
-  "SATRE Capability": "Data Archiving",
-  "Related URL": "",
-  "Group": 3,
-  "Group Title": "Data Lifecycle, Quality and FAIRness",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 2,
+  "Source": "EOSC-ENTRUST Driver 3",
+  "Rationale": "",
+  "Category": "Data Lifecycle, Quality and FAIRness",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E095",
-      "Evidence Artifact Example": "this should fall under archiving (R025)",
-      "File": "..\\evidences\\E095.json"
+      "frameworkId": "SATRE",
+      "value": "Data Archiving"
+    },
+    {
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "TRE - Data management"
     }
   ]
 }

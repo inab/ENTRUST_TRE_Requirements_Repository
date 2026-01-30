@@ -1,34 +1,24 @@
 {
-  "R#": "R006",
+  "Requirement ID": "R006",
   "Title": "Access to open resources from TRE",
   "Description": "Most of the genomic analyses require some kind of data on the outside world, be it a reference genome or annotation databases. In some cases these can be downloaded pre-analysis to the TRE, but this tends to hinder analysis workflows that, from the POV of the users, work on the outside of a TRE. Examples: annotation of genomes, reference sequences for sequence alignment, usage of ontologies and other open resources.",
   "Version": "MS8 - updated",
-  "Blueprint component": "Software Service - Public data repositories",
-  "Authoring Driver": "Driver 1",
-  "Driver 1 MoSCoW": "Should-have",
-  "Driver 2 MoSCoW": "",
-  "Driver 3 MoSCoW": "",
-  "Driver 4 MoSCoW": "Should-have",
-  "SATRE Pillar": "Computing technology and Information Security",
-  "SATRE Capability": "not included",
-  "Related URL": "",
-  "Group": 4,
-  "Group Title": "Federation, Usability, and Advanced Capabilities",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 2,
+  "Source": "EOSC-ENTRUST Driver 1",
+  "Rationale": "",
+  "Category": "Federation, Usability, and Advanced Capabilities",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E113",
-      "Evidence Artifact Example": "SOP describing how data provider can allow software in the TRE",
-      "File": "..\\evidences\\E113.json"
+      "frameworkId": "SATRE",
+      "value": "not included"
     },
     {
-      "E#": "E114",
-      "Evidence Artifact Example": "Policy defining how to request pre-allocation of project-specific data resources",
-      "File": "..\\evidences\\E114.json"
-    },
-    {
-      "E#": "E115",
-      "Evidence Artifact Example": "Metadata entries in the (internal) TRE indexing system for reference genomes / ontologies datasets",
-      "File": "..\\evidences\\E115.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Software Service - Public data repositories"
     }
   ]
 }

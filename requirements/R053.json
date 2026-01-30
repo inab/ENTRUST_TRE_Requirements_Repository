@@ -1,44 +1,24 @@
 {
-  "R#": "R053",
+  "Requirement ID": "R053",
   "Title": "Logging and auditing ",
   "Description": "Logging and auditing ",
   "Version": "MS8",
-  "Blueprint component": "Federation Services - AAAI - Auditing",
-  "Authoring Driver": "Driver 1",
-  "Driver 1 MoSCoW": "Should-have",
-  "Driver 2 MoSCoW": "",
-  "Driver 3 MoSCoW": "",
-  "Driver 4 MoSCoW": "",
-  "SATRE Pillar": "",
-  "SATRE Capability": "",
-  "Related URL": "",
-  "Group": 2,
-  "Group Title": "Security, AAAI and Output Control",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 2,
+  "Source": "EOSC-ENTRUST Driver 1",
+  "Rationale": "",
+  "Category": "Security, AAAI and Output Control",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E031",
-      "Evidence Artifact Example": "Ensure that data (logging and auditing) cannot be changed",
-      "File": "..\\evidences\\E031.json"
+      "frameworkId": "SATRE",
+      "value": ""
     },
     {
-      "E#": "E032",
-      "Evidence Artifact Example": "Create a policy on who has access to data and under what circumstances",
-      "File": "..\\evidences\\E032.json"
-    },
-    {
-      "E#": "E033",
-      "Evidence Artifact Example": "Perform a test to verify that it is possible to track the entire life cycle of an operation/workflow.",
-      "File": "..\\evidences\\E033.json"
-    },
-    {
-      "E#": "E034",
-      "Evidence Artifact Example": "Log Management Policy: Document defining what events are logged (Logins, Where the login started, the service that the user logged i, Admin changes) and the retention period (e.g., 7 years).",
-      "File": "..\\evidences\\E034.json"
-    },
-    {
-      "E#": "E035",
-      "Evidence Artifact Example": "Audit Log Sample: A raw extract showing structured data: Timestamp, UserID, Source IP, Event Type, and Success/Failure status.",
-      "File": "..\\evidences\\E035.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Federation Services - AAAI - Auditing"
     }
   ]
 }

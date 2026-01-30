@@ -1,29 +1,24 @@
 {
-  "R#": "R072",
+  "Requirement ID": "R072",
   "Title": "Reconcile terminology & data standards",
   "Description": "Develop processes to reconcile differences in clinical terminology and data standards (e.g., MedDRA vs ICD-10; CDISC vs OMOP).",
   "Version": "MS8",
-  "Blueprint component": "Federation Services - not included",
-  "Authoring Driver": "Driver 3",
-  "Driver 1 MoSCoW": "",
-  "Driver 2 MoSCoW": "",
-  "Driver 3 MoSCoW": "",
-  "Driver 4 MoSCoW": "",
-  "SATRE Pillar": "",
-  "SATRE Capability": "",
-  "Related URL": "",
-  "Group": 3,
-  "Group Title": "Data Lifecycle, Quality and FAIRness",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 0,
+  "Source": "EOSC-ENTRUST Driver 3",
+  "Rationale": "",
+  "Category": "Data Lifecycle, Quality and FAIRness",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E105",
-      "Evidence Artifact Example": "Terminology and data standards reconciliation definition ",
-      "File": "..\\evidences\\E105.json"
+      "frameworkId": "SATRE",
+      "value": ""
     },
     {
-      "E#": "E106",
-      "Evidence Artifact Example": "Approved standard mapping strategy",
-      "File": "..\\evidences\\E106.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Federation Services - not included"
     }
   ]
 }

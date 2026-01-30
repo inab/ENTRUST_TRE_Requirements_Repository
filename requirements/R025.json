@@ -1,29 +1,24 @@
 {
-  "R#": "R025",
+  "Requirement ID": "R025",
   "Title": "Archiving of datasets for future validation or reproducility under regulations.",
   "Description": "Some datasets, notably in the clinical trials area, must be preserved long-term for regulatory reasons. This may also be coupled with a particular analysis environment (code, scripts, intermediate results etc.) (see R009). The dataset will need to be archived securely, which introduces the possible need for formal digital archiving processes, curation actions etc. TREs supporting clinical trials must have this capability. A clear archiving policy should be in place and users should be made aware of it.",
   "Version": "M7",
-  "Blueprint component": "TRE - SDA",
-  "Authoring Driver": "Driver 3",
-  "Driver 1 MoSCoW": "Could-have",
-  "Driver 2 MoSCoW": "Should-have",
-  "Driver 3 MoSCoW": "Must-have",
-  "Driver 4 MoSCoW": "Could-have",
-  "SATRE Pillar": "Data Management",
-  "SATRE Capability": "Data Archiving",
-  "Related URL": "",
-  "Group": 3,
-  "Group Title": "Data Lifecycle, Quality and FAIRness",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 2,
+  "Source": "EOSC-ENTRUST Driver 3",
+  "Rationale": "",
+  "Category": "Data Lifecycle, Quality and FAIRness",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E093",
-      "Evidence Artifact Example": "Requirements for project need to be captured during project initiation phase, and aligned with existing policies/SOPs (contract).",
-      "File": "..\\evidences\\E093.json"
+      "frameworkId": "SATRE",
+      "value": "Data Archiving"
     },
     {
-      "E#": "E094",
-      "Evidence Artifact Example": "Documented SOP as part of ISMS (if exists)",
-      "File": "..\\evidences\\E094.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "TRE - SDA"
     }
   ]
 }

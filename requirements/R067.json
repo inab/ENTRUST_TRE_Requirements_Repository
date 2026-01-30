@@ -1,24 +1,24 @@
 {
-  "R#": "R067",
+  "Requirement ID": "R067",
   "Title": "Data owner agreement for transfer",
   "Description": "Ensure data owners agree to transferring data to hosting TREs in other countries (e.g., Netherlands).",
   "Version": "MS8",
-  "Blueprint component": "Federation Services - not included (proposal: Registry->Agreements)",
-  "Authoring Driver": "Driver 2",
-  "Driver 1 MoSCoW": "",
-  "Driver 2 MoSCoW": "",
-  "Driver 3 MoSCoW": "",
-  "Driver 4 MoSCoW": "Should-have",
-  "SATRE Pillar": "",
-  "SATRE Capability": "",
-  "Related URL": "",
-  "Group": 1,
-  "Group Title": "Governance, Legal and Trust",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 0,
+  "Source": "EOSC-ENTRUST Driver 2",
+  "Rationale": "",
+  "Category": "Governance, Legal and Trust",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E112",
-      "Evidence Artifact Example": "Data owner agreement",
-      "File": "..\\evidences\\E112.json"
+      "frameworkId": "SATRE",
+      "value": ""
+    },
+    {
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Federation Services - not included (proposal: Registry->Agreements)"
     }
   ]
 }

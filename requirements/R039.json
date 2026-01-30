@@ -1,24 +1,24 @@
 {
-  "R#": "R039",
+  "Requirement ID": "R039",
   "Title": "Automation of Data Quality Checks",
   "Description": "Beyond manual or labeled assessments.",
   "Version": "MS8",
-  "Blueprint component": "Software Service - not included",
-  "Authoring Driver": "",
-  "Driver 1 MoSCoW": "Could-have",
-  "Driver 2 MoSCoW": "",
-  "Driver 3 MoSCoW": "",
-  "Driver 4 MoSCoW": "Could-have",
-  "SATRE Pillar": "",
-  "SATRE Capability": "",
-  "Related URL": "",
-  "Group": 3,
-  "Group Title": "Data Lifecycle, Quality and FAIRness",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 1,
+  "Source": "",
+  "Rationale": "",
+  "Category": "Data Lifecycle, Quality and FAIRness",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E096",
-      "Evidence Artifact Example": "Too vague and out of scope for an SPE/TRE.",
-      "File": "..\\evidences\\E096.json"
+      "frameworkId": "SATRE",
+      "value": ""
+    },
+    {
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Software Service - not included"
     }
   ]
 }

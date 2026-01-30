@@ -1,24 +1,24 @@
 {
-  "R#": "R010",
+  "Requirement ID": "R010",
   "Title": "PID for data citation",
   "Description": "Data that are accessed through the federation need to have a PID (for example doi) to support 1) review by the original data provider's team and 2) credit attribution to the original data generator (e.g., co-authorship / acknowledgement in publications)",
   "Version": "MS8 - updated",
-  "Blueprint component": "Federation Services - Registry->Datasets",
-  "Authoring Driver": "Driver 2",
-  "Driver 1 MoSCoW": "Could-have",
-  "Driver 2 MoSCoW": "Must-have",
-  "Driver 3 MoSCoW": "Could-have",
-  "Driver 4 MoSCoW": "Could-have",
-  "SATRE Pillar": "Data Management",
-  "SATRE Capability": "not included",
-  "Related URL": "",
-  "Group": 3,
-  "Group Title": "Data Lifecycle, Quality and FAIRness",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 2,
+  "Source": "EOSC-ENTRUST Driver 2",
+  "Rationale": "",
+  "Category": "Data Lifecycle, Quality and FAIRness",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E088",
-      "Evidence Artifact Example": "Formal record showing assignment of a PID (for example DOI) to the archived analysis package, including issuing authority, registration date, and resolution URL.",
-      "File": "..\\evidences\\E088.json"
+      "frameworkId": "SATRE",
+      "value": "not included"
+    },
+    {
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Federation Services - Registry->Datasets"
     }
   ]
 }

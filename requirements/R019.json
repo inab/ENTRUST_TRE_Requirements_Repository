@@ -1,24 +1,24 @@
 {
-  "R#": "R019",
+  "Requirement ID": "R019",
   "Title": "Data standards",
   "Description": "Implementing a data standards conversion service is a feature that TREs dedicated to clinical trials offer (e.g. IDDO, Clinical Study Data Request). In clinical trials the most frequently use data standards suite is CDISC. For routinely collected healthcare data OMOP is a data standard that is gaining momentum in the EU.Mapping services cross OMOP-CDISC would be useful for healthcare data to be used in regulatory submissions. Especially the FDA (USA), the PMDA (Japan) mandate the use of CDISC for application and the NMPA (China) recommends. No such requirement from the EMA yet.",
   "Version": "M7",
-  "Blueprint component": "Software Service - not included",
-  "Authoring Driver": "Driver 3",
-  "Driver 1 MoSCoW": "Could-have",
-  "Driver 2 MoSCoW": "Non applicable",
-  "Driver 3 MoSCoW": "Should-have",
-  "Driver 4 MoSCoW": "Should-have",
-  "SATRE Pillar": "Data Management",
-  "SATRE Capability": "not included",
-  "Related URL": "https://zenodo.org/records/5810612\n\n\n\n\n\n",
-  "Group": 3,
-  "Group Title": "Data Lifecycle, Quality and FAIRness",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 1,
+  "Source": "EOSC-ENTRUST Driver 3",
+  "Rationale": "",
+  "Category": "Data Lifecycle, Quality and FAIRness",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E091",
-      "Evidence Artifact Example": "Documented list of adopted data standards with versions and implementation evidence.\n",
-      "File": "..\\evidences\\E091.json"
+      "frameworkId": "SATRE",
+      "value": "not included"
+    },
+    {
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Software Service - not included"
     }
   ]
 }

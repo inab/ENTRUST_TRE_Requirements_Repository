@@ -1,29 +1,24 @@
 {
-  "R#": "R048",
+  "Requirement ID": "R048",
   "Title": "Minimum security level",
   "Description": "The federation should define a minimum set of standards for security, privacy and encryption that a TRE needs to adhere to in order to join",
   "Version": "MS8",
-  "Blueprint component": "Blueprint",
-  "Authoring Driver": "Driver 2",
-  "Driver 1 MoSCoW": "",
-  "Driver 2 MoSCoW": "",
-  "Driver 3 MoSCoW": "",
-  "Driver 4 MoSCoW": "",
-  "SATRE Pillar": "",
-  "SATRE Capability": "",
-  "Related URL": "",
-  "Group": 4,
-  "Group Title": "Federation, Usability, and Advanced Capabilities",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 0,
+  "Source": "EOSC-ENTRUST Driver 2",
+  "Rationale": "",
+  "Category": "Federation, Usability, and Advanced Capabilities",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E135",
-      "Evidence Artifact Example": "TRE self-assessment or compliance statement against federation minimum security standards",
-      "File": "..\\evidences\\E135.json"
+      "frameworkId": "SATRE",
+      "value": ""
     },
     {
-      "E#": "E136",
-      "Evidence Artifact Example": "Federation security policy defining minimum security, privacy, and encryption standards for TRE onboarding",
-      "File": "..\\evidences\\E136.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Blueprint"
     }
   ]
 }

@@ -1,29 +1,24 @@
 {
-  "R#": "R046",
+  "Requirement ID": "R046",
   "Title": "Authentication of diverse user groups",
   "Description": "Authenticating non-European users who don\u2019t have eIDAS and users from member states where national regulations do not support eID (or there are restrictions from which countries within EU are trusted)\n",
   "Version": "MS8",
-  "Blueprint component": "Federation Services - AAAI - Authentication",
-  "Authoring Driver": "Driver 4",
-  "Driver 1 MoSCoW": "Could-have",
-  "Driver 2 MoSCoW": "",
-  "Driver 3 MoSCoW": "",
-  "Driver 4 MoSCoW": "Must-have",
-  "SATRE Pillar": "",
-  "SATRE Capability": "",
-  "Related URL": "",
-  "Group": 2,
-  "Group Title": "Security, AAAI and Output Control",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 1,
+  "Source": "EOSC-ENTRUST Driver 4",
+  "Rationale": "",
+  "Category": "Security, AAAI and Output Control",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E008",
-      "Evidence Artifact Example": "Define a policy that specifies the allowed user identity verification methods, such as passport verification, biometric checks, etc.",
-      "File": "..\\evidences\\E008.json"
+      "frameworkId": "SATRE",
+      "value": ""
     },
     {
-      "E#": "E009",
-      "Evidence Artifact Example": "Define a policy for the secure storage and retention of identity verification evidence for future auditing purposes. The policy must specify security controls (encryption, access restrictions), retention periods, and audit traceability requirements.",
-      "File": "..\\evidences\\E009.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Federation Services - AAAI - Authentication"
     }
   ]
 }

@@ -1,29 +1,24 @@
 {
-  "R#": "R009",
+  "Requirement ID": "R009",
   "Title": "Archiving of study analysis environments (syntax, intermediate results, etc.) for future validation or reproducility under regulations.",
   "Description": "Syntax/code to be archived indefinitely for future validation/reproducibility purposes (peer review). A clear archiving policy should be in place and users should be made aware of it.",
   "Version": "MS8 - updated",
-  "Blueprint component": "Software Service - Environment artifacts",
-  "Authoring Driver": "Driver 2",
-  "Driver 1 MoSCoW": "Could-have",
-  "Driver 2 MoSCoW": "Must-have",
-  "Driver 3 MoSCoW": "Should-have",
-  "Driver 4 MoSCoW": "Could-have",
-  "SATRE Pillar": "Data Management",
-  "SATRE Capability": "Output management",
-  "Related URL": "",
-  "Group": 3,
-  "Group Title": "Data Lifecycle, Quality and FAIRness",
-  "Evidence": [
+  "Status": "Baselined",
+  "Priority": 2,
+  "Source": "EOSC-ENTRUST Driver 2",
+  "Rationale": "",
+  "Category": "Data Lifecycle, Quality and FAIRness",
+  "Clarification Notes": "",
+  "Scope Attribution": "",
+  "Related Requirements": [],
+  "Framework Mappings": [
     {
-      "E#": "E086",
-      "Evidence Artifact Example": "Approved standard operating procedure defining when, how, and where analysis environments and artifacts are archived, retention periods, access controls, and retrieval processes.",
-      "File": "..\\evidences\\E086.json"
+      "frameworkId": "SATRE",
+      "value": "Output management"
     },
     {
-      "E#": "E087",
-      "Evidence Artifact Example": "Metadata structured files recovering workflow execution details (i.e. JSON, Ro-Crate)",
-      "File": "..\\evidences\\E087.json"
+      "frameworkId": "ENTRUST Blueprint",
+      "value": "Software Service - Environment artifacts"
     }
   ]
 }
