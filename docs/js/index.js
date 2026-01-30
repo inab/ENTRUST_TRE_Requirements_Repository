@@ -14,8 +14,8 @@ fetch("../requirements/index.json")
 
     container.innerHTML = requirements.map(req => `
       <div class="req">
-        <strong>${req["R#"]}</strong> - ${req.Title}
-        <a href="requirement.html?id=${req["R#"]}"> view </a>
+        <strong>${req["Requirement ID"]}</strong> - ${req.Title}
+        <a href="requirement.html?id=${req["Requirement ID"]}"> view </a>
       </div>
     `).join("");
   })
@@ -23,3 +23,4 @@ fetch("../requirements/index.json")
     document.getElementById("req-list").innerHTML =
       `<p class="error">Error: ${err.message}</p>`;
   });
+
