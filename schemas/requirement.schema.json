@@ -2,73 +2,242 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "requirement.schema.json",
   "title": "Requirement",
-  "description": "Schema for MS8 requirements with evidence summaries.",
   "type": "object",
+  "additionalProperties": false,
+
   "required": [
-    "R#", "Title", "Description", "Version", "Group", "Group Title","Blueprint component", "Authoring Driver",
-    "Driver 1 MoSCoW", "Driver 2 MoSCoW", "Driver 3 MoSCoW", "Driver 4 MoSCoW",
-    "SATRE Pillar", "SATRE Capability", "Related URL" 
+    "Requirement ID",
+    "Title",
+    "Description",
+    "Version",
+    "Status",
+    "Priority",
+    "Source",
+    "Scope Attribution",
+    "Framework Mappings"
   ],
+
   "properties": {
-    "R#": {
+    "Requirement ID": {
       "type": "string",
       "pattern": "^R[0-9]{3}$",
-      "description": "Requirement number, format R###"
+      "description": "Unique, persistent identifier assigned at registration time, format R###."
     },
-    "Title": { "type": "string", "description": "Title or short description of the requirement" },
-    "Description": { "type": "string", "description": "Full description and motivation of the requirement" },
-    "Version": { "type": "string", "enum": ["M7", "D7", "MS8", "D8", "MS8 - updated", ""], "description": "Milestone or deliverable in which the requirement was first published" },
-    "Blueprint component": { "type": "string", "description": "Blueprint component the requirement maps to; if not included, overarching component is named" },
-    "Authoring Driver": { 
-      "type": "string", "enum": ["Driver 1", "Driver 2", "Driver 3", "Driver 4", "Coordination", ""], 
-      "description": "Driver that contributed the requirement" 
-    },
-    "Driver 1 MoSCoW": { "type": "string", "enum": ["Must-have", "Should-have", "Could-have", "Won't-have", "Non applicable", ""] },
-    "Driver 2 MoSCoW": { "type": "string", "enum": ["Must-have", "Should-have", "Could-have", "Won't-have", "Non applicable", ""] },
-    "Driver 3 MoSCoW": { "type": "string", "enum": ["Must-have", "Should-have", "Could-have", "Won't-have", "Non applicable", ""] },
-    "Driver 4 MoSCoW": { "type": "string", "enum": ["Must-have", "Should-have", "Could-have", "Won't-have", "Non applicable", ""] },
-    "SATRE Pillar": { 
-      "type": "string", 
-      "enum": ["Information Governance", "Computing technology and Information Security", "Data Management", "Supporting Capabilities", "not included", ""] 
-    },
-    "SATRE Capability": { "type": "string" },
-    "Related URL": { 
-      "type": "string", 
-      "format": "uri" 
-    },
-    "Group": { 
-      "type": ["integer", "string"], 
-      "enum": [1, 2, 3, 4, ""] 
-    },
-    "Group Title": { 
-      "type": "string", 
-      "enum": ["Governance, Legal and Trust", "Security, AAAI and Output Control", "Data Lifecycle, Quality and FAIRness", "Federation, Usability, and Advanced Capabilities", ""] 
-    },
-    "Evidences": { "$ref": "#/$defs/evidenceSummary" }
 
+    "Title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Short, human-readable name of the requirement."
+    },
+
+    "Description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Normative textual statement of the requirement, expressed in clear, testable language."
+    },
+
+    "Version": {
+      "type": "string",
+      "enum": ["M7", "D7", "MS8", "D8", "MS8 - updated", ""],
+      "description": "Milestone or deliverable in which the requirement was first published."
+    },
+
+    "Status": {
+      "type": "string",
+      "enum": ["Draft", "Reviewed", "Baselined", "Deprecated"],
+      "description": "Lifecycle state of the requirement."
+    },
+
+    "Priority": {
+      "type": "number",
+      "description": "Importance or criticality of the requirement.",
+      "oneOf": [
+        { "const": 3, "description": "Must — mandatory requirement." },
+        { "const": 2, "description": "Should — important but acceptable if absent under justified constraints." },
+        { "const": 1, "description": "Could — desirable requirement with lower impact." },
+        { "const": 0, "description": "Won’t — out of scope for the current baseline." }
+      ],
+        "x-index": {
+        "id": "priority",
+        "title": "Requirements by Priority",
+        "order": 2
+      }
+    },
+
+    "Source": {
+      "type": "string",
+      "enum": [
+        "EOSC-ENTRUST Driver 1",
+        "EOSC-ENTRUST Driver 2",
+        "EOSC-ENTRUST Driver 3",
+        "EOSC-ENTRUST Driver 4",
+        "EOSC-ENTRUST Coordination",
+        ""
+      ],
+      "description": "Originating stakeholder or Driver.",
+      "x-index": {
+        "id": "source",
+        "title": "Requirements by Originating Driver",
+        "order": 3
+      }
+    },
+
+    "Rationale": {
+      "type": "string",
+      "description": "Explanation of why the requirement exists or what problem it addresses."
+    },
+
+    "Category": {
+      "type": "string",
+      "description": "High-level classification of the requirement.",
+      "oneOf": [
+        {
+          "const": "Governance, Legal and Trust",
+          "description": "Legalities, policies, agreements, governance alignment, certification, and trust conditions."
+        },
+        {
+          "const": "Security, AAAI and Output Control",
+          "description": "Identity assurance, authorization, security controls, auditability, and output protection."
+        },
+        {
+          "const": "Data Lifecycle, Quality and FAIRness",
+          "description": "Data discovery, quality, provenance, anonymisation, archiving, and reuse."
+        },
+        {
+          "const": "Federation, Usability, and Advanced Capabilities",
+          "description": "Capabilities enabling scalable, federated, and user-friendly research."
+        },
+        {
+          "const": "",
+          "description": "Not specified"
+        }
+      ],
+      "x-index": {
+        "id": "category",
+        "title": "Requirements by Category",
+        "order": 1
+      }
+    },
+
+    "Clarification Notes": {
+      "type": "string",
+      "description": "Interpretative notes added during analysis to improve understanding."
+    },
+
+    "Scope Attribution": {
+      "type": "string",
+      "description": "Responsibility boundary indicating where the requirement applies.",
+      "enum": [
+        "TRE-level",
+        "Federation-level",
+        "External actor",
+        ""
+      ],      
+      "x-index": {
+        "id": "scope",
+        "title": "Requirements by Scope Attribution",
+        "order": 4
+      }
+    },
+
+    "Framework Mappings": {
+      "type": "array",
+      "minItems": 1,
+      "description": "References to related elements in existing frameworks.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["frameworkId", "value"],
+        "properties": {
+          "frameworkId": {
+            "type": "string",
+            "description": "Identifier of the referenced framework (e.g. SATRE, ISO27001)."
+          },
+          "value": {
+            "type": "string",
+            "description": "Framework-specific reference or identifier (may be empty)."
+          }
+        }
+      },
+      "contains": {
+        "type": "object",
+        "required": ["frameworkId", "value"],
+        "properties": {
+          "frameworkId": { "const": "SATRE" },
+          "value": { "type": "string" }
+        }
+      }
+    },
+
+    "Related Requirements": {
+      "type": "array",
+      "description": "Explicit relationships to other requirements.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["Requirement ID", "Title", "Version", "File", "Relation"],
+        "properties": {
+          "Requirement ID": {
+            "type": "string",
+            "pattern": "^R[0-9]{3}$"
+          },
+          "Title": {
+            "type": "string"
+          },
+          "Version": {
+            "type": "string",
+            "enum": ["M7", "D7", "MS8", "D8", "MS8 - updated", ""]
+          },
+          "File": {
+            "type": "string",
+            "pattern": ".*/requirements/R[0-9]{3}\\.json$"
+          },
+          "Relation": {
+            "type": "string",
+            "oneOf": [
+              { "const": "refines", "description": "This requirement refines another." },
+              { "const": "depends on", "description": "This requirement depends on another." },
+              { "const": "overlaps with", "description": "This requirement partially overlaps another." },
+              { "const": "", "description": "Not specified." }
+            ]
+          }
+        }
+      }
+    },
+
+    "Evidences": {
+      "$ref": "#/$defs/evidenceSummary"
+    }
   },
-  "additionalProperties": true,
 
   "$defs": {
     "evidenceSummary": {
       "type": "array",
       "title": "Evidence Summary",
-      "description": "Array of evidence summary objects linked to full evidence JSON files",
+      "description": "Array of evidence summary objects linked to full evidence JSON files.",
       "items": {
         "type": "object",
-        "required": ["E#", "Evidence Artifact Example", "File"],
+        "additionalProperties": false,
+        "required": ["Evidence ID", "Title", "File"],
         "properties": {
-          "E#": {
+          "Evidence ID": {
             "type": "string",
-            "pattern": "^E[0-9]{3}$",
-            "description": "Evidence identifier in the form E###"
+            "pattern": "^E[0-9]{4}$",
+            "description": "Unique, persistent identifier assigned at registration time."
           },
-          "Evidence Artifact Example": { "type": "string", "minLength": 1 },
-          "Description": { "type": "string", "minLength": 0 },         
+          "Title": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Short, descriptive label identifying the artefact."
+          },
+          "Description": {
+            "type": "string",
+            "description": "Brief explanation of what the evidence demonstrates and how it relates to the requirement."
+          },
           "File": {
             "type": "string",
-            "pattern": ".*/evidences/E[0-9]{3}\\.json$",
-            "description": "Relative or absolute path ending with /evidences/E###.json"
+            "pattern": ".*/evidences/E[0-9]{4}\\.json$",
+            "description": "Relative or absolute path ending with /evidences/E####.json"
           }
         }
       }

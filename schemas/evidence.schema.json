@@ -2,51 +2,91 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "evidence.schema.json",
   "title": "Evidence",
-  "description": "Schema for evidences linked to TRE requirements.",
+  "description": "Schema for evidence artefacts supporting one or more requirements.",
   "type": "object",
 
   "required": [
-    "E#",
-    "Evidence Artifact Example",
-    "R#",
-    "Requirement Title",
+    "Evidence ID",
+    "Title",
+    "Checksum",
+    "Timestamp",
+    "Evidence Date",
     "Evidence Type",
-    "Responsible Actor",
-    "Architecture-specific",
-    "Review Approach",
     "Evidence Maturity",
-    "Example Reference",
-    "Notes"
+    "Responsible Actor",
+    "Scope Attribution",
+    "Architecture-specific",
+    "Expected Validation Approach",
+    "Related Requirement ID(s)"
   ],
 
   "properties": {
 
-    "E#": {
+    "Evidence ID": {
       "type": "string",
-      "pattern": "^E[0-9]{3}$",
-      "description": "Evidence number used in all overviews, format E###"
+      "pattern": "^E[0-9]{4}$",
+      "description": "Unique, persistent identifier assigned at registration time."
     },
 
-    "Evidence Artifact Example": {
+    "Title": {
       "type": "string",
-      "description": "Example, title, or brief description of the evidence"
+      "minLength": 1,
+      "description": "Short, descriptive label identifying the artefact."
     },
 
-    "R#": {
+    "Description": {
       "type": "string",
-      "pattern": "^R[0-9]{3}$",
-      "description": "Requirement number the evidence is related to"
+      "description": "Brief explanation of what the evidence demonstrates and how it relates to the requirement."
     },
 
-    "Requirement Title": {
+    "Checksum": {
       "type": "string",
-      "description": "Title of the requirement this evidence supports"
+      "description": "Cryptographic checksum or empty string if not available."
+    },
+
+    "Timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date/time when the evidence is submitted."
+    },
+
+    "Signed file": {
+      "type": "string",
+      "description": "Path or identifier of a signed evidence file."
+    },
+
+    "Evidence Date": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date/time when the evidence was produced."
     },
 
     "Evidence Type": {
+    "type": "string",
+    "description": "Categorical classification used to support analysis and coverage.",
+    "oneOf": [
+      { "const": "GOV", "description": "Governance / Policy" },
+      { "const": "TECH", "description": "Technical configuration or system artefact" },
+      { "const": "COMPL", "description": "Compliance or legal artefact" },
+      { "const": "OPS", "description": "Operational process or record" },
+      { "const": "TRAIN", "description": "Training or awareness artefact" },
+      { "const": "DOC", "description": "Documentation or specification" },
+      { "const": "HEALTH", "description": "Ethics or health-related artefact" },
+      { "const": "AUTO", "description": "Automated or machine-generated artefact" },
+      { "const": "", "description": "Not specified" }
+    ]
+    },    
+
+    "Evidence Maturity": {
       "type": "string",
-      "enum": ["GOV", "TECH", "COMPL", "TRAIN", "OPS", "DOC", "HEALTH", "AUTO", ""],
-      "description": "Type of evidence"
+      "enum": [
+        "Policy",
+        "Process",
+        "Technical",
+        "Automated",
+        ""
+      ],
+      "description": "Indicates the level of formalisation of the proof."
     },
 
     "Responsible Actor": {
@@ -65,43 +105,88 @@
         "Training Coordinator",
         ""
       ],
-      "description": "Actor responsible for the evidence"
+      "description": "Role accountable for producing, maintaining, or signing the evidence."
+    },
+
+    "Scope Attribution": {
+      "type": "string",
+      "enum": [
+        "TRE-level",
+        "Federation-level",
+        "External entity",
+        ""
+      ],
+      "description": "Indicates where the evidence is produced or governed."
     },
 
     "Architecture-specific": {
       "type": "string",
-      "enum": ["Yes", "No", ""],
-      "description": "Whether the evidence is architecture-specific"
-    },
-
-    "Review Approach": {
-      "type": "string",
-      "enum": ["Manual Review", "Automated Check", "Periodic Audit", "Other", ""],
-      "description": "Approach used to review or verify the evidence"
-    },
-
-    "Evidence Maturity": {
-      "type": "string",
       "enum": [
-        "Policy: a rule, commitment",
-        "Process: defined procedure",
-        "Technical Control: implemented mechanism enforced",
-        "Automated Control: Continous or machine-verified enforcement",
+        "Yes",
+        "No",
         ""
       ],
-      "description": "Maturity level of the evidence"
+      "description": "Indicates whether the evidence depends on a specific technical architecture."
     },
 
-    "Example Reference": {
+    "Expected Validation Approach": {
       "type": "string",
-      "description": "Reference example or link (may be empty)"
+      "enum": [
+        "Manual Review",
+        "Automated Check",
+        "Periodic Audit",
+        "Hybrid or Other (specified)",
+        ""
+      ],
+      "description": "Anticipated method for reviewing the evidence."
+    },
+
+    "Validation Notes": {
+      "type": "string",
+      "description": "Clarifications or limitations affecting interpretation or review."
+    },
+
+    "Related Requirement ID(s)": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^R[0-9]{3}$"
+      },
+      "description": "Reference(s) to the Requirement object(s) supported by this evidence."
+    },
+
+    "Related Requirements Summary": {
+      "type": "array",
+      "description": "Optional embedded summaries of related requirements.",
+      "items": {
+        "type": "object",
+        "required": ["Requirement ID", "Requirement Title", "Version", "File"],
+        "properties": {
+          "Requirement ID": {
+            "type": "string",
+            "pattern": "^R[0-9]{3}$"
+          },
+          "Requirement Title": {
+            "type": "string"
+          },
+          "Version": {
+            "type": "string"
+          },
+          "File": {
+            "type": "string",
+            "pattern": ".*/requirements/R[0-9]{3}\\.json$"
+          }
+        },
+        "additionalProperties": false
+      }
     },
 
     "Notes": {
       "type": "string",
-      "description": "Additional notes (may be empty)"
+      "description": "Additional contextual information, assumptions, or dependencies."
     }
   },
 
-  "additionalProperties": true
+  "additionalProperties": false
 }
