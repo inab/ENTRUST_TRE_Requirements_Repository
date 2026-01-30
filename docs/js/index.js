@@ -1,4 +1,4 @@
-fetch("../requirements/index.json")
+fetch("../../requirements/index.json")
   .then(res => {
     if (!res.ok) throw new Error("Failed to load index.json");
     return res.json();
@@ -23,4 +23,5 @@ fetch("../requirements/index.json")
     document.getElementById("req-list").innerHTML =
       `<p class="error">Error: ${err.message}</p>`;
   });
+
 
