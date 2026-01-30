@@ -27,7 +27,7 @@
   if (Array.isArray(value)) {
     return `<ul>
       ${value.map(v => 
-        `${renderValue(v)}`).join("")}</ul>`;
+        `<li>${renderValue(v)}</li>`).join("")}</ul>`;
   }
 
   if (typeof value === "object" && value !== null) {
