@@ -26,7 +26,7 @@ evidences_examples/     Structured examples of evidence artefacts
 schemas/                JSON schemas for requirements and evidence validation
 mappings/               Traceability matrices and mapping templates
 code/                   Scripts supporting import, validation, and publication
-doc/                    Material used to generate a human-readable catalogue
+docs/                    Material used to generate a human-readable catalogue
 CHANGELOG.md            Record of approved requirement changes
 CONTRIBUTING.md         Contribution and change governance guidelines
 CODE_OF_CONDUCT.md      Behavioural expectations for contributors
