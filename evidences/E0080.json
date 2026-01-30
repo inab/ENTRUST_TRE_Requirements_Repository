@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0080",
+  "Title": "Policy Compliance Monitoring and Reporting",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "OPS",
+  "Evidence Maturity": "Automated",
+  "Responsible Actor": "TRE Operations Officer",
+  "Scope Attribution": "",
+  "Architecture-specific": "No",
+  "Expected Validation Approach": "Automated Check",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R028"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

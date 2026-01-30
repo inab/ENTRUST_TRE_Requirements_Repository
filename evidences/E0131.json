@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0131",
+  "Title": "User Manual explaining the front end interface. (It is still generic as ease of use is abstract)",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "",
+  "Evidence Maturity": "",
+  "Responsible Actor": "",
+  "Scope Attribution": "",
+  "Architecture-specific": "",
+  "Expected Validation Approach": "",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R038"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

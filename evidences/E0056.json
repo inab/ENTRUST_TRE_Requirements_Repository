@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0056",
+  "Title": "Technical documentation and test reports demonstrating the implementation of safeguards against reverse engineering. This may include descriptions of applied privacy-preserving techniques (e.g. differential privacy, noise injection, data minimization), results of re-identification risk assessments, and validation tests confirming that original training data cannot be reconstructed.",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "OPS",
+  "Evidence Maturity": "",
+  "Responsible Actor": "TRE Manager",
+  "Scope Attribution": "",
+  "Architecture-specific": "No",
+  "Expected Validation Approach": "Periodic Audit",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R075"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

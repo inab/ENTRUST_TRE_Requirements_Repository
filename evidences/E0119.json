@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0119",
+  "Title": "Design Document for complete architecture to how to manage data transfer between enviroments.\nRequires complete analysis of data flow with high focus on security",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "DOC",
+  "Evidence Maturity": "",
+  "Responsible Actor": "TRE Manager",
+  "Scope Attribution": "",
+  "Architecture-specific": "Yes",
+  "Expected Validation Approach": "Manual Review",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R015"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

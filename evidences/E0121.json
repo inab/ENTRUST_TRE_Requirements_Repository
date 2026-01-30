@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0121",
+  "Title": "Transfer logs for approved exchanges",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "OPS",
+  "Evidence Maturity": "Technical",
+  "Responsible Actor": "TRE Operations Officer",
+  "Scope Attribution": "",
+  "Architecture-specific": "Yes",
+  "Expected Validation Approach": "Periodic Audit",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R015"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

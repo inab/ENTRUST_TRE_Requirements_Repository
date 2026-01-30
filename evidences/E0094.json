@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0094",
+  "Title": "Documented SOP as part of ISMS (if exists)",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "DOC",
+  "Evidence Maturity": "Process",
+  "Responsible Actor": "TRE Operations Officer",
+  "Scope Attribution": "",
+  "Architecture-specific": "No",
+  "Expected Validation Approach": "Periodic Audit",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R025"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

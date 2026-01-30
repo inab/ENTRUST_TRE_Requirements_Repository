@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0075",
+  "Title": "Operational Enforcement of DUA Terms",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "OPS",
+  "Evidence Maturity": "Technical",
+  "Responsible Actor": "Identity & Access Manager",
+  "Scope Attribution": "",
+  "Architecture-specific": "No",
+  "Expected Validation Approach": "Manual Review",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R021"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

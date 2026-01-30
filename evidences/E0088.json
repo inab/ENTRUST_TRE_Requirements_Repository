@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0088",
+  "Title": "Formal record showing assignment of a PID (for example DOI) to the archived analysis package, including issuing authority, registration date, and resolution URL.",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "DOC",
+  "Evidence Maturity": "Policy",
+  "Responsible Actor": "Data Steward",
+  "Scope Attribution": "",
+  "Architecture-specific": "No",
+  "Expected Validation Approach": "Automated Check",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R010"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}
