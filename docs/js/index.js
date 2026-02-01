@@ -10,6 +10,11 @@ async function renderAllRequirements(containerId = "content") {
     const section = document.createElement("section");
     section.className = "index-group";
 
+    // Heading
+    const h3 = document.createElement("h3");
+    h3.textContent = "All Requirements";
+    section.appendChild(h3);
+
     const list = document.createElement("ul");
 
     data.requirements.forEach(req => {
