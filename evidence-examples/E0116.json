@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0116",
+  "Title": "List of available VM flavors",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "AUTO",
+  "Evidence Maturity": "Automated",
+  "Responsible Actor": "TRE Operations Officer",
+  "Scope Attribution": "",
+  "Architecture-specific": "Yes",
+  "Expected Validation Approach": "Automated Check",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R007"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

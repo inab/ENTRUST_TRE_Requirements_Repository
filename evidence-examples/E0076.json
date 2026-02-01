@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0076",
+  "Title": "Audit of DUA Compliance",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "OPS",
+  "Evidence Maturity": "Technical",
+  "Responsible Actor": "TRE Manager",
+  "Scope Attribution": "",
+  "Architecture-specific": "No",
+  "Expected Validation Approach": "Periodic Audit",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R021"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

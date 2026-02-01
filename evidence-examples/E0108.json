@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0108",
+  "Title": "Automated process for identifying suitable data for a research project or clinical trial. Might be federated to allow for multi-TRE querying (See HDR Cohort Discovery Tool). Should be in a unified service portal",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "",
+  "Evidence Maturity": "",
+  "Responsible Actor": "",
+  "Scope Attribution": "",
+  "Architecture-specific": "",
+  "Expected Validation Approach": "",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R030"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

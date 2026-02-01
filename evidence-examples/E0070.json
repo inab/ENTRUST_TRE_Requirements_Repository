@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0070",
+  "Title": "Alignment of DTA Clauses with TRE Technical & Governance Controls",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "DOC",
+  "Evidence Maturity": "Policy",
+  "Responsible Actor": "TRE Manager",
+  "Scope Attribution": "",
+  "Architecture-specific": "No",
+  "Expected Validation Approach": "Manual Review",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R020"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

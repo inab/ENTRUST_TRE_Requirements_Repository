@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0067",
+  "Title": "Non-Compliance, Remediation, and Sanctions Process",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "GOV",
+  "Evidence Maturity": "Process",
+  "Responsible Actor": "TRE Manager",
+  "Scope Attribution": "",
+  "Architecture-specific": "No",
+  "Expected Validation Approach": "Manual Review",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R004"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

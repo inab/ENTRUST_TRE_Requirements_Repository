@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0106",
+  "Title": "Approved standard mapping strategy",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "GOV",
+  "Evidence Maturity": "Policy",
+  "Responsible Actor": "TRE Manager",
+  "Scope Attribution": "",
+  "Architecture-specific": "No",
+  "Expected Validation Approach": "Manual Review",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R072"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0096",
+  "Title": "Too vague and out of scope for an SPE/TRE.",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "",
+  "Evidence Maturity": "",
+  "Responsible Actor": "",
+  "Scope Attribution": "",
+  "Architecture-specific": "",
+  "Expected Validation Approach": "",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R039"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0111",
+  "Title": "Compliance toolkits",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "DOC",
+  "Evidence Maturity": "Policy",
+  "Responsible Actor": "Legal Officer",
+  "Scope Attribution": "",
+  "Architecture-specific": "No",
+  "Expected Validation Approach": "Periodic Audit",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R016"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

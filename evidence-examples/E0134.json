@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0134",
+  "Title": "Issue tracker (e.g. Jira, Git issues)  linking feedback to planning",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "TECH",
+  "Evidence Maturity": "",
+  "Responsible Actor": "Technical Administrator",
+  "Scope Attribution": "",
+  "Architecture-specific": "Yes",
+  "Expected Validation Approach": "Periodic Audit",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R043"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}
