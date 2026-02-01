@@ -5,37 +5,37 @@
         "Evidence ID": "E0001",
         "Title": "Access logs showing MFA usage",
         "Description": "",
-        "File": "../evidence-examples/E0001.json"
+        "File": "../evidence_examples/E0001.json"
       },
       {
         "Evidence ID": "E0002",
         "Title": "Security test result confirming MFA is enforced",
         "Description": "",
-        "File": "../evidence-examples/E0002.json"
+        "File": "../evidence_examples/E0002.json"
       },
       {
         "Evidence ID": "E0003",
         "Title": "Authentication and credentials management policy\n",
         "Description": "",
-        "File": "../evidence-examples/E0003.json"
+        "File": "../evidence_examples/E0003.json"
       },
       {
         "Evidence ID": "E0004",
         "Title": "MFA usage as part of  TRE provider documentation",
         "Description": "",
-        "File": "../evidence-examples/E0004.json"
+        "File": "../evidence_examples/E0004.json"
       },
       {
         "Evidence ID": "E0005",
         "Title": "TRE operator cybersecurity training",
         "Description": "",
-        "File": "../evidence-examples/E0005.json"
+        "File": "../evidence_examples/E0005.json"
       },
       {
         "Evidence ID": "E0006",
         "Title": "MFA configuration export from identity access management solution (e.g., Keycloak)",
         "Description": "",
-        "File": "../evidence-examples/E0006.json"
+        "File": "../evidence_examples/E0006.json"
       }
     ],
     "R045": [
@@ -43,7 +43,7 @@
         "Evidence ID": "E0007",
         "Title": "User Onboarding & Offboarding Policy: A formal document stating that all accounts must be created via the central registry and linked to a verified identity.",
         "Description": "",
-        "File": "../evidence-examples/E0007.json"
+        "File": "../evidence_examples/E0007.json"
       }
     ],
     "R046": [
@@ -51,13 +51,13 @@
         "Evidence ID": "E0008",
         "Title": "Define a policy that specifies the allowed user identity verification methods, such as passport verification, biometric checks, etc.",
         "Description": "",
-        "File": "../evidence-examples/E0008.json"
+        "File": "../evidence_examples/E0008.json"
       },
       {
         "Evidence ID": "E0009",
         "Title": "Define a policy for the secure storage and retention of identity verification evidence for future auditing purposes. The policy must specify security controls (encryption, access restrictions), retention periods, and audit traceability requirements.",
         "Description": "",
-        "File": "../evidence-examples/E0009.json"
+        "File": "../evidence_examples/E0009.json"
       }
     ],
     "R050": [
@@ -65,13 +65,13 @@
         "Evidence ID": "E0010",
         "Title": "User data is automatically updated via SSO, or once every certain period of time, the user is asked to update parameters that are not available via SSO.",
         "Description": "",
-        "File": "../evidence-examples/E0010.json"
+        "File": "../evidence_examples/E0010.json"
       },
       {
         "Evidence ID": "E0011",
         "Title": "Define a policy for update data - users attributes. Create a manual .",
         "Description": "",
-        "File": "../evidence-examples/E0011.json"
+        "File": "../evidence_examples/E0011.json"
       }
     ],
     "R052": [
@@ -79,25 +79,25 @@
         "Evidence ID": "E0012",
         "Title": "Project Access Request Form , A form capturing at least the user's name, project ID, required tools, and justification for access.",
         "Description": "",
-        "File": "../evidence-examples/E0012.json"
+        "File": "../evidence_examples/E0012.json"
       },
       {
         "Evidence ID": "E0013",
         "Title": "Access Control Policy. The governing document defining the criteria for approval",
         "Description": "",
-        "File": "../evidence-examples/E0013.json"
+        "File": "../evidence_examples/E0013.json"
       },
       {
         "Evidence ID": "E0014",
         "Title": "Project Role-Based Access (RBAC) Definition. A document defining standard \"Research Personas\" (e.g., Analyst vs. Principal Investigator) and their pre-approved permission levels.",
         "Description": "",
-        "File": "../evidence-examples/E0014.json"
+        "File": "../evidence_examples/E0014.json"
       },
       {
         "Evidence ID": "E0015",
         "Title": "Authorization Record, a formal timestamped record from a ticketing service (e.g., Jira/ServiceNow) showing the approval from the responsible person. ",
         "Description": "",
-        "File": "../evidence-examples/E0015.json"
+        "File": "../evidence_examples/E0015.json"
       }
     ],
     "R001": [
@@ -105,7 +105,7 @@
         "Evidence ID": "E0016",
         "Title": "Documentation of configuration and system security settings demonstrating that encryption in transit is secure. Supporting evidence may be confirming acrive encryption, audits log, etc.",
         "Description": "",
-        "File": "../evidence-examples/E0016.json"
+        "File": "../evidence_examples/E0016.json"
       }
     ],
     "R008": [
@@ -113,7 +113,7 @@
         "Evidence ID": "E0017",
         "Title": "Documentation of configuration and system security settings demonstrating that encryption at rest is enabled for all data stored within the Trusted Research Environment, including database encryption, file system encryption, and key management configuration. Supporting evidence may include screenshots, configuration files, or audit logs confirming active encryption and compliance with approved encryption standards.",
         "Description": "",
-        "File": "../evidence-examples/E0017.json"
+        "File": "../evidence_examples/E0017.json"
       }
     ],
     "R013": [
@@ -121,31 +121,31 @@
         "Evidence ID": "E0018",
         "Title": "Output Release & SDC Policy",
         "Description": "",
-        "File": "../evidence-examples/E0018.json"
+        "File": "../evidence_examples/E0018.json"
       },
       {
         "Evidence ID": "E0019",
         "Title": "Output Release Workflow & Architecture Description",
         "Description": "",
-        "File": "../evidence-examples/E0019.json"
+        "File": "../evidence_examples/E0019.json"
       },
       {
         "Evidence ID": "E0020",
         "Title": "SDC Checking Implementation Evidence (manual and/or automated SDC tools, configuration, templates, checklists)",
         "Description": "",
-        "File": "../evidence-examples/E0020.json"
+        "File": "../evidence_examples/E0020.json"
       },
       {
         "Evidence ID": "E0021",
         "Title": "Output Release Logs & Audit Trail",
         "Description": "",
-        "File": "../evidence-examples/E0021.json"
+        "File": "../evidence_examples/E0021.json"
       },
       {
         "Evidence ID": "E0022",
         "Title": "Output Checker Roles & Procedures Training",
         "Description": "",
-        "File": "../evidence-examples/E0022.json"
+        "File": "../evidence_examples/E0022.json"
       }
     ],
     "R041": [
@@ -153,19 +153,19 @@
         "Evidence ID": "E0023",
         "Title": "Designed document of the services / components that are monitored",
         "Description": "",
-        "File": "../evidence-examples/E0023.json"
+        "File": "../evidence_examples/E0023.json"
       },
       {
         "Evidence ID": "E0024",
         "Title": "Document where the alerts are being delivered",
         "Description": "",
-        "File": "../evidence-examples/E0024.json"
+        "File": "../evidence_examples/E0024.json"
       },
       {
         "Evidence ID": "E0025",
         "Title": "SLA describing the required A/R values",
         "Description": "",
-        "File": "../evidence-examples/E0025.json"
+        "File": "../evidence_examples/E0025.json"
       }
     ],
     "R049": [
@@ -173,31 +173,31 @@
         "Evidence ID": "E0026",
         "Title": "Project Application & Data Import Policy",
         "Description": "",
-        "File": "../evidence-examples/E0026.json"
+        "File": "../evidence_examples/E0026.json"
       },
       {
         "Evidence ID": "E0027",
         "Title": "Data Import Declaration & Approval Workflow",
         "Description": "",
-        "File": "../evidence-examples/E0027.json"
+        "File": "../evidence_examples/E0027.json"
       },
       {
         "Evidence ID": "E0028",
         "Title": "Technical Controls Enforcing Approved Data Imports Only",
         "Description": "",
-        "File": "../evidence-examples/E0028.json"
+        "File": "../evidence_examples/E0028.json"
       },
       {
         "Evidence ID": "E0029",
         "Title": "Operational Data Import Checks & Audit Trail",
         "Description": "",
-        "File": "../evidence-examples/E0029.json"
+        "File": "../evidence_examples/E0029.json"
       },
       {
         "Evidence ID": "E0030",
         "Title": "Researcher and Operator Training on Data Import Rules",
         "Description": "",
-        "File": "../evidence-examples/E0030.json"
+        "File": "../evidence_examples/E0030.json"
       }
     ],
     "R053": [
@@ -205,31 +205,31 @@
         "Evidence ID": "E0031",
         "Title": "Ensure that data (logging and auditing) cannot be changed",
         "Description": "",
-        "File": "../evidence-examples/E0031.json"
+        "File": "../evidence_examples/E0031.json"
       },
       {
         "Evidence ID": "E0032",
         "Title": "Create a policy on who has access to data and under what circumstances",
         "Description": "",
-        "File": "../evidence-examples/E0032.json"
+        "File": "../evidence_examples/E0032.json"
       },
       {
         "Evidence ID": "E0033",
         "Title": "Perform a test to verify that it is possible to track the entire life cycle of an operation/workflow.",
         "Description": "",
-        "File": "../evidence-examples/E0033.json"
+        "File": "../evidence_examples/E0033.json"
       },
       {
         "Evidence ID": "E0034",
         "Title": "Log Management Policy: Document defining what events are logged (Logins, Where the login started, the service that the user logged i, Admin changes) and the retention period (e.g., 7 years).",
         "Description": "",
-        "File": "../evidence-examples/E0034.json"
+        "File": "../evidence_examples/E0034.json"
       },
       {
         "Evidence ID": "E0035",
         "Title": "Audit Log Sample: A raw extract showing structured data: Timestamp, UserID, Source IP, Event Type, and Success/Failure status.",
         "Description": "",
-        "File": "../evidence-examples/E0035.json"
+        "File": "../evidence_examples/E0035.json"
       }
     ],
     "R054": [
@@ -237,19 +237,19 @@
         "Evidence ID": "E0036",
         "Title": "Dashboard : a centralized view of logs from multiple sources ",
         "Description": "",
-        "File": "../evidence-examples/E0036.json"
+        "File": "../evidence_examples/E0036.json"
       },
       {
         "Evidence ID": "E0037",
         "Title": "Automated Alerting Rules: A list of \"Red Flag\" triggers (e.g., 5 failed logins in 1 minute, unauthorized data move) that notify the security team.",
         "Description": "",
-        "File": "../evidence-examples/E0037.json"
+        "File": "../evidence_examples/E0037.json"
       },
       {
         "Evidence ID": "E0038",
         "Title": "Privileged Action Log\tA specific audit trail of everything \"Admins\" have done (e.g., changing permissions, accessing user folders).",
         "Description": "",
-        "File": "../evidence-examples/E0038.json"
+        "File": "../evidence_examples/E0038.json"
       }
     ],
     "R057": [
@@ -257,25 +257,25 @@
         "Evidence ID": "E0039",
         "Title": "Governance Framework Defining Stage-Based Checks",
         "Description": "",
-        "File": "../evidence-examples/E0039.json"
+        "File": "../evidence_examples/E0039.json"
       },
       {
         "Evidence ID": "E0040",
         "Title": "Project Submission & Approval Workflow with Embedded Governance Gates",
         "Description": "",
-        "File": "../evidence-examples/E0040.json"
+        "File": "../evidence_examples/E0040.json"
       },
       {
         "Evidence ID": "E0041",
         "Title": "Technical Enforcement of Governance Gates",
         "Description": "",
-        "File": "../evidence-examples/E0041.json"
+        "File": "../evidence_examples/E0041.json"
       },
       {
         "Evidence ID": "E0042",
         "Title": "Governance Roles, Training, and Delegation Model",
         "Description": "",
-        "File": "../evidence-examples/E0042.json"
+        "File": "../evidence_examples/E0042.json"
       }
     ],
     "R060": [
@@ -283,19 +283,19 @@
         "Evidence ID": "E0043",
         "Title": "Resource Health Map:A visualization showing the availability and \"Uptime\" of different nodes within the federated network.",
         "Description": "",
-        "File": "../evidence-examples/E0043.json"
+        "File": "../evidence_examples/E0043.json"
       },
       {
         "Evidence ID": "E0044",
         "Title": "Usage Quota & Limit Policy: A document defining the \"Soft\" and \"Hard\" limits for resources assigned to a project to prevent costs.",
         "Description": "",
-        "File": "../evidence-examples/E0044.json"
+        "File": "../evidence_examples/E0044.json"
       },
       {
         "Evidence ID": "E0045",
         "Title": "Incident Response Log: Evidence of actions taken when monitoring tools flagged a performance bottleneck or resource exhaustion.",
         "Description": "",
-        "File": "../evidence-examples/E0045.json"
+        "File": "../evidence_examples/E0045.json"
       }
     ],
     "R062": [
@@ -303,7 +303,7 @@
         "Evidence ID": "E0046",
         "Title": "Identity-Driven Auto-Provisioning: Evidence that a user was auto-granted access to a specific dataset based on the attributes he has (e.g., \"Verified Researcher\")",
         "Description": "",
-        "File": "../evidence-examples/E0046.json"
+        "File": "../evidence_examples/E0046.json"
       }
     ],
     "R070": [
@@ -311,31 +311,31 @@
         "Evidence ID": "E0047",
         "Title": "Federated Output Control Policy",
         "Description": "",
-        "File": "../evidence-examples/E0047.json"
+        "File": "../evidence_examples/E0047.json"
       },
       {
         "Evidence ID": "E0048",
         "Title": "Federated Output Risk & Disclosure Model",
         "Description": "",
-        "File": "../evidence-examples/E0048.json"
+        "File": "../evidence_examples/E0048.json"
       },
       {
         "Evidence ID": "E0049",
         "Title": "Federated Output Architecture & Workflow Description",
         "Description": "",
-        "File": "../evidence-examples/E0049.json"
+        "File": "../evidence_examples/E0049.json"
       },
       {
         "Evidence ID": "E0050",
         "Title": "Technical Enforcement of Federated Output Controls",
         "Description": "",
-        "File": "../evidence-examples/E0050.json"
+        "File": "../evidence_examples/E0050.json"
       },
       {
         "Evidence ID": "E0051",
         "Title": "Federated Output Audit Trail and Logging",
         "Description": "",
-        "File": "../evidence-examples/E0051.json"
+        "File": "../evidence_examples/E0051.json"
       }
     ],
     "R071": [
@@ -343,25 +343,25 @@
         "Evidence ID": "E0052",
         "Title": "Federated Output Control Baseline Policy",
         "Description": "",
-        "File": "../evidence-examples/E0052.json"
+        "File": "../evidence_examples/E0052.json"
       },
       {
         "Evidence ID": "E0053",
         "Title": "Mapping of Local TRE Policies to Federated Baseline",
         "Description": "",
-        "File": "../evidence-examples/E0053.json"
+        "File": "../evidence_examples/E0053.json"
       },
       {
         "Evidence ID": "E0054",
         "Title": "Training and Guidance on Harmonized Output Controls",
         "Description": "",
-        "File": "../evidence-examples/E0054.json"
+        "File": "../evidence_examples/E0054.json"
       },
       {
         "Evidence ID": "E0055",
         "Title": "Federated Review or Audit of Output Control Harmonization",
         "Description": "",
-        "File": "../evidence-examples/E0055.json"
+        "File": "../evidence_examples/E0055.json"
       }
     ],
     "R075": [
@@ -369,7 +369,7 @@
         "Evidence ID": "E0056",
         "Title": "Technical documentation and test reports demonstrating the implementation of safeguards against reverse engineering. This may include descriptions of applied privacy-preserving techniques (e.g. differential privacy, noise injection, data minimization), results of re-identification risk assessments, and validation tests confirming that original training data cannot be reconstructed.",
         "Description": "",
-        "File": "../evidence-examples/E0056.json"
+        "File": "../evidence_examples/E0056.json"
       }
     ],
     "R034": [
@@ -377,13 +377,13 @@
         "Evidence ID": "E0057",
         "Title": "Creating a policy for secure data backup",
         "Description": "",
-        "File": "../evidence-examples/E0057.json"
+        "File": "../evidence_examples/E0057.json"
       },
       {
         "Evidence ID": "E0058",
         "Title": "Verification that data can be restored from backup",
         "Description": "",
-        "File": "../evidence-examples/E0058.json"
+        "File": "../evidence_examples/E0058.json"
       }
     ],
     "R002": [
@@ -391,31 +391,31 @@
         "Evidence ID": "E0059",
         "Title": "Federated Data Sharing Agreement (DSA)",
         "Description": "",
-        "File": "../evidence-examples/E0059.json"
+        "File": "../evidence_examples/E0059.json"
       },
       {
         "Evidence ID": "E0060",
         "Title": "Data Licensing & Intellectual Property Clauses",
         "Description": "",
-        "File": "../evidence-examples/E0060.json"
+        "File": "../evidence_examples/E0060.json"
       },
       {
         "Evidence ID": "E0061",
         "Title": "Access Control & Authorisation Provisions",
         "Description": "",
-        "File": "../evidence-examples/E0061.json"
+        "File": "../evidence_examples/E0061.json"
       },
       {
         "Evidence ID": "E0062",
         "Title": "Operational Procedures Supporting the DSA",
         "Description": "",
-        "File": "../evidence-examples/E0062.json"
+        "File": "../evidence_examples/E0062.json"
       },
       {
         "Evidence ID": "E0063",
         "Title": "Periodic Audits of DSA Compliance",
         "Description": "",
-        "File": "../evidence-examples/E0063.json"
+        "File": "../evidence_examples/E0063.json"
       }
     ],
     "R004": [
@@ -423,25 +423,25 @@
         "Evidence ID": "E0064",
         "Title": "Federation Trust & Certification Framework",
         "Description": "",
-        "File": "../evidence-examples/E0064.json"
+        "File": "../evidence_examples/E0064.json"
       },
       {
         "Evidence ID": "E0065",
         "Title": "Federated Certification & Onboarding Process",
         "Description": "",
-        "File": "../evidence-examples/E0065.json"
+        "File": "../evidence_examples/E0065.json"
       },
       {
         "Evidence ID": "E0066",
         "Title": "Standardised Audit Evidence Pack for TREs",
         "Description": "",
-        "File": "../evidence-examples/E0066.json"
+        "File": "../evidence_examples/E0066.json"
       },
       {
         "Evidence ID": "E0067",
         "Title": "Non-Compliance, Remediation, and Sanctions Process",
         "Description": "",
-        "File": "../evidence-examples/E0067.json"
+        "File": "../evidence_examples/E0067.json"
       }
     ],
     "R020": [
@@ -449,31 +449,31 @@
         "Evidence ID": "E0068",
         "Title": "Standardised DTA Templates per Data Type",
         "Description": "",
-        "File": "../evidence-examples/E0068.json"
+        "File": "../evidence_examples/E0068.json"
       },
       {
         "Evidence ID": "E0069",
         "Title": "Mandatory DTA Clause Baseline",
         "Description": "",
-        "File": "../evidence-examples/E0069.json"
+        "File": "../evidence_examples/E0069.json"
       },
       {
         "Evidence ID": "E0070",
         "Title": "Alignment of DTA Clauses with TRE Technical & Governance Controls",
         "Description": "",
-        "File": "../evidence-examples/E0070.json"
+        "File": "../evidence_examples/E0070.json"
       },
       {
         "Evidence ID": "E0071",
         "Title": "DTA Approval and Version Control Process",
         "Description": "",
-        "File": "../evidence-examples/E0071.json"
+        "File": "../evidence_examples/E0071.json"
       },
       {
         "Evidence ID": "E0072",
         "Title": "Audit of DTA Compliance in Practice",
         "Description": "",
-        "File": "../evidence-examples/E0072.json"
+        "File": "../evidence_examples/E0072.json"
       }
     ],
     "R021": [
@@ -481,25 +481,25 @@
         "Evidence ID": "E0073",
         "Title": "Model Data Use Agreement Templates per Data Type",
         "Description": "",
-        "File": "../evidence-examples/E0073.json"
+        "File": "../evidence_examples/E0073.json"
       },
       {
         "Evidence ID": "E0074",
         "Title": "Mandatory DUA Clause Baseline",
         "Description": "",
-        "File": "../evidence-examples/E0074.json"
+        "File": "../evidence_examples/E0074.json"
       },
       {
         "Evidence ID": "E0075",
         "Title": "Operational Enforcement of DUA Terms",
         "Description": "",
-        "File": "../evidence-examples/E0075.json"
+        "File": "../evidence_examples/E0075.json"
       },
       {
         "Evidence ID": "E0076",
         "Title": "Audit of DUA Compliance",
         "Description": "",
-        "File": "../evidence-examples/E0076.json"
+        "File": "../evidence_examples/E0076.json"
       }
     ],
     "R028": [
@@ -507,25 +507,25 @@
         "Evidence ID": "E0077",
         "Title": "Information Security & Privacy Policy Document (Mandatory & Desired Specifications)",
         "Description": "",
-        "File": "../evidence-examples/E0077.json"
+        "File": "../evidence_examples/E0077.json"
       },
       {
         "Evidence ID": "E0078",
         "Title": "Scope and Statement of Applicability (SoA)",
         "Description": "",
-        "File": "../evidence-examples/E0078.json"
+        "File": "../evidence_examples/E0078.json"
       },
       {
         "Evidence ID": "E0079",
         "Title": "Certification and Audit Reports",
         "Description": "",
-        "File": "../evidence-examples/E0079.json"
+        "File": "../evidence_examples/E0079.json"
       },
       {
         "Evidence ID": "E0080",
         "Title": "Policy Compliance Monitoring and Reporting",
         "Description": "",
-        "File": "../evidence-examples/E0080.json"
+        "File": "../evidence_examples/E0080.json"
       }
     ],
     "R014": [
@@ -533,13 +533,13 @@
         "Evidence ID": "E0081",
         "Title": "Training certificate",
         "Description": "",
-        "File": "../evidence-examples/E0081.json"
+        "File": "../evidence_examples/E0081.json"
       },
       {
         "Evidence ID": "E0082",
         "Title": "Presence on a list of registered safe researchers",
         "Description": "",
-        "File": "../evidence-examples/E0082.json"
+        "File": "../evidence_examples/E0082.json"
       }
     ],
     "R047": [
@@ -547,7 +547,7 @@
         "Evidence ID": "E0083",
         "Title": "Digital identity accepted by the TRE",
         "Description": "",
-        "File": "../evidence-examples/E0083.json"
+        "File": "../evidence_examples/E0083.json"
       }
     ],
     "R003": [
@@ -555,13 +555,13 @@
         "Evidence ID": "E0084",
         "Title": "A traceable hashing algorithm",
         "Description": "",
-        "File": "../evidence-examples/E0084.json"
+        "File": "../evidence_examples/E0084.json"
       },
       {
         "Evidence ID": "E0085",
         "Title": "Documented standard operating procedure",
         "Description": "",
-        "File": "../evidence-examples/E0085.json"
+        "File": "../evidence_examples/E0085.json"
       }
     ],
     "R009": [
@@ -569,13 +569,13 @@
         "Evidence ID": "E0086",
         "Title": "Approved standard operating procedure defining when, how, and where analysis environments and artifacts are archived, retention periods, access controls, and retrieval processes.",
         "Description": "",
-        "File": "../evidence-examples/E0086.json"
+        "File": "../evidence_examples/E0086.json"
       },
       {
         "Evidence ID": "E0087",
         "Title": "Metadata structured files recovering workflow execution details (i.e. JSON, Ro-Crate)",
         "Description": "",
-        "File": "../evidence-examples/E0087.json"
+        "File": "../evidence_examples/E0087.json"
       }
     ],
     "R010": [
@@ -583,7 +583,7 @@
         "Evidence ID": "E0088",
         "Title": "Formal record showing assignment of a PID (for example DOI) to the archived analysis package, including issuing authority, registration date, and resolution URL.",
         "Description": "",
-        "File": "../evidence-examples/E0088.json"
+        "File": "../evidence_examples/E0088.json"
       }
     ],
     "R011": [
@@ -591,7 +591,7 @@
         "Evidence ID": "E0089",
         "Title": "A persistent, publicly resolvable landing page associated with the PID that exposes machine- and human-readable metadata, indexed by internal catalogues and external discovery services.",
         "Description": "",
-        "File": "../evidence-examples/E0089.json"
+        "File": "../evidence_examples/E0089.json"
       }
     ],
     "R012": [
@@ -599,7 +599,7 @@
         "Evidence ID": "E0090",
         "Title": "A standardized, validated metadata template or schema that enforces consistent field names, data types, and relationships across all archived analysis packages.",
         "Description": "",
-        "File": "../evidence-examples/E0090.json"
+        "File": "../evidence_examples/E0090.json"
       }
     ],
     "R019": [
@@ -607,7 +607,7 @@
         "Evidence ID": "E0091",
         "Title": "Documented list of adopted data standards with versions and implementation evidence.\n",
         "Description": "",
-        "File": "../evidence-examples/E0091.json"
+        "File": "../evidence_examples/E0091.json"
       }
     ],
     "R023": [
@@ -615,7 +615,7 @@
         "Evidence ID": "E0092",
         "Title": "A quality metric highlighting metadata fields need to be completed with valid values. Missing/incomplete data reduces the quality standard. Labels such as \"Gold\", \"Silver\", \"Bronze\" can be used. Needed to be agred on a federation level.",
         "Description": "",
-        "File": "../evidence-examples/E0092.json"
+        "File": "../evidence_examples/E0092.json"
       }
     ],
     "R025": [
@@ -623,13 +623,13 @@
         "Evidence ID": "E0093",
         "Title": "Requirements for project need to be captured during project initiation phase, and aligned with existing policies/SOPs (contract).",
         "Description": "",
-        "File": "../evidence-examples/E0093.json"
+        "File": "../evidence_examples/E0093.json"
       },
       {
         "Evidence ID": "E0094",
         "Title": "Documented SOP as part of ISMS (if exists)",
         "Description": "",
-        "File": "../evidence-examples/E0094.json"
+        "File": "../evidence_examples/E0094.json"
       }
     ],
     "R031": [
@@ -637,7 +637,7 @@
         "Evidence ID": "E0095",
         "Title": "this should fall under archiving (R025)",
         "Description": "",
-        "File": "../evidence-examples/E0095.json"
+        "File": "../evidence_examples/E0095.json"
       }
     ],
     "R039": [
@@ -645,7 +645,7 @@
         "Evidence ID": "E0096",
         "Title": "Too vague and out of scope for an SPE/TRE.",
         "Description": "",
-        "File": "../evidence-examples/E0096.json"
+        "File": "../evidence_examples/E0096.json"
       }
     ],
     "R042": [
@@ -653,13 +653,13 @@
         "Evidence ID": "E0097",
         "Title": "Published terminology glossary",
         "Description": "",
-        "File": "../evidence-examples/E0097.json"
+        "File": "../evidence_examples/E0097.json"
       },
       {
         "Evidence ID": "E0098",
         "Title": "Change log of terminology updates",
         "Description": "",
-        "File": "../evidence-examples/E0098.json"
+        "File": "../evidence_examples/E0098.json"
       }
     ],
     "R051": [
@@ -667,7 +667,7 @@
         "Evidence ID": "E0099",
         "Title": "FAIR training programme (syllabus and materials)",
         "Description": "",
-        "File": "../evidence-examples/E0099.json"
+        "File": "../evidence_examples/E0099.json"
       }
     ],
     "R055": [
@@ -675,19 +675,19 @@
         "Evidence ID": "E0100",
         "Title": "Data harmonisation policy (formats, vocabularies, ..)",
         "Description": "",
-        "File": "../evidence-examples/E0100.json"
+        "File": "../evidence_examples/E0100.json"
       },
       {
         "Evidence ID": "E0101",
         "Title": "Harmonisation validation report",
         "Description": "",
-        "File": "../evidence-examples/E0101.json"
+        "File": "../evidence_examples/E0101.json"
       },
       {
         "Evidence ID": "E0102",
         "Title": "Dataset metadata records",
         "Description": "",
-        "File": "../evidence-examples/E0102.json"
+        "File": "../evidence_examples/E0102.json"
       }
     ],
     "R063": [
@@ -695,13 +695,13 @@
         "Evidence ID": "E0103",
         "Title": "Data anonymisation policy",
         "Description": "",
-        "File": "../evidence-examples/E0103.json"
+        "File": "../evidence_examples/E0103.json"
       },
       {
         "Evidence ID": "E0104",
         "Title": "Automated anonymisation pipeline definition",
         "Description": "",
-        "File": "../evidence-examples/E0104.json"
+        "File": "../evidence_examples/E0104.json"
       }
     ],
     "R072": [
@@ -709,13 +709,13 @@
         "Evidence ID": "E0105",
         "Title": "Terminology and data standards reconciliation definition ",
         "Description": "",
-        "File": "../evidence-examples/E0105.json"
+        "File": "../evidence_examples/E0105.json"
       },
       {
         "Evidence ID": "E0106",
         "Title": "Approved standard mapping strategy",
         "Description": "",
-        "File": "../evidence-examples/E0106.json"
+        "File": "../evidence_examples/E0106.json"
       }
     ],
     "R029": [
@@ -723,7 +723,7 @@
         "Evidence ID": "E0107",
         "Title": "Rene",
         "Description": "",
-        "File": "../evidence-examples/E0107.json"
+        "File": "../evidence_examples/E0107.json"
       }
     ],
     "R030": [
@@ -731,19 +731,19 @@
         "Evidence ID": "E0108",
         "Title": "Automated process for identifying suitable data for a research project or clinical trial. Might be federated to allow for multi-TRE querying (See HDR Cohort Discovery Tool). Should be in a unified service portal",
         "Description": "",
-        "File": "../evidence-examples/E0108.json"
+        "File": "../evidence_examples/E0108.json"
       },
       {
         "Evidence ID": "E0109",
         "Title": "Unified service portal interface exposing cohort discovery",
         "Description": "",
-        "File": "../evidence-examples/E0109.json"
+        "File": "../evidence_examples/E0109.json"
       },
       {
         "Evidence ID": "E0110",
         "Title": "Cross-TRE query execution logs",
         "Description": "",
-        "File": "../evidence-examples/E0110.json"
+        "File": "../evidence_examples/E0110.json"
       }
     ],
     "R016": [
@@ -751,7 +751,7 @@
         "Evidence ID": "E0111",
         "Title": "Compliance toolkits",
         "Description": "",
-        "File": "../evidence-examples/E0111.json"
+        "File": "../evidence_examples/E0111.json"
       }
     ],
     "R067": [
@@ -759,7 +759,7 @@
         "Evidence ID": "E0112",
         "Title": "Data owner agreement",
         "Description": "",
-        "File": "../evidence-examples/E0112.json"
+        "File": "../evidence_examples/E0112.json"
       }
     ],
     "R006": [
@@ -767,19 +767,19 @@
         "Evidence ID": "E0113",
         "Title": "SOP describing how data provider can allow software in the TRE",
         "Description": "",
-        "File": "../evidence-examples/E0113.json"
+        "File": "../evidence_examples/E0113.json"
       },
       {
         "Evidence ID": "E0114",
         "Title": "Policy defining how to request pre-allocation of project-specific data resources",
         "Description": "",
-        "File": "../evidence-examples/E0114.json"
+        "File": "../evidence_examples/E0114.json"
       },
       {
         "Evidence ID": "E0115",
         "Title": "Metadata entries in the (internal) TRE indexing system for reference genomes / ontologies datasets",
         "Description": "",
-        "File": "../evidence-examples/E0115.json"
+        "File": "../evidence_examples/E0115.json"
       }
     ],
     "R007": [
@@ -787,19 +787,19 @@
         "Evidence ID": "E0116",
         "Title": "List of available VM flavors",
         "Description": "",
-        "File": "../evidence-examples/E0116.json"
+        "File": "../evidence_examples/E0116.json"
       },
       {
         "Evidence ID": "E0117",
         "Title": "Resource scaling policy describing compute capacity management and storage provisioning",
         "Description": "",
-        "File": "../evidence-examples/E0117.json"
+        "File": "../evidence_examples/E0117.json"
       },
       {
         "Evidence ID": "E0118",
         "Title": "Infrastructure monitoring dashboards showing dynamic scaling usage",
         "Description": "",
-        "File": "../evidence-examples/E0118.json"
+        "File": "../evidence_examples/E0118.json"
       }
     ],
     "R015": [
@@ -807,25 +807,25 @@
         "Evidence ID": "E0119",
         "Title": "Design Document for complete architecture to how to manage data transfer between enviroments.\nRequires complete analysis of data flow with high focus on security",
         "Description": "",
-        "File": "../evidence-examples/E0119.json"
+        "File": "../evidence_examples/E0119.json"
       },
       {
         "Evidence ID": "E0120",
         "Title": "Secure  inter-TRE data exchange service enabling controlled data transfers",
         "Description": "",
-        "File": "../evidence-examples/E0120.json"
+        "File": "../evidence_examples/E0120.json"
       },
       {
         "Evidence ID": "E0121",
         "Title": "Transfer logs for approved exchanges",
         "Description": "",
-        "File": "../evidence-examples/E0121.json"
+        "File": "../evidence_examples/E0121.json"
       },
       {
         "Evidence ID": "E0122",
         "Title": "Inter-TRE data transfer agreement (DTA) or policy",
         "Description": "",
-        "File": "../evidence-examples/E0122.json"
+        "File": "../evidence_examples/E0122.json"
       }
     ],
     "R033": [
@@ -833,19 +833,19 @@
         "Evidence ID": "E0123",
         "Title": "Workflow diagram for TREs services access\n\nDesign diagram to analyze access control",
         "Description": "",
-        "File": "../evidence-examples/E0123.json"
+        "File": "../evidence_examples/E0123.json"
       },
       {
         "Evidence ID": "E0124",
         "Title": "Service catalogue describing TRE services and administrative processes",
         "Description": "",
-        "File": "../evidence-examples/E0124.json"
+        "File": "../evidence_examples/E0124.json"
       },
       {
         "Evidence ID": "E0125",
         "Title": "User journey or workflow diagram for data access and analysis",
         "Description": "",
-        "File": "../evidence-examples/E0125.json"
+        "File": "../evidence_examples/E0125.json"
       }
     ],
     "R037": [
@@ -853,31 +853,31 @@
         "Evidence ID": "E0126",
         "Title": "Creation of a unified repository for Software Packages",
         "Description": "",
-        "File": "../evidence-examples/E0126.json"
+        "File": "../evidence_examples/E0126.json"
       },
       {
         "Evidence ID": "E0127",
         "Title": "User manual on using software applications and how to use the repository of software packages",
         "Description": "",
-        "File": "../evidence-examples/E0127.json"
+        "File": "../evidence_examples/E0127.json"
       },
       {
         "Evidence ID": "E0128",
         "Title": "Document for evaluation criteria of software packages in the repository and audit logs",
         "Description": "",
-        "File": "../evidence-examples/E0128.json"
+        "File": "../evidence_examples/E0128.json"
       },
       {
         "Evidence ID": "E0129",
         "Title": "Federation software governance policy mentioning approval processes",
         "Description": "",
-        "File": "../evidence-examples/E0129.json"
+        "File": "../evidence_examples/E0129.json"
       },
       {
         "Evidence ID": "E0130",
         "Title": "Central software repository with audit logs of package approvals",
         "Description": "",
-        "File": "../evidence-examples/E0130.json"
+        "File": "../evidence_examples/E0130.json"
       }
     ],
     "R038": [
@@ -885,7 +885,7 @@
         "Evidence ID": "E0131",
         "Title": "User Manual explaining the front end interface. (It is still generic as ease of use is abstract)",
         "Description": "",
-        "File": "../evidence-examples/E0131.json"
+        "File": "../evidence_examples/E0131.json"
       }
     ],
     "R043": [
@@ -893,19 +893,19 @@
         "Evidence ID": "E0132",
         "Title": "GItlab issue.\nA form in the web interface for user feedback",
         "Description": "",
-        "File": "../evidence-examples/E0132.json"
+        "File": "../evidence_examples/E0132.json"
       },
       {
         "Evidence ID": "E0133",
         "Title": "User feedback management workflow or SOP",
         "Description": "",
-        "File": "../evidence-examples/E0133.json"
+        "File": "../evidence_examples/E0133.json"
       },
       {
         "Evidence ID": "E0134",
         "Title": "Issue tracker (e.g. Jira, Git issues)  linking feedback to planning",
         "Description": "",
-        "File": "../evidence-examples/E0134.json"
+        "File": "../evidence_examples/E0134.json"
       }
     ],
     "R048": [
@@ -913,13 +913,13 @@
         "Evidence ID": "E0135",
         "Title": "TRE self-assessment or compliance statement against federation minimum security standards",
         "Description": "",
-        "File": "../evidence-examples/E0135.json"
+        "File": "../evidence_examples/E0135.json"
       },
       {
         "Evidence ID": "E0136",
         "Title": "Federation security policy defining minimum security, privacy, and encryption standards for TRE onboarding",
         "Description": "",
-        "File": "../evidence-examples/E0136.json"
+        "File": "../evidence_examples/E0136.json"
       }
     ],
     "R056": [
@@ -927,13 +927,13 @@
         "Evidence ID": "E0137",
         "Title": "Federation-wide acceptance and clearly defined workflows.",
         "Description": "",
-        "File": "../evidence-examples/E0137.json"
+        "File": "../evidence_examples/E0137.json"
       },
       {
         "Evidence ID": "E0138",
         "Title": "Federation-approved workflow catalogue",
         "Description": "",
-        "File": "../evidence-examples/E0138.json"
+        "File": "../evidence_examples/E0138.json"
       }
     ],
     "R058": [
@@ -941,7 +941,7 @@
         "Evidence ID": "E0139",
         "Title": "Versioned workflow repository",
         "Description": "",
-        "File": "../evidence-examples/E0139.json"
+        "File": "../evidence_examples/E0139.json"
       }
     ]
   }

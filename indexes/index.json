@@ -25,9 +25,9 @@
       "file": "scope.json"
     },
     {
-      "id": "evidence-examples-by-requirement",
+      "id": "evidence_examples_by_requirement",
       "title": "Evidence examples grouped by Requirement",
-      "file": "evidence-examples-by-requirement.json",
+      "file": "evidence_examples_by_requirement.json",
       "order": 99
     }
   ]
