@@ -20,7 +20,7 @@ async function renderAllRequirements(containerId = "content") {
     data.requirements.forEach(req => {
         const li = document.createElement("li");
         li.innerHTML = `<strong>${req["Requirement ID"]}</strong> — ${req.Title}
-            <a href="../requirements/${req["Requirement ID"]}.json">view</a>`;
+            <a href="requirement.html?id=${req["Requirement ID"]}">view</a>`;
         list.appendChild(li);
     });
     section.appendChild(list);
