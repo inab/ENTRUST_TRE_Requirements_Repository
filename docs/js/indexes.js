@@ -5,7 +5,7 @@ async function loadIndexes() {
     if (!container) return;
 
     // Fetch discovery file
-    const response = await fetch("indexes/index.json");
+    const response = await fetch("../indexes/index.json");
     const discoveryData = await response.json();
     let indexes = discoveryData.indexes || [];
 
@@ -37,7 +37,7 @@ async function loadIndexPage(filename) {
     const contentDiv = document.getElementById("index-content");
     if (!contentDiv) return;
 
-    const response = await fetch(`indexes/${filename}`);
+    const response = await fetch(`../indexes/${filename}`);
     const indexData = await response.json();
     const field = Object.keys(indexData.data)[0]; // the top-level field
     const groups = indexData.data;
