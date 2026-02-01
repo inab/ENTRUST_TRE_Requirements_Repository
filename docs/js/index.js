@@ -91,10 +91,6 @@ async function renderIndex(filename, containerId = "content") {
   }
 }
 
-
-
-
-
 async function loadIndexes() {
     const tabs = document.getElementById("index-tabs");
     if (!tabs) return;
