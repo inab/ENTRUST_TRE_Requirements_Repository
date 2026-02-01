@@ -19,12 +19,6 @@
       "file": "source.json"
     },
     {
-      "id": "scope",
-      "title": "Requirements by Scope Attribution",
-      "order": 4,
-      "file": "scope.json"
-    },
-    {
       "id": "evidence_examples_by_requirement",
       "title": "Evidence examples grouped by Requirement",
       "file": "evidence_examples_by_requirement.json",
