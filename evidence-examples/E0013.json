@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0013",
+  "Title": "Access Control Policy. The governing document defining the criteria for approval",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "GOV",
+  "Evidence Maturity": "Policy",
+  "Responsible Actor": "Data Protection Officer",
+  "Scope Attribution": "",
+  "Architecture-specific": "No",
+  "Expected Validation Approach": "Periodic Audit",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R052"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": "Annual review of the policy to ensure it aligns with current TRE legal requirements."
+}

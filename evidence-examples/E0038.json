@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0038",
+  "Title": "Privileged Action Log\tA specific audit trail of everything \"Admins\" have done (e.g., changing permissions, accessing user folders).",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "OPS",
+  "Evidence Maturity": "Policy",
+  "Responsible Actor": "TRE Operations Officer",
+  "Scope Attribution": "",
+  "Architecture-specific": "Yes",
+  "Expected Validation Approach": "Periodic Audit",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R054"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

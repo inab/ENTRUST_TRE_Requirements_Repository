@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0059",
+  "Title": "Federated Data Sharing Agreement (DSA)",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "GOV",
+  "Evidence Maturity": "Policy",
+  "Responsible Actor": "Legal Officer",
+  "Scope Attribution": "",
+  "Architecture-specific": "No",
+  "Expected Validation Approach": "Manual Review",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R002"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

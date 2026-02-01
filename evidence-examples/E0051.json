@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0051",
+  "Title": "Federated Output Audit Trail and Logging",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "OPS",
+  "Evidence Maturity": "Technical",
+  "Responsible Actor": "Data Steward",
+  "Scope Attribution": "",
+  "Architecture-specific": "No",
+  "Expected Validation Approach": "Periodic Audit",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R070"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

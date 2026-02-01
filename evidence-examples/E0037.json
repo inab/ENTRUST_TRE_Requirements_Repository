@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0037",
+  "Title": "Automated Alerting Rules: A list of \"Red Flag\" triggers (e.g., 5 failed logins in 1 minute, unauthorized data move) that notify the security team.",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "TECH",
+  "Evidence Maturity": "",
+  "Responsible Actor": "Technical Administrator",
+  "Scope Attribution": "",
+  "Architecture-specific": "No",
+  "Expected Validation Approach": "Automated Check",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R054"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}

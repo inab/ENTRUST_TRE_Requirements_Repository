@@ -1,0 +1,21 @@
+{
+  "Evidence ID": "E0044",
+  "Title": "Usage Quota & Limit Policy: A document defining the \"Soft\" and \"Hard\" limits for resources assigned to a project to prevent costs.",
+  "Description": "",
+  "Checksum": "",
+  "Timestamp": "",
+  "Signed file": "",
+  "Evidence Date": "",
+  "Evidence Type": "OPS",
+  "Evidence Maturity": "Process",
+  "Responsible Actor": "TRE Operations Officer",
+  "Scope Attribution": "",
+  "Architecture-specific": "No",
+  "Expected Validation Approach": "Manual Review",
+  "Validation Notes": "",
+  "Related Requirement ID(s)": [
+    "R060"
+  ],
+  "Related Requirements Summary": [],
+  "Notes": ""
+}
