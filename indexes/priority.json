@@ -1,0 +1,197 @@
+{
+  "_meta": {
+    "id": "priority",
+    "title": "Requirements by Priority",
+    "order": 2
+  },
+  "data": {
+    "3.0": [
+      {
+        "Requirement ID": "R001",
+        "Title": "Data Encryption in transit"
+      },
+      {
+        "Requirement ID": "R052",
+        "Title": "Access approval definition"
+      },
+      {
+        "Requirement ID": "R060",
+        "Title": "Enhanced monitoring tools"
+      }
+    ],
+    "2.66666666666667": [
+      {
+        "Requirement ID": "R002",
+        "Title": "Data Sharing Agreement"
+      },
+      {
+        "Requirement ID": "R037",
+        "Title": "Software applications"
+      }
+    ],
+    "2.0": [
+      {
+        "Requirement ID": "R003",
+        "Title": "De-identification guidelines"
+      },
+      {
+        "Requirement ID": "R006",
+        "Title": "Access to open resources from TRE"
+      },
+      {
+        "Requirement ID": "R007",
+        "Title": "Scalable infrastructure"
+      },
+      {
+        "Requirement ID": "R008",
+        "Title": "Data Encryption at rest"
+      },
+      {
+        "Requirement ID": "R009",
+        "Title": "Archiving of study analysis environments (syntax, intermediate results, etc.) for future validation or reproducility under regulations."
+      },
+      {
+        "Requirement ID": "R011",
+        "Title": "Findability"
+      },
+      {
+        "Requirement ID": "R012",
+        "Title": "Metadata"
+      },
+      {
+        "Requirement ID": "R018",
+        "Title": "Data Sharing Policy"
+      },
+      {
+        "Requirement ID": "R022",
+        "Title": "Metadata"
+      },
+      {
+        "Requirement ID": "R025",
+        "Title": "Archiving of datasets for future validation or reproducility under regulations."
+      },
+      {
+        "Requirement ID": "R028",
+        "Title": "Certification"
+      },
+      {
+        "Requirement ID": "R040",
+        "Title": "Cross-border legal harmonization "
+      },
+      {
+        "Requirement ID": "R041",
+        "Title": "Monitoring & Alerting Capabilities "
+      },
+      {
+        "Requirement ID": "R042",
+        "Title": "Standardized terminology"
+      },
+      {
+        "Requirement ID": "R053",
+        "Title": "Logging and auditing "
+      },
+      {
+        "Requirement ID": "R054",
+        "Title": "Logging and auditing support"
+      },
+      {
+        "Requirement ID": "R071",
+        "Title": "Harmonized output control policies"
+      }
+    ],
+    "2.33333333333333": [
+      {
+        "Requirement ID": "R004",
+        "Title": "Certification and auditing process on the federation level to verify that TREs comply with requirements"
+      },
+      {
+        "Requirement ID": "R013",
+        "Title": "Output release following SDC"
+      },
+      {
+        "Requirement ID": "R014",
+        "Title": "Certification of users by 'Safe Researcher' training and/or passport"
+      },
+      {
+        "Requirement ID": "R020",
+        "Title": "Data Transfer Agreement"
+      },
+      {
+        "Requirement ID": "R021",
+        "Title": "Data Use Agreement"
+      },
+      {
+        "Requirement ID": "R024",
+        "Title": "2-factor authentication for TRE users"
+      },
+      {
+        "Requirement ID": "R031",
+        "Title": "Data kept only within the agreed time period"
+      },
+      {
+        "Requirement ID": "R034",
+        "Title": "Backup"
+      }
+    ],
+    "0.0": [
+      {
+        "Requirement ID": "R005",
+        "Title": "Technology agreement"
+      },
+      {
+        "Requirement ID": "R044",
+        "Title": "Data access requests"
+      }
+    ],
+    "1.66666666666667": [
+      {
+        "Requirement ID": "R010",
+        "Title": "PID for data citation"
+      },
+      {
+        "Requirement ID": "R038",
+        "Title": "Usability"
+      }
+    ],
+    "1.0": [
+      {
+        "Requirement ID": "R015",
+        "Title": "Data transfer between environments"
+      },
+      {
+        "Requirement ID": "R019",
+        "Title": "Data standards"
+      },
+      {
+        "Requirement ID": "R023",
+        "Title": "(Meta-)data quality checks/standards"
+      },
+      {
+        "Requirement ID": "R039",
+        "Title": "Automation of Data Quality Checks"
+      },
+      {
+        "Requirement ID": "R043",
+        "Title": "User feedback integration mechanisms"
+      },
+      {
+        "Requirement ID": "R046",
+        "Title": "Authentication of diverse user groups"
+      },
+      {
+        "Requirement ID": "R047",
+        "Title": "Training included in digital identity"
+      }
+    ],
+    "1.33333333333333": [
+      {
+        "Requirement ID": "R030",
+        "Title": "Data (Cohort) Discovery"
+      },
+      {
+        "Requirement ID": "R033",
+        "Title": "Accessibility of TRE's services and administrative processes (previously service design)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "indexes": [
+    {
+      "id": "category",
+      "title": "Requirements by Category",
+      "order": 1,
+      "file": "category.json"
+    },
+    {
+      "id": "priority",
+      "title": "Requirements by Priority",
+      "order": 2,
+      "file": "priority.json"
+    },
+    {
+      "id": "source",
+      "title": "Requirements by Originating Driver",
+      "order": 3,
+      "file": "source.json"
+    },
+    {
+      "id": "scope",
+      "title": "Requirements by Scope Attribution",
+      "order": 4,
+      "file": "scope.json"
+    },
+    {
+      "id": "evidence-examples-by-requirement",
+      "title": "Evidence examples grouped by Requirement",
+      "file": "evidence-examples-by-requirement.json",
+      "order": 99
+    }
+  ]
+}
