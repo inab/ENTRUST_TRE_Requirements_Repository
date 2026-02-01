@@ -17,8 +17,8 @@ async function renderAllRequirements(containerId = "content") {
     //});
     container.innerHTML = data.requirements.map(req => `
       <div class="req">
-        <strong>${req["R#"]}</strong> - ${req.Title}
-        <a href="requirement.html?id=${req["R#"]}"> view </a>
+        <strong>${req["Requirement ID"]}</strong> - ${req.Title}
+        <a href="requirement.html?id=${req["Requirement ID"]}"> view </a>
       </div>
     `).join("");
 
@@ -106,4 +106,3 @@ function setActiveTab(activeBtn) {
 }
 
 document.addEventListener("DOMContentLoaded", loadIndexes);
-
