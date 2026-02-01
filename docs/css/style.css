@@ -1,33 +1,164 @@
+/* ------------------------------
+   Base layout & typography
+-------------------------------- */
+
 body {
-  font-family: system-ui, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Helvetica, Arial, sans-serif;
   max-width: 900px;
   margin: auto;
   padding: 2rem;
+  line-height: 1.5;
+  color: #111827;
+  background-color: #ffffff;
 }
 
 h1, h2 {
-  border-bottom: 1px solid #ccc;
+  margin-top: 0;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #e5e7eb;
 }
 
-li {
+h3 {
+  margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
-a {
-  margin-left: 1rem;
-  font-size: 0.9em;
+p {
+  margin: 0.5rem 0;
 }
 
-.index-tab.active {
-  background: #005ea5;
-  color: white;
+
+/* ------------------------------
+   Links & lists
+-------------------------------- */
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0.25rem 0;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 0.9em;
+  margin-left: 0.5rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* ------------------------------
+   Tabs
+-------------------------------- */
+
+.tabs-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 10;
+  padding-bottom: 0.25rem;
 }
 
 .index-tab {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  margin-right: 0.5rem;
-  border: 1px solid #005ea5;
-  border-bottom: none;
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 500;
   cursor: pointer;
+  color: #374151;
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.index-tab:hover {
+  color: #111827;
+  background-color: #f9fafb;
+}
+
+.index-tab.active {
+  color: #1d4ed8;
+  border-bottom-color: #1d4ed8;
+  font-weight: 600;
+  background-color: #ffffff;
+}
+
+
+/* ------------------------------
+   Index content (groups)
+-------------------------------- */
+
+.index-content {
+  margin-top: 1rem;
+}
+
+.index-group {
+  margin-bottom: 2rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.index-group:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.index-group h3 {
+  font-size: 1.1rem;
+  color: #111827;
+}
+
+.index-group li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+}
+
+
+/* ------------------------------
+   Requirement / Evidence entries
+-------------------------------- */
+
+.entry-id {
+  font-weight: 600;
+}
+
+.entry-title {
+  color: #374151;
+}
+
+.entry-link {
+  font-size: 0.85rem;
+}
+
+
+/* ------------------------------
+   Loading / empty states
+-------------------------------- */
+
+.loading {
+  color: #6b7280;
+  font-style: italic;
+}
+
+.empty {
+  color: #9ca3af;
+  font-style: italic;
 }
