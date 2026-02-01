@@ -7,17 +7,23 @@ async function renderAllRequirements(containerId = "content") {
     const response = await fetch("../requirements/index.json");
     const data = await response.json();
 
-    const list = document.createElement("ul");
+    //const list = document.createElement("ul");
 
-    data.requirements.forEach(req => {
-        const li = document.createElement("li");
-        li.innerHTML = `<strong>${req["Requirement ID"]}</strong> — ${req.Title}
-            <a href="../requirements/${req["Requirement ID"]}.json">view</a>`;
-        list.appendChild(li);
-    });
+    //data.requirements.forEach(req => {
+    //    const li = document.createElement("li");
+    //    li.innerHTML = `<strong>${req["Requirement ID"]}</strong> — ${req.Title}
+    //        <a href="../requirements/${req["Requirement ID"]}.json">view</a>`;
+    //    list.appendChild(li);
+    //});
+    container.innerHTML = requirements.map(req => `
+      <div class="req">
+        <strong>${req["R#"]}</strong> - ${req.Title}
+        <a href="requirement.html?id=${req["R#"]}"> view </a>
+      </div>
+    `).join("");
 
-    container.innerHTML = "";
-    container.appendChild(list);
+    //container.innerHTML = "";
+    //container.appendChild(list);
 }
 
 async function renderIndex(filename, containerId = "content") {
