@@ -7,23 +7,30 @@ async function renderAllRequirements(containerId = "content") {
     const response = await fetch("../requirements/index.json");
     const data = await response.json();
 
-    //const list = document.createElement("ul");
+    const section = document.createElement("section");
+    section.className = "index-group";
 
-    //data.requirements.forEach(req => {
-    //    const li = document.createElement("li");
-    //    li.innerHTML = `<strong>${req["Requirement ID"]}</strong> — ${req.Title}
-    //        <a href="../requirements/${req["Requirement ID"]}.json">view</a>`;
-    //    list.appendChild(li);
-    //});
-    container.innerHTML = data.requirements.map(req => `
-      <div class="req">
-        <strong>${req["Requirement ID"]}</strong> - ${req.Title}
-        <a href="requirement.html?id=${req["Requirement ID"]}"> view </a>
-      </div>
-    `).join("");
+    const list = document.createElement("ul");
 
+    data.requirements.forEach(req => {
+        const li = document.createElement("li");
+        li.innerHTML = `<strong>${req["Requirement ID"]}</strong> — ${req.Title}
+            <a href="../requirements/${req["Requirement ID"]}.json">view</a>`;
+        list.appendChild(li);
+    });
+    section.appendChild(list);
+    
     //container.innerHTML = "";
-    //container.appendChild(list);
+
+    //container.innerHTML = data.requirements.map(req => `
+    //  <div class="req">
+    //    <strong>${req["Requirement ID"]}</strong> - ${req.Title}
+    //    <a href="requirement.html?id=${req["Requirement ID"]}"> view </a>
+    //  </div>
+    //`).join("");
+
+    container.innerHTML = "";
+    container.appendChild(section);
 }
 
 async function renderIndex(filename, containerId = "content") {
