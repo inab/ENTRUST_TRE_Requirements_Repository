@@ -12,12 +12,22 @@ h1, h2 {
 li {
   margin-bottom: 0.5rem;
 }
-ul ul ul {
-  list-style-type: none;
-  padding-left: 0; /* optional: removes extra indent */
-}
+
 a {
   margin-left: 1rem;
   font-size: 0.9em;
 }
 
+.index-tab.active {
+  background: #005ea5;
+  color: white;
+}
+
+.index-tab {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border: 1px solid #005ea5;
+  border-bottom: none;
+  cursor: pointer;
+}
