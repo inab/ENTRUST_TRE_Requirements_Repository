@@ -1,6 +1,5 @@
 The second `NOTICE.md`
 
-```
 # NOTICE
 
 ## Project Attribution
@@ -47,4 +46,3 @@ Unless otherwise stated, the contents of this repository are made available unde
 ## Contact
 
 For questions related to this repository, its governance, or its use in the context of EOSC-ENTRUST deliverables, please contact the EOSC-ENTRUST project coordination team or the designated Change Control Authority.
-```
