@@ -23,7 +23,7 @@ The repository is organised as follows:
 ```text
 requirements/           Structured requirement artefacts (one file per requirement)
 evidences_examples/     Structured examples of evidence artefacts
-schemas/                JSON schemas for requirements and evidence validation
+schemas/                JSON schemas for requirement and evidence validation
 mappings/               Traceability matrices and mapping templates
 code/                   Scripts supporting import, validation, and publication
 docs/                   Material used to generate a human-readable catalogue
@@ -31,7 +31,7 @@ CHANGELOG.md            Record of approved requirement changes
 CONTRIBUTING.md         Contribution and change governance guidelines
 CODE_OF_CONDUCT.md      Behavioural expectations for contributors
 NOTICE.md               Project attribution and funding acknowledgement
-LICENSE                 Terms for reuse of repository contents
+LICENSE,md                 Terms for reuse of repository contents
 ```
 ## Access to the Requirements Catalogue
 
@@ -40,7 +40,7 @@ To support transparency and adoption requirements are made available through a h
 
 *Requirements Catalogue:* [Requirements Catalogue]()
 
-Details on catalogue generation are maintained in the doc/ directory.
+Details on catalogue generation are maintained in the docs/ directory.
 
 
 ## Requirements Lifecycle and Governance
