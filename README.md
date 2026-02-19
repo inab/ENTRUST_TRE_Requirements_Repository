@@ -38,7 +38,7 @@ LICENSE,md                 Terms for reuse of repository contents
 To support transparency and adoption requirements are made available through a human-readable catalogue autoamtically derived from  structured requirement artefacts
   (i.e.`requirements/` entries).
 
-*Requirements Catalogue:* [Requirements Catalogue]()
+*Requirements Catalogue:* [Requirements Catalogue](https://inab.github.io/ENTRUST_TRE_Requirements_Repository/docs)
 
 Details on catalogue generation are maintained in the docs/ directory.
 
